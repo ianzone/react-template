@@ -4,7 +4,6 @@ import eslintPlugin from 'vite-plugin-eslint';
 import stylelintPlugin from 'vite-plugin-stylelint';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
-// 插件会在运行开发和构建时执行
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [

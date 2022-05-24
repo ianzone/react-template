@@ -1,4 +1,5 @@
-import { logo } from 'assets';
+import { logo } from '@assets';
+import { MyComponent } from '@components';
 import { useState } from 'react';
 import './App.css';
 
@@ -37,6 +38,7 @@ function App() {
             Vite Docs
           </a>
         </p>
+        <MyComponent />
       </header>
     </div>
   );
