@@ -49,11 +49,11 @@
     "*": [
       "unimported"
     ],
-    "*.{js,jsx,ts,tsx}": [
+    "*.{ts,tsx}": [
       "prettier --write --ignore-unknown",
       "eslint --fix"
     ],
-    "*.{css,scss}": [
+    "*.{scss}": [
       "prettier --write --ignore-unknown",
       "stylelint --fix"
     ]
