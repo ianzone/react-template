@@ -1,10 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-if  [ -e ../pnpm-lock.yaml ]; then
-  pnpm i
-elif [ -e ../package-lock.json ]; then
-  npm i
-elif [ -e ../yarn.lock ]; then
-  yarn
-fi
+pnpm i
