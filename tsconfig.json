@@ -1,15 +1,9 @@
 {
   "compilerOptions": {
-    "types": [
-      "vite/client"
-    ],
+    "types": ["vite/client", "vitest/globals"],
     "target": "ESNext",
     "useDefineForClassFields": true,
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ESNext"
-    ],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": false,
@@ -24,29 +18,16 @@
     "jsx": "react-jsx",
     "baseUrl": "./src",
     "paths": {
-      "@assets": [
-        "assets"
-      ],
-      "@components": [
-        "components"
-      ],
-      "@containers": [
-        "containers"
-      ],
-      "@pages": [
-        "pages"
-      ],
-      "@services": [
-        "services"
-      ],
-      "@utils": [
-        "utils"
-      ]
+      "@assets": ["assets"],
+      "@components": ["components"],
+      "@containers": ["containers"],
+      "@hooks": ["hooks"],
+      "@pages": ["pages"],
+      "@services": ["services"],
+      "@utils": ["utils"]
     }
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"],
   "references": [
     {
       "path": "./tsconfig.node.json"

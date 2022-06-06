@@ -1,11 +1,11 @@
 import { logo } from '@assets';
 import { MyComponent } from '@components';
 import { MyContainer } from '@containers';
-import { useState } from 'react';
+import { useCounter } from '@hooks';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const { count, increment } = useCounter();
 
   return (
     <div className='app'>
@@ -13,7 +13,7 @@ function App() {
         <img src={logo} className='app-logo' alt='logo' />
         <p>Hello Vite + React!</p>
         <p>
-          <button type='button' onClick={() => setCount((count) => count + 1)}>
+          <button type='button' onClick={increment}>
             count is: {count}
           </button>
         </p>
