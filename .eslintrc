@@ -36,7 +36,9 @@
     "@typescript-eslint/no-shadow": "off",
     "import/prefer-default-export": "off",
     "react/destructuring-assignment": "off",
-    "react/require-default-props": "off"
+    "react/require-default-props": "off",
+    "no-plusplus": "off",
+    "object-curly-newline": "off"
   },
   "ignorePatterns": [
     "vite.config.*"
