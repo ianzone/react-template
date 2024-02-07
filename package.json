@@ -1,0 +1,48 @@
+{
+  "name": "react-template",
+  "description": "A template for React projects with Vite, TypeScript, Biome, Stylelint, and Vitest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true src",
+    "lint:style": "stylelint src/**/*.{css,scss}",
+    "test": "vitest --ui",
+    "coverage": "vitest run --coverage",
+    "postinstall": "lefthook install",
+    "commit": "git add . && git-cz"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.3",
+    "@testing-library/react": "^14.2.1",
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "@vitest/ui": "^1.2.2",
+    "c8": "^9.1.0",
+    "git-cz": "^4.9.0",
+    "happy-dom": "^13.3.8",
+    "lefthook": "^1.6.1",
+    "sass": "^1.70.0",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-order": "^6.0.4",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vite-plugin-biome": "^1.0.8",
+    "vite-plugin-stylelint": "5.3.1",
+    "vitest": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
+  }
+}
