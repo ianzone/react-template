@@ -13,14 +13,17 @@
 #       run: bundle audit
 pre-commit:
   piped: true
-  follow: true
   commands:
     type-check:
+      priority: 1
       run: pnpm tsc --noEmit
     stylelint:
+      priority: 2
       glob: "*.{css,scss}"
       run: pnpm stylelint --fix {staged_files}
     biome:
+      priority: 3
       run: pnpm biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
     test:
+      priority: 4
       run: pnpm vitest related --run
