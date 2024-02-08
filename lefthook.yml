@@ -12,13 +12,14 @@
 #       tags: backend security
 #       run: bundle audit
 pre-commit:
+  piped: true
   commands:
     type-check:
       run: pnpm tsc --noEmit
+    stylelint:
+      glob: "*.{css,scss}"
+      run: pnpm stylelint --fix {staged_files}
     biome:
       run: pnpm biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
     test:
       run: pnpm vitest related --run
-    stylelint:
-      glob: "*.{css,scss}"
-      run: pnpm stylelint --fix {staged_files}
