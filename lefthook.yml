@@ -12,7 +12,6 @@
 #       tags: backend security
 #       run: bundle audit
 pre-commit:
-  piped: true
   commands:
     type-check:
       priority: 1
