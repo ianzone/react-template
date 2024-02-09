@@ -1,5 +1,5 @@
 import { MyPage } from 'src/pages';
-import './App.scss';
+import './App.css';
 import { AppProvider } from './AppContext';
 
 function App() {
