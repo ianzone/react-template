@@ -26,9 +26,6 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
-    "types": [
-      "vitest/globals"
-    ]
   },
   "include": [
     "src"
