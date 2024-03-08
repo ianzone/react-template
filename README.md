@@ -24,11 +24,11 @@ static assets such as images, videos, audios...
 
 ## components/
 
-common pure components
+shared pure components
 
 ## containers/
 
-common components with business logics and side effects
+shared components with business logics and side effects
 
 ## configs/
 
@@ -36,15 +36,15 @@ app configurations
 
 ## hooks/
 
-common stateful functions
+shared stateful functions
 
 ## utils/
 
-common stateless functions
+shared stateless functions
 
 ## services/
 
-common api calls
+shared api calls
 
 ## styles/
 
@@ -68,4 +68,4 @@ replace stylelint with biome when css support is done. https://github.com/biomej
 
 # Styling
 
-[tailwindcss](https://tailwindcss.com/)
+[TailwindCSS](https://tailwindcss.com/docs/guides/vite)
