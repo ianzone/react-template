@@ -3,8 +3,6 @@
 [![vite](https://badges.aleen42.com/src/vitejs.svg)](https://vitejs.dev/)
 [![vitest](https://img.shields.io/badge/Vitest-729b1b?logo=Vitest&labelColor=grey)](https://vitest.dev/)
 [![react](https://img.shields.io/badge/React-149eca?logo=React&labelColor=grey)](https://beta.reactjs.org/)
-[![scss](https://img.shields.io/badge/Scss-CC6699?logo=sass&labelColor=grey)](https://sass-lang.com/guide)
-[![airbnb](https://img.shields.io/badge/Code%20Style-f86468?logo=airbnb&labelColor=grey)](https://github.com/airbnb/javascript/)
 [![biome](https://img.shields.io/badge/Biome-blue?logo=biome&labelColor=grey)](https://biomejs.dev/)
 [![stylelint](https://img.shields.io/badge/Stylelint-blue?logo=Stylelint&labelColor=grey)](https://stylelint.io/)
 [![pnpm](https://img.shields.io/badge/pnpm-orange?logo=pnpm&labelColor=grey)](https://pnpm.io/)
@@ -59,3 +57,15 @@ each route
 # TODO
 
 replace stylelint with biome when css support is done. https://github.com/biomejs/biome/issues/268
+
+# Routing
+
+[TanstackRouter](https://tanstack.com/router/latest)
+
+# Query
+
+[TanstackQuery](https://tanstack.com/query/latest)
+
+# Styling
+
+[tailwindcss](https://tailwindcss.com/)
