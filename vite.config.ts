@@ -1,4 +1,4 @@
-import { resolve } from 'path';
+import { resolve } from 'node:path';
 import react from '@vitejs/plugin-react-swc';
 import biomePlugin from 'vite-plugin-biome';
 import stylelintPlugin from 'vite-plugin-stylelint';
