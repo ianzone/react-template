@@ -16,13 +16,18 @@ pre-commit:
   follow: true
   commands:
     staged:
+      priority: 1
       run: echo {staged_files}
     typescript:
+      priority: 2
       run: pnpm tsc --noEmit
     stylelint:
+      priority: 3
       glob: "*.{css,scss}"
       run: pnpm stylelint --fix {staged_files}
     biome:
+      priority: 4
       run: pnpm biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
     test:
+      priority: 5
       run: pnpm vitest related --run
