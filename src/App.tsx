@@ -4,11 +4,9 @@ import { AppProvider } from './AppContext';
 
 function App() {
   return (
-    <div className='App'>
-      <AppProvider>
-        <MyPage />
-      </AppProvider>
-    </div>
+    <AppProvider>
+      <MyPage />
+    </AppProvider>
   );
 }
 
