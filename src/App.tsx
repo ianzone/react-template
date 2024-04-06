@@ -1,11 +1,11 @@
-import { MyPage } from 'src/pages';
+import { Home } from 'src/pages';
 import './App.css';
 import { AppProvider } from './AppContext';
 
 function App() {
   return (
     <AppProvider>
-      <MyPage />
+      <Home />
     </AppProvider>
   );
 }

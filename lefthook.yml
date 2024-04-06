@@ -20,6 +20,7 @@ pre-commit:
       run: echo {staged_files}
     typescript:
       priority: 2
+      glob: "*.{ts,tsx}"
       run: pnpm tsc --noEmit
     stylelint:
       priority: 3

@@ -3,7 +3,7 @@ import { MyComponent } from 'src/components';
 import { MyContainer } from 'src/containers';
 import { useCounter } from 'src/hooks';
 
-export function MyPage() {
+export function Home() {
   const { count, increment } = useCounter();
 
   return (

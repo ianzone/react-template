@@ -1,1 +1,1 @@
-export * from './MyPage';
+export * from './Home';
