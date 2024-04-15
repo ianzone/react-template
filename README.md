@@ -18,41 +18,17 @@ pnpm run dev
 
 # Folder structure
 
-## assets/
-
-static assets such as images, videos, audios...
-
-## components/
-
-shared pure components
-
-## containers/
-
-shared components with business logics and side effects
-
-## configs/
-
-app configurations
-
-## hooks/
-
-shared stateful functions
-
-## utils/
-
-shared stateless functions
-
-## services/
-
-shared api calls
-
-## styles/
-
-global styles
-
-## pages/
-
-each route
+| Folder      | Description                                      |
+| ----------- | ------------------------------------------------ |
+| assets/     | Static assets such as images, videos, audios...  |
+| components/ | Pure components                                  |
+| containers/ | Components with business logics and side effects |
+| contexts/   | Shared contexts                                  |
+| hooks/      | Stateful functions                               |
+| utils/      | Stateless functions                              |
+| pages/      | Pages                                            |
+| services/   | API calls                                        |
+| styles/     | Global css, fonts                                |
 
 # TODO
 
@@ -69,3 +45,7 @@ replace stylelint with biome when css support is done. https://github.com/biomej
 # Styling
 
 [TailwindCSS](https://tailwindcss.com/docs/guides/vite)
+
+# PWA
+
+[vite-plugin-pwa](https://vite-pwa-org.netlify.app/)

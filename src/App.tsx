@@ -1,12 +1,11 @@
 import { Home } from 'src/pages';
-import './App.css';
-import { AppProvider } from './AppContext';
+import { GlobalProvider } from './contexts';
 
 function App() {
   return (
-    <AppProvider>
+    <GlobalProvider>
       <Home />
-    </AppProvider>
+    </GlobalProvider>
   );
 }
 
