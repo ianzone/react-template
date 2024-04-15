@@ -44,7 +44,7 @@ replace stylelint with biome when css support is done. https://github.com/biomej
 
 # Styling
 
-[TailwindCSS](https://tailwindcss.com/docs/guides/vite)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-06B6D4?logo=tailwindcss&labelColor=grey)](https://tailwindcss.com/docs/guides/vite)
 
 # PWA
 
