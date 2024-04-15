@@ -31,4 +31,5 @@ pre-commit:
       run: pnpm biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
     test:
       priority: 5
+      glob: "*.{test.ts,test.tsx,spec.ts,spec.tsx}"
       run: pnpm vitest related --run
