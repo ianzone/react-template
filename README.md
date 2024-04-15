@@ -42,7 +42,7 @@ pnpm run dev
 
 # TODO
 
-replace stylelint with biome when css support is done. https://github.com/biomejs/biome/issues/268
+replace stylelint with biome when css support is done. https://github.com/biomejs/biome/issues/2409
 
 # Routing
 
