@@ -29,7 +29,7 @@ pre-commit:
     biome:
       priority: 4
       glob: "*.{ts,tsx,js,jsx,json,jsonc,css}"
-      run: pnpm biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
+      run: pnpm biome check --apply {staged_files}
     test:
       priority: 5
       glob: "*.{test.ts,test.tsx,spec.ts,spec.tsx}"
