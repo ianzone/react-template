@@ -19,13 +19,21 @@
 
 [![react](https://img.shields.io/badge/React-149eca?logo=React&labelColor=grey)](https://beta.reactjs.org/)
 
-## Options
+## [Options](https://zhuanlan.zhihu.com/p/546697951)
 
 [![AntDesign](https://img.shields.io/badge/AntDesign-blue?logo=antdesign&labelColor=grey)](https://ant-design.gitee.io/components/overview-cn/?theme=dark)
 [![TailwindCSS](https://img.shields.io/badge/tailwindcss-06B6D4?logo=tailwindcss&labelColor=grey)](https://tailwindcss.com/docs/guides/vite)
 [![TanstackQuery](https://img.shields.io/badge/TanstackQuery-FF4154?logo=reactquery&labelColor=grey)](https://tanstack.com/query/latest/docs/framework/react/overview/)
 [![TanstackRouter](https://img.shields.io/badge/TanstackRouter-green?logo=reactquery&labelColor=grey)](https://tanstack.com/router/latest/docs/framework/react/overview)
 [![PWA](https://img.shields.io/badge/PWA-35849a?logo=pwa&labelColor=grey)](https://vite-pwa-org.netlify.app/)
+
+### Icons
+
+[react-icons](https://react-icons.github.io/react-icons/)
+
+### Feedbacks
+
+[react-hot-toast](https://react-hot-toast.com/)
 
 # Get it started
 

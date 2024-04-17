@@ -20,7 +20,7 @@
     "@faker-js/faker": "^8.4.1",
     "@testing-library/react": "^15.0.2",
     "@types/node": "^20.12.7",
-    "@types/react": "^18.2.78",
+    "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
     "@vitejs/plugin-react-swc": "^3.6.0",
     "@vitest/ui": "^1.5.0",
@@ -31,13 +31,13 @@
     "stylelint": "^16.3.1",
     "stylelint-order": "^6.0.4",
     "typescript": "^5.4.5",
-    "vite": "^5.2.8",
+    "vite": "^5.2.9",
     "vite-plugin-biomejs": "^0.0.2",
     "vite-plugin-stylelint": "5.3.1",
     "vitest": "^1.5.0"
   },
   "engines": {
     "node": ">=20",
-    "pnpm": ">=8"
+    "pnpm": ">=9"
   }
 }

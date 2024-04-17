@@ -28,6 +28,7 @@ pre-commit:
       run: pnpm stylelint --fix {staged_files}
     biome:
       priority: 4
+      glob: "*.{ts,tsx,js,jsx,json,jsonc,css}"
       run: pnpm biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
     test:
       priority: 5

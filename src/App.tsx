@@ -1,12 +1,10 @@
 import { Home } from 'src/pages';
 import { GlobalProvider } from './contexts';
 
-function App() {
+export function App() {
   return (
     <GlobalProvider>
       <Home />
     </GlobalProvider>
   );
 }
-
-export default App;
