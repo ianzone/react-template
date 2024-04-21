@@ -41,7 +41,9 @@
     <td>
       <a href="https://github.com/evilmartians/lefthook/"><img src='https://img.shields.io/badge/Lefthook-ff1e1e?labelColor=grey&logo=git'></a>
     </td>
-    <td></td>
+    <td>
+      <a href="https://semantic-release.gitbook.io/semantic-release"><img src='https://img.shields.io/badge/semantic-e10079?logo=semantic-release&labelColor=grey'></a>
+    </td>
   </tr>
   <tr>
     <td>Components</td>
