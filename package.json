@@ -9,7 +9,7 @@
     "test": "vitest --ui",
     "coverage": "vitest run --coverage",
     "postinstall": "lefthook install",
-    "commit": "git add . && git-cz"
+    "commit": "git add -A && git-cz"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -31,7 +31,7 @@
     "stylelint": "^16.3.1",
     "stylelint-order": "^6.0.4",
     "typescript": "^5.4.5",
-    "vite": "^5.2.9",
+    "vite": "^5.2.10",
     "vite-plugin-biomejs": "^0.0.2",
     "vite-plugin-stylelint": "5.3.1",
     "vitest": "^1.5.0"
