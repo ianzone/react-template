@@ -49,6 +49,7 @@
     <td>Components</td>
     <td>
       <a href="https://react.dev/learn"><img src='https://img.shields.io/badge/React-149eca?logo=React&labelColor=grey'></a>
+      <a href="https://component.gallery/"><img src='https://img.shields.io/badge/</>-Gallery-black?labelColor=grey'></a>
     </td>
     <td>
       <a href="https://ant-design.gitee.io/components/overview-cn/?theme=dark"><img src='https://img.shields.io/badge/AntDesign-blue?logo=antdesign&labelColor=grey'></a>
