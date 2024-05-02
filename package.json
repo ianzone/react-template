@@ -1,10 +1,11 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "biome check --apply src",
     "lint:style": "stylelint src/**/*.{css,scss}",
@@ -18,25 +19,25 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.7.1",
+    "@biomejs/biome": "^1.7.2",
     "@faker-js/faker": "^8.4.1",
-    "@testing-library/react": "^15.0.5",
-    "@types/node": "^20.12.7",
+    "@testing-library/react": "^15.0.6",
+    "@types/node": "^20.12.8",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.6.0",
-    "@vitest/coverage-v8": "^1.5.2",
-    "@vitest/ui": "^1.5.2",
+    "@vitest/coverage-v8": "^1.5.3",
+    "@vitest/ui": "^1.5.3",
     "git-cz": "^4.9.0",
     "happy-dom": "^14.7.1",
     "lefthook": "^1.6.10",
-    "stylelint": "^16.4.0",
+    "stylelint": "^16.5.0",
     "stylelint-order": "^6.0.4",
     "typescript": "^5.4.5",
-    "vite": "^5.2.10",
+    "vite": "^5.2.11",
     "vite-plugin-biomejs": "^1.0.3",
     "vite-plugin-stylelint": "^5.3.1",
-    "vitest": "^1.5.2"
+    "vitest": "^1.5.3"
   },
   "engines": {
     "node": ">=20",
