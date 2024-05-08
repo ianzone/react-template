@@ -19,25 +19,25 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.7.2",
+    "@biomejs/biome": "^1.7.3",
     "@faker-js/faker": "^8.4.1",
-    "@testing-library/react": "^15.0.6",
-    "@types/node": "^20.12.8",
+    "@testing-library/react": "^15.0.7",
+    "@types/node": "^20.12.10",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.6.0",
-    "@vitest/coverage-v8": "^1.5.3",
-    "@vitest/ui": "^1.5.3",
+    "@vitest/coverage-v8": "^1.6.0",
+    "@vitest/ui": "^1.6.0",
     "git-cz": "^4.9.0",
-    "happy-dom": "^14.7.1",
+    "happy-dom": "^14.10.1",
     "lefthook": "^1.6.10",
     "stylelint": "^16.5.0",
     "stylelint-order": "^6.0.4",
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
-    "vite-plugin-biomejs": "^1.0.3",
+    "vite-plugin-biomejs": "^1.0.4",
     "vite-plugin-stylelint": "^5.3.1",
-    "vitest": "^1.5.3"
+    "vitest": "^1.6.0"
   },
   "engines": {
     "node": ">=20",
