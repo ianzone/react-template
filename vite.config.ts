@@ -1,7 +1,6 @@
 import { resolve } from 'node:path';
 import react from '@vitejs/plugin-react-swc';
 import biomePlugin from 'vite-plugin-biomejs';
-import stylelintPlugin from 'vite-plugin-stylelint';
 import { defineConfig } from 'vitest/config';
 
 // https://vitejs.dev/config/
@@ -14,7 +13,7 @@ export default defineConfig({
     globals: true,
     environment: 'happy-dom',
   },
-  plugins: [react(), stylelintPlugin(), biomePlugin()],
+  plugins: [react(), biomePlugin()],
   resolve: {
     alias: {
       src: resolve(__dirname, 'src'),

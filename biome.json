@@ -26,9 +26,23 @@
       "style": {
         "noNonNullAssertion": "off"
       },
+      "correctness": {
+        "useHookAtTopLevel": "error"
+      },
       "suspicious": {
         "noExplicitAny": "off"
       }
+    }
+  },
+  "css": {
+    "parser": {
+      "cssModules": true
+    },
+    "formatter": {
+      "enabled": true
+    },
+    "linter": {
+      "enabled": true
     }
   }
 }

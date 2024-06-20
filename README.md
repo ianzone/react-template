@@ -21,7 +21,6 @@
     <td>Linting</td>
     <td>
       <a href="https://biomejs.dev/zh-cn/guides/getting-started/"><img src='https://img.shields.io/badge/Biome-blue?logo=biome&labelColor=grey'></a>
-      <a href="https://stylelint.io/"><img src='https://img.shields.io/badge/Stylelint-blue?logo=Stylelint&labelColor=grey'></a>
     </td>
     <td></td>
   </tr>
@@ -61,6 +60,8 @@
     </td>
   </tr>
 </table>
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/enaqx/awesome-react)
 
 ### [Options](https://zhuanlan.zhihu.com/p/546697951)
 
