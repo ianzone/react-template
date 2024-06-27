@@ -1,6 +1,6 @@
 # Toolchain
 
-<!-- <a href=""><img src=''></a> -->
+<!-- <a href=''><img src=''></a> -->
 
 <table>
   <tr>
@@ -15,7 +15,9 @@
       <a href="https://www.typescriptlang.org/"><img src='https://badges.aleen42.com/src/typescript.svg'></a>
       <a href="https://cn.vitejs.dev/"><img src='https://badges.aleen42.com/src/vitejs.svg'></a>
     </td>
-    <td></td>
+    <td>
+      <a href="https://vite-pwa-org.netlify.app/"><img src='https://img.shields.io/badge/PWA-35849a?logo=pwa&labelColor=grey'></a>
+    </td>
   </tr>
   <tr>
     <td>Linting</td>
@@ -44,19 +46,43 @@
       <a href="https://semantic-release.gitbook.io/semantic-release"><img src='https://img.shields.io/badge/semantic-e10079?logo=semantic-release&labelColor=grey'></a>
     </td>
   </tr>
+</table>
+
+# Libraries
+
+<table>
   <tr>
-    <td>Components</td>
-    <td>
-      <a href="https://react.dev/learn"><img src='https://img.shields.io/badge/React-149eca?logo=React&labelColor=grey'></a>
-    </td>
+    <th>Category</th>
+    <th>Libs</th>
+  </tr>
+  <tr>
+    <td>UI</td>
     <td>
       <a href="https://component.gallery/"><img src='https://img.shields.io/badge/</>-Gallery-black?labelColor=grey'></a>
       <a href="https://ant-design.gitee.io/components/overview-cn/?theme=dark"><img src='https://img.shields.io/badge/AntDesign-blue?logo=antdesign&labelColor=grey'></a>
       <a href="https://tailwindcss.com/docs/guides/vite"><img src='https://img.shields.io/badge/tailwindcss-06B6D4?logo=tailwindcss&labelColor=grey'></a>
       <a href="https://ui.shadcn.com/"><img src='https://img.shields.io/badge/shadcnui-06B6D4?logo=shadcnui&labelColor=grey'></a>
-      <a href="https://tanstack.com/query/latest/docs/framework/react/overview/"><img src='https://img.shields.io/badge/TanstackQuery-FF4154?logo=reactquery&labelColor=grey'></a>
+      <a href="https://react-icons.github.io/react-icons/"><img src='https://img.shields.io/badge/icons-61DAFB?logo=react&labelColor=grey'></a>
+      <a href="https://react-hot-toast.com/"><img src='https://img.shields.io/badge/toast-61DAFB?logo=react&labelColor=grey'></a>
+    </td>
+  <tr>
+    <td>Utils</td>
+    <td>
+      <a href='https://ahooks.js.org/zh-CN/hooks/use-request/index'><img src='https://img.shields.io/badge/a-hooks-4569d4?labelColor=grey'></a>
+      <a href='https://lodash.com/'><img src='https://img.shields.io/badge/Lodash-3492FF?labelColor=grey&logo=lodash'></a>
+    </td>
+  </tr>
+  </tr>
+  <tr>
+    <td>Routing</td>
+    <td>
       <a href="https://tanstack.com/router/latest/docs/framework/react/overview"><img src='https://img.shields.io/badge/TanstackRouter-green?logo=reactquery&labelColor=grey'></a>
-      <a href="https://vite-pwa-org.netlify.app/"><img src='https://img.shields.io/badge/PWA-35849a?logo=pwa&labelColor=grey'></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Networking</td>
+    <td>
+      <a href="https://tanstack.com/query/latest/docs/framework/react/overview/"><img src='https://img.shields.io/badge/TanstackQuery-FF4154?logo=reactquery&labelColor=grey'></a>
     </td>
   </tr>
 </table>
@@ -64,14 +90,6 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/enaqx/awesome-react)
 
 ### [Options](https://zhuanlan.zhihu.com/p/546697951)
-
-### Icons
-
-[react-icons](https://react-icons.github.io/react-icons/)
-
-### Feedbacks
-
-[react-hot-toast](https://react-hot-toast.com/)
 
 # Get it started
 
@@ -82,7 +100,7 @@ pnpm i
 pnpm run dev
 ```
 
-# Folder structure
+# Structure
 
 | Folder      | Description                                      |
 | ----------- | ------------------------------------------------ |
