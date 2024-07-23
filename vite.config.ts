@@ -5,18 +5,18 @@ import { defineConfig } from 'vitest/config';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // https://cn.vitest.dev/guide/features.html#%E5%AF%B9%E8%B1%A1%E6%A8%A1%E6%8B%9F-mocking
-  // server: {
-  //   port: 30000,
-  // },
-  test: {
-    globals: true,
-    environment: 'happy-dom',
-  },
-  plugins: [react(), biomePlugin()],
-  resolve: {
-    alias: {
-      src: resolve(__dirname, 'src'),
-    },
-  },
+	// https://cn.vitest.dev/guide/features.html#%E5%AF%B9%E8%B1%A1%E6%A8%A1%E6%8B%9F-mocking
+	// server: {
+	//   port: 30000,
+	// },
+	test: {
+		globals: true,
+		environment: 'happy-dom',
+	},
+	plugins: [react(), biomePlugin()],
+	resolve: {
+		alias: {
+			src: resolve(import.meta.dir, 'src'),
+		},
+	},
 });
