@@ -16,7 +16,7 @@ export default defineConfig({
 	plugins: [react(), biomePlugin()],
 	resolve: {
 		alias: {
-			src: resolve(import.meta.dir, 'src'),
+			src: resolve(__dirname, 'src'),
 		},
 	},
 });
