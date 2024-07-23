@@ -98,6 +98,13 @@
     <td>Networking</td>
     <td>
       <a href="https://tanstack.com/query/latest/docs/framework/react/overview/"><img src='https://img.shields.io/badge/TanstackQuery-FF4154?logo=reactquery&labelColor=grey'></a>
+      <a href="https://axios-http.com/zh/docs/intro"><img src='https://img.shields.io/badge/axios-5A29E4?logo=axios&labelColor=grey'></a>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://juejin.cn/post/7325069743144239145">State Management</a></td>
+    <td>
+      <a href="https://docs.pmnd.rs/zustand/getting-started/introduction"><img src='https://img.shields.io/badge/🐻-zustand-572e3e?labelColor=grey'></a>
     </td>
   </tr>
 </table>
@@ -128,7 +135,3 @@ pnpm run dev
 | pages/      | Pages                                            |
 | services/   | API calls                                        |
 | styles/     | Global css, fonts                                |
-
-# TODO
-
-replace stylelint with biome when css support is done. https://github.com/biomejs/biome/issues/2409
