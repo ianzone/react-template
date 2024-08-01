@@ -86,6 +86,8 @@
     <td>
       <a href='https://ahooks.js.org/zh-CN/hooks/use-request/index'><img src='https://img.shields.io/badge/a-hooks-4569d4?labelColor=grey'></a>
       <a href='https://es-toolkit.slash.page/zh_hans/intro.html'><img src='https://img.shields.io/badge/toolkit-F7DF1E?labelColor=grey&logo=javascript'></a>
+      <a href='https://radash-docs.vercel.app/docs/getting-started'><img src='https://img.shields.io/badge/🔴-radash-fb5d4e?labelColor=grey'></a>
+      <a href='https://lodash.com/'><img src='https://img.shields.io/badge/lodash-3492FF?labelColor=grey&logo=lodash'></a>
     </td>
   </tr>
   <tr>
