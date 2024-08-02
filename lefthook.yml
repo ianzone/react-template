@@ -21,12 +21,12 @@ pre-commit:
     typescript:
       priority: 2
       glob: "*.{ts,tsx}"
-      run: pnpm tsc --noEmit
+      run: na tsc --noEmit
     biome:
       priority: 3
       glob: "*.{ts,tsx,js,jsx,json,jsonc,css}"
-      run: pnpm biome check --fix {staged_files}  --reporter summary
+      run: na biome check --fix {staged_files}  --reporter summary
     test:
       priority: 4
       glob: "*.{test.ts,test.tsx,spec.ts,spec.tsx}"
-      run: pnpm vitest related --run
+      run: na vitest --run
