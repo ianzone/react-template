@@ -1,5 +1,5 @@
 export interface Config {
-  brand: string;
-  domains: string[];
-  endpoint: string;
+	brand: string;
+	domains: string[];
+	endpoint: string;
 }
