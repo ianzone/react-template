@@ -1,2 +1,2 @@
 // common pure components
-export * from './MyComponent';
+export * from './Counter';

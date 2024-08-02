@@ -1,12 +1,9 @@
 import { reactLogo } from 'src/assets';
-import { MyComponent } from 'src/components';
+import { Counter } from 'src/components';
 import { MyContainer } from 'src/containers';
-import { useCounter } from 'src/hooks';
 import styles from './styles.module.css';
 
 export function Home() {
-	const { count, increment } = useCounter();
-
 	return (
 		<div>
 			<div>
@@ -19,9 +16,7 @@ export function Home() {
 			</div>
 			<h1>Vite + React</h1>
 			<div className={styles.card}>
-				<button onClick={increment} type='button'>
-					count is: {count}
-				</button>
+				<Counter init={5} />
 				<p>
 					Edit <code>src/App.tsx</code> and save to test HMR
 				</p>
@@ -29,7 +24,6 @@ export function Home() {
 			</div>
 			<p className={styles['read-the-docs']}>Click on the Vite and React logos to learn more</p>
 			<MyContainer />
-			<MyComponent />
 		</div>
 	);
 }
