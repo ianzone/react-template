@@ -29,6 +29,7 @@ pre-commit:
       priority: 4
       glob: "*.{ts,tsx,js,jsx,json,jsonc,css}"
       run: na biome check --fix {staged_files}  --reporter summary
+      stage_fixed: true
     test:
       priority: 5
       glob: "*.{test.ts,test.tsx,spec.ts,spec.tsx}"
