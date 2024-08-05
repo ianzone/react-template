@@ -20,7 +20,7 @@ pre-commit:
       run: echo {staged_files} | tr ' ' '\n'
     security:
       priority: 2
-      run: gitleaks protect --staged
+      run: gitleaks protect --staged --no-banner
     typescript:
       priority: 3
       glob: "*.{ts,tsx}"
