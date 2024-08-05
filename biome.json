@@ -22,7 +22,8 @@
 		}
 	},
 	"formatter": {
-		"lineWidth": 100
+		"lineWidth": 100,
+		"indentStyle": "space"
 	},
 	"javascript": {
 		"parser": {
