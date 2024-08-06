@@ -5,5 +5,5 @@ describe.todo('unimplemented suite');
 
 // 此测试的报告中将显示一个条目
 describe('suite', () => {
-	test.todo('unimplemented test');
+  test.todo('unimplemented test');
 });
