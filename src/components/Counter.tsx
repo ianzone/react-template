@@ -11,7 +11,7 @@ export function Counter(props: CounterProps) {
   const { style } = props;
   return (
     <div style={{ ...css, ...style }}>
-      <h1>count:{count}</h1>
+      <h1>{count}</h1>
       <button type='button' onClick={() => increment()}>
         Increment
       </button>

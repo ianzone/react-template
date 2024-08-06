@@ -33,4 +33,4 @@ pre-commit:
     test:
       priority: 5
       glob: "*.{ts,tsx,js,jsx}"
-      run: na vitest related --run
+      run: na vitest related --run {staged_files}
