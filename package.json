@@ -1,39 +1,40 @@
 {
-	"$schema": "https://json.schemastore.org/package",
-	"private": true,
-	"version": "0.0.0",
-	"type": "module",
-	"scripts": {
-		"dev": "vite",
-		"build": "tsc && vite build",
-		"preview": "vite preview",
-		"lint": "biome check --fix src --reporter summary",
-		"test": "vitest --ui",
-		"coverage": "vitest run --coverage",
-		"postinstall": "lefthook install",
-		"commit": "git add -A && git-cz"
-	},
-	"dependencies": {
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.8.3",
-		"@faker-js/faker": "^8.4.1",
-		"@testing-library/react": "^16.0.0",
-		"@testing-library/user-event": "^14.5.2",
-		"@types/bun": "^1.1.6",
-		"@types/react": "^18.3.3",
-		"@types/react-dom": "^18.3.0",
-		"@vitejs/plugin-react-swc": "^3.7.0",
-		"@vitest/coverage-v8": "^2.0.5",
-		"@vitest/ui": "^2.0.5",
-		"git-cz": "^4.9.0",
-		"happy-dom": "^14.12.3",
-		"lefthook": "^1.7.11",
-		"typescript": "^5.5.4",
-		"vite": "^5.3.5",
-		"vite-plugin-biomejs": "^2.0.0",
-		"vitest": "^2.0.5"
-	}
+  "$schema": "https://json.schemastore.org/package",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "biome check --fix src --reporter summary",
+    "test": "vitest --ui",
+    "coverage": "vitest run --coverage",
+    "postinstall": "lefthook install",
+    "commit": "git add -A && git-cz"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@faker-js/faker": "^8.4.1",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/bun": "^1.1.6",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "@vitest/coverage-v8": "^2.0.5",
+    "@vitest/ui": "^2.0.5",
+    "git-cz": "^4.9.0",
+    "happy-dom": "^14.12.3",
+    "lefthook": "^1.7.12",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "vite-plugin-biomejs": "^2.0.0",
+    "vitest": "^2.0.5"
+  },
+  "trustedDependencies": ["@biomejs/biome"]
 }
