@@ -64,6 +64,8 @@
       <a href="https://ui.shadcn.com/"><img src='https://img.shields.io/badge/shadcnui-06B6D4?logo=shadcnui&labelColor=grey'></a>
       <a href="https://react-icons.github.io/react-icons/"><img src='https://img.shields.io/badge/Icon-react_icons-e52864?&labelColor=grey'></a>
       <a href="https://react-hot-toast.com/"><img src='https://img.shields.io/badge/Notification-Toast-red?labelColor=grey'></a>
+      <a href="https://www.npmjs.com/package/@emoji-mart/react"><img src='https://img.shields.io/badge/🏪-Emoji_Mart-yellow?labelColor=grey'></a>
+      <a href="https://github.com/jdecked/twemoji"><img src='https://img.shields.io/badge/Emoji-Twemoji-yellow?labelColor=grey'></a>
     </td>
   </tr>
   <tr>
