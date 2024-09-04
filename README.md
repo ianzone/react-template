@@ -40,7 +40,7 @@
   <tr>
     <td>CI/CD</td>
     <td>
-      <a href="https://github.com/evilmartians/lefthook/"><img src='https://img.shields.io/badge/Lefthook-ff1e1e?labelColor=grey&logo=git'></a>
+      <a href="https://github.com/evilmartians/lefthook/"><img src='https://img.shields.io/badge/Lefthook-FF1E1E?labelColor=grey&logo=lefthook'></a>
     </td>
     <td>
       <a href="https://semantic-release.gitbook.io/semantic-release"><img src='https://img.shields.io/badge/semantic-e10079?logo=semantic-release&labelColor=grey'></a>
