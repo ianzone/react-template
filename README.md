@@ -11,7 +11,6 @@
   <tr>
     <td>Building</td>
     <td>
-      <a href="https://pnpm.io/zh/installation"><img src='https://img.shields.io/badge/pnpm-orange?logo=pnpm&labelColor=grey'></a>
       <a href="https://www.typescriptlang.org/"><img src='https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&labelColor=grey'></a>
       <a href="https://cn.vitejs.dev/"><img src='https://img.shields.io/badge/Vite-646CFF?logo=Vite&labelColor=grey'></a>
     </td>
@@ -35,6 +34,7 @@
     </td>
     <td>
       <a href="https://playwright.dev/docs/intro"><img src='https://img.shields.io/badge/e2e-Playwright-2EAD33?logo=playwright&labelColor=grey'></a>
+      <a href="https://storybook.js.org/docs"><img src='https://img.shields.io/badge/Storybook-FF4785?logo=storybook&labelColor=grey'></a>
     </td>
   </tr>
   <tr>
