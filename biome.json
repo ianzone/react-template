@@ -25,6 +25,11 @@
     "lineWidth": 100,
     "indentStyle": "space"
   },
+  "json": {
+    "parser": {
+      "allowComments": true
+    }
+  },
   "javascript": {
     "parser": {
       "unsafeParameterDecoratorsEnabled": true

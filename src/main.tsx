@@ -7,7 +7,7 @@ const app = document.createElement('div');
 app.id = 'app';
 document.getElementsByTagName('body')[0].appendChild(app);
 ReactDOM.createRoot(app).render(
-	<StrictMode>
-		<App />
-	</StrictMode>,
+  <StrictMode>
+    <App />
+  </StrictMode>,
 );
