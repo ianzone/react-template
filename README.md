@@ -119,7 +119,7 @@
 
 # Get it started
 
-```
+```bash
 degit https://github.com/ianzone/react-template <project name>
 cd <project name>
 pnpm i
