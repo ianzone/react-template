@@ -58,6 +58,7 @@
   <tr>
     <td>UI</td>
     <td>
+      <a href="https://react.dev/"><img src='https://img.shields.io/badge/React-58c4dc?labelColor=grey&logo=react'></a>
       <a href="https://component.gallery/"><img src='https://img.shields.io/badge/</>-Gallery-black?labelColor=grey'></a>
       <a href="https://ant-design.gitee.io/components/overview-cn/?theme=dark"><img src='https://img.shields.io/badge/AntDesign-blue?logo=antdesign&labelColor=grey'></a>
       <a href="https://tailwindcss.com/docs/guides/vite"><img src='https://img.shields.io/badge/tailwindcss-06B6D4?logo=tailwindcss&labelColor=grey'></a>
