@@ -17,9 +17,9 @@ interface GlobalContextInterface {
   reset: () => void;
 }
 
-const GlobalContext = createContext<GlobalContextInterface | null>(null);
+const Context = createContext<GlobalContextInterface | null>(null);
 
-function GlobalProvider({ children }: { children: ReactNode }) {
+export function GlobalContext({ children }: { children: ReactNode }) {
   const [accessToken, setAccessToken] = useState('');
   const [idToken, setIdToken] = useState('');
 
@@ -39,15 +39,13 @@ function GlobalProvider({ children }: { children: ReactNode }) {
     [accessToken, idToken, reset],
   );
 
-  return <GlobalContext.Provider value={value}>{children}</GlobalContext.Provider>;
+  return <Context value={value}>{children}</Context>;
 }
 
-function useGlobalContext() {
-  const context = useContext(GlobalContext);
+export function useGlobalContext() {
+  const context = useContext(Context);
   if (!context) {
     throw new Error('useGlobalContext must be used within <GlobalProvider>');
   }
   return context;
 }
-
-export { GlobalProvider, useGlobalContext };

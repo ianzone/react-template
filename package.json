@@ -14,28 +14,28 @@
     "commit": "git add -A && git-cz"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@faker-js/faker": "^9.2.0",
+    "@faker-js/faker": "^9.3.0",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
     "@types/node": "^22.10.1",
-    "@types/react": "^18.3.12",
+    "@types/react": "^19.0.0",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react-swc": "^3.7.2",
-    "@vitest/coverage-v8": "^2.1.6",
-    "@vitest/ui": "^2.1.6",
+    "@vitest/coverage-v8": "^2.1.8",
+    "@vitest/ui": "^2.1.8",
     "biome-extends": "^1.0.1",
     "git-cz": "^4.9.0",
     "happy-dom": "^15.11.7",
-    "lefthook": "^1.8.4",
+    "lefthook": "^1.8.5",
     "typescript": "^5.7.2",
-    "vite": "^6.0.1",
+    "vite": "^6.0.3",
     "vite-plugin-biomejs": "^2.0.0",
-    "vitest": "^2.1.6"
+    "vitest": "^2.1.8"
   },
   "trustedDependencies": ["@biomejs/biome", "@swc/core", "esbuild", "lefthook"]
 }
