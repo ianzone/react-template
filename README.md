@@ -107,9 +107,10 @@
     </td>
   </tr>
   <tr>
-    <td><a href="https://juejin.cn/post/7325069743144239145">State Management</a></td>
+    <td><a href="https://www.youtube.com/watch?v=5-1LM2NySR0">State Management</a></td>
     <td>
       <a href="https://docs.pmnd.rs/zustand/getting-started/introduction"><img src='https://img.shields.io/badge/🐻-zustand-572e3e?labelColor=grey'></a>
+      <a href="https://jotai.org/"><img src='https://img.shields.io/badge/👻-Jotai-grey?labelColor=grey'></a>
     </td>
   </tr>
 </table>
