@@ -2,16 +2,18 @@
 # https://evilmartians.github.io/lefthook/configuration/
 
 pre-commit:
-  parallel: true
+  piped: true
   jobs:
-    - name: QA
+    - name: Linting & Formatting
+      glob: "*.{ts,tsx,js,jsx,json,jsonc,css}"
+      run: na biome check --fix {staged_files} --reporter summary
+      stage_fixed: true
+
+    - name: QA, Audit, Misc
       group:
-        piped: true
+        parallel: true
         jobs:
-          - name: biome
-            glob: "*.{ts,tsx,js,jsx,json,jsonc,css}"
-            run: na biome check --fix {staged_files} --reporter summary
-            stage_fixed: true
+          # SECTION - QA
           - name: typescript
             glob: "*.{ts,tsx}"
             run: na tsc {staged_files} --noEmit --strict --skipLibCheck --jsx react-jsx
@@ -21,22 +23,14 @@ pre-commit:
           - name: storybook
             glob: "*/{components,containers,pages}*.{ts,tsx,js,jsx}"
             run: echo 'use storybook'
-
-    - name: Audit
-      group:
-        parallel: true
-        jobs:
+          # SECTION - Audit
           - name: gitleaks
             run: gitleaks protect --staged --no-banner
           - name: audit
             run: echo audit
           - name: license
             run: echo license
-
-    - name: Misc
-      group:
-        parallel: true
-        jobs:
+          #SECTION - Misc
           - name: knip
             run: na knip --no-exit-code --no-config-hints
 
