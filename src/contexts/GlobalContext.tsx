@@ -9,7 +9,7 @@ import {
   useState,
 } from 'react';
 
-interface AppContextInterface {
+interface GlobalContextInterface {
   accessToken: string;
   setAccessToken: Dispatch<SetStateAction<string>>;
   idToken: string;
@@ -17,9 +17,9 @@ interface AppContextInterface {
   reset: () => void;
 }
 
-const AppContext = createContext<AppContextInterface | null>(null);
+const Context = createContext<GlobalContextInterface | null>(null);
 
-function AppProvider({ children }: { children: ReactNode }) {
+export function GlobalContext({ children }: { children: ReactNode }) {
   const [accessToken, setAccessToken] = useState('');
   const [idToken, setIdToken] = useState('');
 
@@ -39,15 +39,13 @@ function AppProvider({ children }: { children: ReactNode }) {
     [accessToken, idToken, reset],
   );
 
-  return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
+  return <Context value={value}>{children}</Context>;
 }
 
-function useAppContext() {
-  const context = useContext(AppContext);
+export function useGlobalContext() {
+  const context = useContext(Context);
   if (!context) {
-    throw new Error('useAppContext must be used within <AppContext.Provider>');
+    throw new Error('useGlobalContext must be used within <GlobalProvider>');
   }
   return context;
 }
-
-export { AppProvider, useAppContext };

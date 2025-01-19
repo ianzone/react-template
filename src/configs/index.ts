@@ -1,15 +1,16 @@
-import app1 from './app1';
-import app2 from './app2';
+import { brand1 } from './brand1';
+import { brand2 } from './brand2';
+import { whiteLabel } from './white-label';
 
-interface Config {
-  app_name: string;
-}
+function getConfig() {
+  const brands = [brand1, brand2];
 
-function getConfig(): Config {
-  if (import.meta.env.MODE === 'app2') {
-    return app2;
+  for (const brand of brands) {
+    if (brand.domains.find((item) => item === window.location.host)) {
+      return brand;
+    }
   }
-  return app1;
+  return whiteLabel;
 }
 
-export const config = getConfig();
+export default getConfig();

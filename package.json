@@ -1,42 +1,43 @@
 {
+  "$schema": "https://json.schemastore.org/package",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "dev:cc": "vite --force",
+    "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true src",
-    "lint:style": "stylelint src/**/*.{css,scss}",
-    "test": "vitest --ui",
-    "coverage": "vitest run --coverage",
+    "lint": "biome check --fix src",
+    "test": "vitest run --coverage",
     "postinstall": "lefthook install",
-    "commit": "git add . && git-cz"
+    "commit": "git add -A && git commit --no-edit",
+    "squash": "node ./squash.mjs && git commit --no-edit --no-verify"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.6.1",
-    "@testing-library/react": "^14.2.1",
-    "@types/node": "^20.11.30",
-    "@types/react": "^18.2.67",
-    "@types/react-dom": "^18.2.22",
-    "@vitejs/plugin-react-swc": "^3.6.0",
-    "@vitest/ui": "^1.4.0",
-    "c8": "^9.1.0",
+    "@biomejs/biome": "^1.9.4",
+    "@faker-js/faker": "^9.4.0",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.0",
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "@vitest/coverage-v8": "^3.0.2",
+    "biome-extends": "^1.0.1",
     "git-cz": "^4.9.0",
-    "happy-dom": "^14.0.0",
-    "lefthook": "^1.6.7",
-    "stylelint": "^16.2.1",
-    "stylelint-order": "^6.0.4",
-    "typescript": "^5.4.2",
-    "vite": "^5.1.6",
-    "vite-plugin-biome": "^1.0.9",
-    "vite-plugin-stylelint": "5.3.1",
-    "vitest": "^1.4.0"
+    "happy-dom": "^16.6.0",
+    "knip": "^5.42.2",
+    "lefthook": "^1.10.8",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vite-plugin-biomejs": "^2.0.0",
+    "vitest": "^3.0.2",
+    "zx": "^8.3.0"
   },
-  "engines": {
-    "node": ">=20",
-    "pnpm": ">=8"
-  }
+  "trustedDependencies": ["@biomejs/biome", "@swc/core", "esbuild", "lefthook"]
 }

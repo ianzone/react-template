@@ -1,13 +1,10 @@
-import { MyPage } from 'src/pages';
-import './App.css';
-import { AppProvider } from './AppContext';
+import { Home } from 'src/pages';
+import { GlobalContext } from './contexts';
 
-function App() {
+export function App() {
   return (
-    <AppProvider>
-      <MyPage />
-    </AppProvider>
+    <GlobalContext>
+      <Home />
+    </GlobalContext>
   );
 }
-
-export default App;

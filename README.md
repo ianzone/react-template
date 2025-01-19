@@ -1,71 +1,148 @@
-[![Lefthook](https://img.shields.io/badge/Lefthook-ff1e1e?labelColor=grey&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI3MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjRkYxRTFFIiBkPSJNMjU4IDI2Mi42TDE0OSAyMTBsLTcyLjQgMjIuM0w1IDE5Ny44bDc2LjctOTguNC0xMy4xLTI0LjVMMTEwLjggMzZsNjUuNC0yLjdMMjUxLjkgNSAzODYuNyAxNTAgMzIzIDI0Ni42eiIvPjxwYXRoIGQ9Ik04My4yIDE2Ni44YzI4LjYgOC42IDU4LjUuNiA4OS45LTI0LjFsMTQ3IDk1LjItMzAgMTguNWgtNDlsLTc3LjUtMzguMi03MC44IDE4LTgwLjQtMzYuNkw2OS43IDE3MGwxMy41LTMuMnptNTItMTEyLjdjMTAuMy0yLjcgMzEuNyAyMi4zIDMyLjcgMjguNCAzLjggMjEuMiA1LjQgMzUuNS0yMC43IDU2LjRhNjkuOCA2OS44IDAgMCAxLTU2LjUgMTUuN2w1LjItMjMuM0w3NyA5My43YTk2LjYgOTYuNiAwIDAgMSA1OC4xLTM5LjZ6IiBmaWxsPSIjQkYwMDAwIi8+PHBhdGggZD0iTTkwLjUgMjQzLjZsLTEuNy41TC4zIDIwNC4zbDItNC41YzE0LjEtMzIuNiAzNS02MS4yIDYyLjMtODUuOGEzNjAuNiAzNjAuNiAwIDAgMSAxMS44LTEwLjJsLTQuNi04LjctNS42LTEwLjUtMS44LTMuNS0xLjItMi4zIDEuMS0yLjNjMTIuMy0yNSAzMS41LTM5IDYyLjgtNDcuNSAxOS4xLTUgMzUuMS00LjcgNDggMS40QTI4Ny42IDI4Ny42IDAgMCAxIDI1MS4zLjdsMS0uMiAxNDQuNSAxNTUtMS42IDNhMzE4NCAzMTg0IDAgMCAxLTM3LjQgNzIuNmMtMTcuMyAzMi42LTQ2IDQ0LjQtODMuMyAzOS0yOC00LTU4LjUtMTctOTUtMzcuOGwtMTEtNi4xYy0xNi45IDIuNS00MyA4LjMtNzguMSAxNy40ek03MS4yIDEyMS41YTIzNy4yIDIzNy4yIDAgMCAwLTU3LjcgNzcuN2w2MS4yIDI3LjZhNTE3LjUgNTE3LjUgMCAwIDEgNjIuNS0xOC4zIDI3MjQ0LjggMjcyNDQuOCAwIDAgMC02My42LTM1LjZsLTQuNi0yLjYgMjMuMy0zNi41LTExLjEtMjFhMzUxLjIgMzUxLjIgMCAwIDAtMTAgOC43em0zNy4yIDQ4LjZoLjFjMzcuOC02LjcgNjcuNC0zNi43IDc4LTU1LjdhMjE0LjIgMjE0LjIgMCAwIDAgNS44LTkuMkwyNDQuMSAxM2EyNzQuOCAyNzQuOCAwIDAgMC03NC44IDMyLjRsLTEwLjgtNWEzNzcuMyAzNzcuMyAwIDAgMSA1LjQtMy40IDY4LjIgNjguMiAwIDAgMC0zNC4zIDEuOEMxMDIgNDYuMSA4NS40IDU4IDc0LjQgNzguN2wuNyAxLjIgNS41IDEwLjUgMTkuNiAzN2E1MC40IDUwLjQgMCAwIDAgMTkgLjJjOS42LTEuNCAxOC40LTUgMjUuNS0xMC43IDE0LjEtMTEuNCAyMS42LTIwIDIyLjItMjcuNi43LTktNS4yLTIxLjEtMjEuNy00NC4xIDIzLjMgMTUuNiAzOS4yIDQwLjYgMjYuNCA1OC42di4xYTU3IDU3IDAgMCAxLTQuMyA1LjZjLTQuMiA0LjgtOS4zIDkuNS0xNi4zIDE1LjJhNjMuNCA2My40IDAgMCAxLTMwLjMgMTIuOCA2NiA2NiAwIDAgMS0xOS4xLjNsLTE4LjUgMjlhMjgwNzQuNyAyODA3NC43IDAgMCAxIDQ5LjUgMjcuNnYtLjJjNTEtMi43IDg0LTMzLjYgMTE1LjktODQuMy0yNC40IDUxLjgtNTQuNiA4NS0xMDEuMiA5Mi44IDkuOCA1LjQgMTguNiAxMC40IDI2LjYgMTUgNTAtMy4zIDgwLjItMzAuNyAxMTEuOC04MC45LTI0LjEgNTEuMi01MS45IDgxLjQtOTcgODkuMmE1NTAuNyA1NTAuNyAwIDAgMCAxNC43IDggNzUgNzUgMCAwIDEtLjUtLjUgMjIyLjMgMjIyLjMgMCAwIDAgNS41IDMgNDEwIDQxMCAwIDAgMCA4LjMgNGM0OS44LTMuMiA3Ny42LTI3LjEgMTA5LjItNzcuMy0yMy4yIDQ5LjMtNDggNzYuNS04OS43IDg1IDMwLjUgOSA1NS4yIDMuNSA4MC0xMiA4LjUtNS41IDI4LjktMzQuNSA2MS04Ny4yTDI1My42IDE2LjQgMjAxIDExMC4yYTE3Mi45IDE3Mi45IDAgMCAxLTMwLjEgMzguNCA5NCA5NCAwIDAgMS02Mi40IDIxLjV6IiBmaWxsPSIjM0MwMDAwIi8+PC9zdmc+Cg==)](https://github.com/evilmartians/lefthook/)
-[![typescript](https://badges.aleen42.com/src/typescript.svg)](https://www.typescriptlang.org/)
-[![vite](https://badges.aleen42.com/src/vitejs.svg)](https://vitejs.dev/)
-[![vitest](https://img.shields.io/badge/Vitest-729b1b?logo=Vitest&labelColor=grey)](https://vitest.dev/)
-[![react](https://img.shields.io/badge/React-149eca?logo=React&labelColor=grey)](https://beta.reactjs.org/)
-[![biome](https://img.shields.io/badge/Biome-blue?logo=biome&labelColor=grey)](https://biomejs.dev/)
-[![stylelint](https://img.shields.io/badge/Stylelint-blue?logo=Stylelint&labelColor=grey)](https://stylelint.io/)
-[![pnpm](https://img.shields.io/badge/pnpm-orange?logo=pnpm&labelColor=grey)](https://pnpm.io/)
+# Toolchain
+
+<!-- <a href=''><img src=''></a> -->
+
+<table>
+  <tr>
+    <th>Tasks</th>
+    <th>Tools</th>
+    <th>Options</th>
+  </tr>
+  <tr>
+    <td>Building</td>
+    <td>
+      <a href="https://www.typescriptlang.org/"><img src='https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&labelColor=grey'></a>
+      <a href="https://cn.vitejs.dev/"><img src='https://img.shields.io/badge/Vite-646CFF?logo=Vite&labelColor=grey'></a>
+    </td>
+    <td>
+      <a href="https://vite-pwa-org.netlify.app/"><img src='https://img.shields.io/badge/PWA-35849a?logo=pwa&labelColor=grey'></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Linting</td>
+    <td>
+      <a href="https://biomejs.dev/zh-cn/guides/getting-started/"><img src='https://img.shields.io/badge/Biome-blue?logo=biome&labelColor=grey'></a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Testing</td>
+    <td>
+      <a href="https://cn.vitest.dev/guide/"><img src='https://img.shields.io/badge/Vitest-729b1b?logo=Vitest&labelColor=grey'></a>
+      <a href="https://testing-library.com/docs/react-testing-library/intro/"><img src='https://img.shields.io/badge/Testing_Library-E33332?logo=testinglibrary&labelColor=grey'></a>
+      <a href="https://fakerjs.dev/api/"><img src='https://img.shields.io/badge/Mock-Faker-blue'></a>
+    </td>
+    <td>
+      <a href="https://playwright.dev/docs/intro"><img src='https://img.shields.io/badge/e2e-Playwright-2EAD33?logo=playwright&labelColor=grey'></a>
+      <a href="https://storybook.js.org/docs"><img src='https://img.shields.io/badge/Storybook-FF4785?logo=storybook&labelColor=grey'></a>
+    </td>
+  </tr>
+  <tr>
+    <td>CI/CD</td>
+    <td>
+      <a href="https://github.com/evilmartians/lefthook/"><img src='https://img.shields.io/badge/Lefthook-FF1E1E?labelColor=grey&logo=lefthook'></a>
+    </td>
+    <td>
+      <a href="https://semantic-release.gitbook.io/semantic-release"><img src='https://img.shields.io/badge/semantic-e10079?logo=semantic-release&labelColor=grey'></a>
+    </td>
+  </tr>
+</table>
+
+# Libraries
+
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Libs</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th>Components</th>
+    <td>
+    <ul>
+      <li><strong>Design System:</strong>
+      <a href="https://component.gallery/"><img src='https://img.shields.io/badge/</>-Gallery-black?labelColor=grey'></a>
+      <a href="https://ant-design.gitee.io/components/overview-cn/?theme=dark"><img src='https://img.shields.io/badge/AntDesign-blue?logo=antdesign&labelColor=grey'></a>
+      <a href="https://tailwindcss.com/docs/guides/vite"><img src='https://img.shields.io/badge/tailwindcss-06B6D4?logo=tailwindcss&labelColor=grey'></a>
+      <a href="https://ui.shadcn.com/"><img src='https://img.shields.io/badge/shadcnui-06B6D4?logo=shadcnui&labelColor=grey'></a></li>
+      <li><strong>Data Visualization:</strong>
+        <a href="https://antv.antgroup.com/"><img src='https://img.shields.io/badge/AntV-691eff?logo=antdesign&labelColor=grey'></a>
+        <a href="https://echarts.apache.org/zh/index.html"><img src='https://img.shields.io/badge/ECharts-AA344D?logo=apacheecharts&labelColor=grey'></a>
+        <a href="https://github.com/wbkd/awesome-d3"><img src='https://img.shields.io/badge/D3-FC60A8?logo=awesomelists&labelColor=grey'></a>
+        <a href="https://awesome.cube.dev/?frameworks=react&languages=typescript"><img src='https://img.shields.io/badge/Awesome-FC60A8?logo=awesomelists&labelColor=grey'></a></li>
+      <li><strong>Rich Text Editor:</strong> https://github.com/slab/quill</li>
+      <li><strong>Icons:</strong>
+      <a href="https://react-icons.github.io/react-icons/"><img src='https://img.shields.io/badge/Icon-react_icons-e52864?&labelColor=grey'></a>
+      <a href="https://www.npmjs.com/package/@emoji-mart/react"><img src='https://img.shields.io/badge/🏪-Emoji_Mart-yellow?labelColor=grey'></a>
+      <a href="https://github.com/jdecked/twemoji"><img src='https://img.shields.io/badge/Emoji-Twemoji-yellow?labelColor=grey'></a></li>
+      <li><strong>Notification:</strong>
+      <a href="https://react-hot-toast.com/"><img src='https://img.shields.io/badge/Toast-react_hot_toast-red?labelColor=grey'></a></li>
+    </ul>
+    </td>
+  </tr>
+  <tr>
+    <th>i18n</th>
+    <td>
+      <a href='https://react.i18next.com/getting-started'><img src='https://img.shields.io/badge/i18next-26A69A?labelColor=grey&logo=i18next'></a>
+    </td>
+  </tr>
+  <tr>
+    <th>Utils</th>
+    <td>
+      <a href='https://ahooks.js.org/zh-CN/hooks/use-request/index'><img src='https://img.shields.io/badge/a-hooks-4569d4?labelColor=grey'></a>
+      <a href='https://es-toolkit.slash.page/zh_hans/intro.html'><img src='https://img.shields.io/badge/toolkit-F7DF1E?labelColor=grey&logo=javascript'></a>
+      <a href='https://radash-docs.vercel.app/docs/getting-started'><img src='https://img.shields.io/badge/🔴-radash-fb5d4e?labelColor=grey'></a>
+      <a href='https://lodash.com/'><img src='https://img.shields.io/badge/lodash-3492FF?labelColor=grey&logo=lodash'></a>
+    </td>
+  </tr>
+  <tr>
+    <th>Routing</th>
+    <td>
+      <a href="https://tanstack.com/router/latest/docs/framework/react/overview"><img src='https://img.shields.io/badge/TanstackRouter-FF4154?logo=reactquery&labelColor=grey'></a>
+    </td>
+  </tr>
+  <tr>
+    <th>Networking</th>
+    <td>
+      <a href="https://tanstack.com/query/latest/docs/framework/react/overview/"><img src='https://img.shields.io/badge/TanstackQuery-FF4154?logo=reactquery&labelColor=grey'></a>
+      <a href="https://axios-http.com/zh/docs/intro"><img src='https://img.shields.io/badge/axios-5A29E4?logo=axios&labelColor=grey'></a>
+    </td>
+  </tr>
+  <tr>
+    <th><a href="https://www.youtube.com/watch?v=5-1LM2NySR0">State Management</a></th>
+    <td>
+      <a href="https://docs.pmnd.rs/zustand/getting-started/introduction"><img src='https://img.shields.io/badge/🐻-zustand-572e3e?labelColor=grey'></a>
+      <a href="https://jotai.org/"><img src='https://img.shields.io/badge/👻-Jotai-grey?labelColor=grey'></a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/enaqx/awesome-react)
+
+### [Options](https://zhuanlan.zhihu.com/p/546697951)
 
 # Get it started
 
-```
-degit ianzone/react-template <project name>
+```bash
+degit https://github.com/ianzone/react-template <project name>
 cd <project name>
 pnpm i
 pnpm run dev
 ```
 
-# Folder structure
+# Structure
 
-## assets/
-
-static assets such as images, videos, audios...
-
-## components/
-
-shared pure components
-
-## containers/
-
-shared components with business logics and side effects
-
-## configs/
-
-app configurations
-
-## hooks/
-
-shared stateful functions
-
-## utils/
-
-shared stateless functions
-
-## services/
-
-shared api calls
-
-## styles/
-
-global styles
-
-## pages/
-
-each route
-
-# TODO
-
-replace stylelint with biome when css support is done. https://github.com/biomejs/biome/issues/268
-
-# Routing
-
-[TanstackRouter](https://tanstack.com/router/latest)
-
-# Query
-
-[TanstackQuery](https://tanstack.com/query/latest)
-
-# Styling
-
-[TailwindCSS](https://tailwindcss.com/docs/guides/vite)
+| Folder      | Description                                      |
+| ----------- | ------------------------------------------------ |
+| assets/     | Static assets such as images, videos, audios...  |
+| components/ | Pure components                                  |
+| containers/ | Components with business logics and side effects |
+| contexts/   | Shared contexts                                  |
+| hooks/      | Stateful functions                               |
+| utils/      | Stateless functions                              |
+| pages/      | Pages                                            |
+| services/   | API calls                                        |
+| styles/     | Global css, fonts                                |
