@@ -14,7 +14,7 @@ pre-commit:
             stage_fixed: true
           - name: typescript
             glob: "*.{ts,tsx}"
-            run: na tsc --noEmit
+            run: na tsc {staged_files} --noEmit --strict --skipLibCheck --jsx react-jsx
           - name: vitest
             glob: "*/{hooks,utils,services}*.{ts,js}"
             run: na vitest related --run {staged_files}
