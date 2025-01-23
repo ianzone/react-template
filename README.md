@@ -83,6 +83,12 @@
     </td>
   </tr>
   <tr>
+    <th>Hooks</th>
+    <td>
+      <a href='https://ahooks.js.org/zh-CN/hooks/use-request/index'><img src='https://img.shields.io/badge/a-hooks-4569d4?labelColor=grey'></a>
+    </td>
+  </tr>
+  <tr>
     <th>i18n</th>
     <td>
       <a href='https://react.i18next.com/getting-started'><img src='https://img.shields.io/badge/i18next-26A69A?labelColor=grey&logo=i18next'></a>
@@ -91,10 +97,8 @@
   <tr>
     <th>Utils</th>
     <td>
-      <a href='https://ahooks.js.org/zh-CN/hooks/use-request/index'><img src='https://img.shields.io/badge/a-hooks-4569d4?labelColor=grey'></a>
       <a href='https://es-toolkit.slash.page/zh_hans/intro.html'><img src='https://img.shields.io/badge/toolkit-F7DF1E?labelColor=grey&logo=javascript'></a>
       <a href='https://radash-docs.vercel.app/docs/getting-started'><img src='https://img.shields.io/badge/🔴-radash-fb5d4e?labelColor=grey'></a>
-      <a href='https://lodash.com/'><img src='https://img.shields.io/badge/lodash-3492FF?labelColor=grey&logo=lodash'></a>
     </td>
   </tr>
   <tr>
@@ -114,7 +118,6 @@
     <th><a href="https://www.youtube.com/watch?v=5-1LM2NySR0">State Management</a></th>
     <td>
       <a href="https://docs.pmnd.rs/zustand/getting-started/introduction"><img src='https://img.shields.io/badge/🐻-zustand-572e3e?labelColor=grey'></a>
-      <a href="https://jotai.org/"><img src='https://img.shields.io/badge/👻-Jotai-grey?labelColor=grey'></a>
     </td>
   </tr>
   </tbody>
