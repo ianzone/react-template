@@ -72,13 +72,21 @@
         <a href="https://echarts.apache.org/zh/index.html"><img src='https://img.shields.io/badge/ECharts-AA344D?logo=apacheecharts&labelColor=grey'></a>
         <a href="https://github.com/wbkd/awesome-d3"><img src='https://img.shields.io/badge/D3-FC60A8?logo=awesomelists&labelColor=grey'></a>
         <a href="https://awesome.cube.dev/?frameworks=react&languages=typescript"><img src='https://img.shields.io/badge/Awesome-FC60A8?logo=awesomelists&labelColor=grey'></a></li>
-      <li><strong>Rich Text Editor:</strong> https://github.com/slab/quill</li>
+      <li><strong>Rich Text Editor:</strong>
+      <a href="https://quilljs.com/"><img src='https://img.shields.io/badge/📄-Quill-yellow?&labelColor=grey'></a>
+      <a href="https://github.com/suren-atoyan/monaco-react"><img src='https://img.shields.io/badge/📄-Monaco-purple?&labelColor=grey'></a>
+      <a href="https://github.com/react-syntax-highlighter/react-syntax-highlighter"><img src='https://img.shields.io/badge/📄-react_syntax_highlighter-light?&labelColor=grey'></a>
+      <a href="https://shiki.tmrs.site/guide/"><img src='https://img.shields.io/badge/shiki-lightseagreen?&labelColor=grey&logo=shikimori'></a></li>
       <li><strong>Icons:</strong>
       <a href="https://react-icons.github.io/react-icons/"><img src='https://img.shields.io/badge/Icon-react_icons-e52864?&labelColor=grey'></a>
       <a href="https://www.npmjs.com/package/@emoji-mart/react"><img src='https://img.shields.io/badge/🏪-Emoji_Mart-yellow?labelColor=grey'></a>
       <a href="https://github.com/jdecked/twemoji"><img src='https://img.shields.io/badge/Emoji-Twemoji-yellow?labelColor=grey'></a></li>
       <li><strong>Notification:</strong>
-      <a href="https://react-hot-toast.com/"><img src='https://img.shields.io/badge/Toast-react_hot_toast-red?labelColor=grey'></a></li>
+      <a href="https://react-hot-toast.com/"><img src='https://img.shields.io/badge/🍞-react_hot_toast-red?labelColor=grey'></a>
+      <a href="https://fkhadra.github.io/react-toastify/introduction"><img src='https://img.shields.io/badge/🍞-react_toastify-red?labelColor=grey'></a></li>
+      <li><strong>Flow:</strong>
+      <a href="https://reactflow.dev/learn"><img src='https://img.shields.io/badge/🤖-React_Flow-ff0073?labelColor=grey'></a>
+      <a href="https://n8n.io/"><img src='https://img.shields.io/badge/n8n-EA4B71?labelColor=grey&logo=n8n'></a></li>
     </ul>
     </td>
   </tr>
@@ -132,8 +140,8 @@
 ```bash
 degit https://github.com/ianzone/react-template <project name>
 cd <project name>
-pnpm i
-pnpm run dev
+bun i
+bun run dev
 ```
 
 # Structure
