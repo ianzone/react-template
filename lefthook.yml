@@ -18,11 +18,14 @@ pre-commit:
             glob: "*.{ts,tsx}"
             run: na tsc {staged_files} --noEmit --strict --skipLibCheck --jsx react-jsx
           - name: vitest
-            glob: "*.{ts,tsx,js,jsx}"
+            glob: "*.ts"
             run: na vitest related --run {staged_files}
           - name: storybook
-            glob: "*.{tsx,jsx}"
+            glob: "*.tsx"
             run: echo 'use storybook'
+          - name: playwright
+            glob: "*.{ts,tsx}"
+            run: nr e2e
           # SECTION - Audit
           - name: gitleaks
             run: gitleaks protect --staged --no-banner
