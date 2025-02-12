@@ -16,7 +16,7 @@ pre-commit:
           # SECTION - QA
           - name: typescript
             glob: "*.{ts,tsx}"
-            run: na tsc {staged_files} --noEmit --strict --skipLibCheck --jsx react-jsx
+            run: na tsc
           - name: vitest
             glob: "*.ts"
             run: na vitest related --run {staged_files}
