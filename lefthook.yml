@@ -44,3 +44,8 @@ prepare-commit-msg:
       run: na git-cz --hook
       env:
         LEFTHOOK: "0"
+
+post-merge:
+  commands:
+    packages:
+      run: git diff --quiet HEAD@{1} -- bun.lockb || echo "lockfile changed, install again"
