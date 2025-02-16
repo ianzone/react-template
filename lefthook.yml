@@ -48,4 +48,4 @@ prepare-commit-msg:
 post-merge:
   commands:
     packages:
-      run: git diff --quiet HEAD@{1} -- bun.lockb || echo "lockfile changed, install again"
+      run: git diff --quiet HEAD@{$(echo 1)} -- bun.lockb || echo "lockfile changed, install again"

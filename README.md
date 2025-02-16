@@ -29,7 +29,7 @@
     <td>Testing</td>
     <td>
       <a href="https://cn.vitest.dev/guide/"><img src='https://img.shields.io/badge/Vitest-729b1b?logo=Vitest&labelColor=grey'></a>      <a href="https://testing-library.com/docs/react-testing-library/intro/"><img src='https://img.shields.io/badge/Testing_Library-E33332?logo=testinglibrary&labelColor=grey'></a>
-      <a href="https://fakerjs.dev/api/"><img src='https://img.shields.io/badge/🪄-Fakerjs-firebrick'></a>
+      <a href="https://fakerjs.dev/api/"><img src='https://img.shields.io/badge/🪄-Faker-firebrick'></a>
       <a href="https://playwright.dev/docs/intro"><img src='https://img.shields.io/badge/🎭-Playwright-2EAD33?labelColor=grey'></a>
     </td>
     <td>
