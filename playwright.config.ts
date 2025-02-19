@@ -78,7 +78,7 @@ export default defineConfig({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: 'nr dev',
+    command: 'bunx --bun vite',
     port: 5173,
     reuseExistingServer: !process.env.CI,
   },
