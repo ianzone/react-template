@@ -48,4 +48,4 @@ prepare-commit-msg:
 post-merge:
   commands:
     packages:
-      run: git diff --quiet HEAD@{$(echo 1)} -- bun.lockb || ni
+      run: git diff --quiet HEAD@{$(echo 1)} -- bun.lock || ni
