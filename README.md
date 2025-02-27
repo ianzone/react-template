@@ -45,6 +45,13 @@
       <a href="https://semantic-release.gitbook.io/semantic-release"><img src='https://img.shields.io/badge/semantic-e10079?logo=semantic-release&labelColor=grey'></a>
     </td>
   </tr>
+  <tr>
+    <td>Performance</td>
+    <td>
+      <a href="https://react-scan.com/"><img src='https://img.shields.io/badge/Scan-7a68e7?logo=react&labelColor=grey'></a>
+    </td>
+    <td></td>
+  </tr>
 </table>
 
 # Libraries
@@ -83,8 +90,11 @@
       <li><strong>Notification:</strong>
       <a href="https://react-hot-toast.com/"><img src='https://img.shields.io/badge/🍞-react_hot_toast-red?labelColor=grey'></a>
       <a href="https://fkhadra.github.io/react-toastify/introduction"><img src='https://img.shields.io/badge/🍞-react_toastify-red?labelColor=grey'></a></li>
+      <li><strong>Fallback:</strong>
+      <a href="https://github.com/bvaughn/react-error-boundary"><img src='https://img.shields.io/badge/react_error_boundary-61DAFB?labelColor=grey&logo=react'></a>
+      </li>
       <li><strong>Flow:</strong>
-      <a href="https://reactflow.dev/learn"><img src='https://img.shields.io/badge/🤖-React_Flow-ff0073?labelColor=grey'></a>
+      <a href="https://reactflow.dev/learn"><img src='https://img.shields.io/badge/xyflow-1A192B?labelColor=grey&logo=xyflow'></a>
       <a href="https://n8n.io/"><img src='https://img.shields.io/badge/n8n-EA4B71?labelColor=grey&logo=n8n'></a></li>
     </ul>
     </td>
@@ -127,10 +137,14 @@
       <a href="https://docs.pmnd.rs/zustand/getting-started/introduction"><img src='https://img.shields.io/badge/🐻-zustand-572e3e?labelColor=grey'></a>
     </td>
   </tr>
+  <tr>
+    <th>Awesome</th>
+    <td>
+      <a href="https://github.com/enaqx/awesome-react"><img src='https://img.shields.io/badge/Awesome_React-FC60A8?logo=awesomelists&labelColor=grey'></a>
+    </td>
+  </tr>
   </tbody>
 </table>
-
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/enaqx/awesome-react)
 
 ### [Options](https://zhuanlan.zhihu.com/p/546697951)
 
@@ -150,7 +164,7 @@ bun run dev
 | assets/     | Static assets such as images, videos, audios...  |
 | components/ | Pure components                                  |
 | containers/ | Components with business logics and side effects |
-| contexts/   | Shared contexts                                  |
+| contexts/   | Global contexts                                  |
 | hooks/      | Stateful functions                               |
 | utils/      | Stateless functions                              |
 | pages/      | Pages                                            |
