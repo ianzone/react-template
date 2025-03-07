@@ -84,18 +84,24 @@
       <a href="https://github.com/react-syntax-highlighter/react-syntax-highlighter"><img src='https://img.shields.io/badge/📄-react_syntax_highlighter-light?&labelColor=grey'></a>
       <a href="https://shiki.tmrs.site/guide/"><img src='https://img.shields.io/badge/shiki-lightseagreen?&labelColor=grey&logo=shikimori'></a></li>
       <li><strong>Icons:</strong>
-      <a href="https://react-icons.github.io/react-icons/"><img src='https://img.shields.io/badge/Icon-react_icons-e52864?&labelColor=grey'></a>
+      <a href="https://react-icons.github.io/react-icons/"><img src='https://img.shields.io/badge/react_icons-e52864?&labelColor=grey&logo=reactquery'></a>
       <a href="https://www.npmjs.com/package/@emoji-mart/react"><img src='https://img.shields.io/badge/🏪-Emoji_Mart-yellow?labelColor=grey'></a>
       <a href="https://github.com/jdecked/twemoji"><img src='https://img.shields.io/badge/Emoji-Twemoji-yellow?labelColor=grey'></a></li>
       <li><strong>Notification:</strong>
-      <a href="https://react-hot-toast.com/"><img src='https://img.shields.io/badge/🍞-react_hot_toast-red?labelColor=grey'></a>
-      <a href="https://fkhadra.github.io/react-toastify/introduction"><img src='https://img.shields.io/badge/🍞-react_toastify-red?labelColor=grey'></a></li>
+      <a href="https://react-hot-toast.com/"><img src='https://img.shields.io/badge/🍞-Hot_Toast-red?labelColor=grey'></a>
+      <a href="https://fkhadra.github.io/react-toastify/introduction"><img src='https://img.shields.io/badge/🍞-Toastify-red?labelColor=grey'></a>
+      <a href="https://sonner.emilkowal.ski/"><img src='https://img.shields.io/badge/🍞-Sonner-red?labelColor=grey'></a></li>
       <li><strong>Fallback:</strong>
-      <a href="https://github.com/bvaughn/react-error-boundary"><img src='https://img.shields.io/badge/react_error_boundary-61DAFB?labelColor=grey&logo=react'></a>
+      <a href="https://github.com/bvaughn/react-error-boundary"><img src='https://img.shields.io/badge/error_boundary-61DAFB?labelColor=grey&logo=react'></a>
       </li>
       <li><strong>Flow:</strong>
       <a href="https://reactflow.dev/learn"><img src='https://img.shields.io/badge/xyflow-1A192B?labelColor=grey&logo=xyflow'></a>
       <a href="https://n8n.io/"><img src='https://img.shields.io/badge/n8n-EA4B71?labelColor=grey&logo=n8n'></a></li>
+      <li><strong>Drag & Drop:</strong>
+      <a href="https://github.com/clauderic/dnd-kit"><img src='https://img.shields.io/badge/dnd-kit-db36e1?labelColor=grey'></a>
+      <a href="https://github.com/hello-pangea/dnd"><img src='https://img.shields.io/badge/dnd-@hello_pangea-0baf7c?labelColor=grey'></a></li>
+      <li><strong>Terminal:</strong>
+      <a href="https://github.com/xtermjs/xterm.js"><img src='https://img.shields.io/badge/x-term-5da5d5?labelColor=grey'></a></li>
     </ul>
     </td>
   </tr>
@@ -146,7 +152,7 @@
   </tbody>
 </table>
 
-### [Options](https://zhuanlan.zhihu.com/p/546697951)
+#### [Others](https://zhuanlan.zhihu.com/p/546697951)
 
 # Get it started
 

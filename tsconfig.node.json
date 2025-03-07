@@ -1,5 +1,5 @@
 {
-  "extends": "es-proj/tsconfig/node",
+  "extends": "@es-proj/configs/tsconfig.node",
   "compilerOptions": {
     "baseUrl": "."
   },
