@@ -30,9 +30,9 @@ pre-commit:
           - name: gitleaks
             run: gitleaks protect --staged --no-banner
           - name: audit
-            run: echo audit
+            run: echo https://github.com/oven-sh/bun/issues/5359
           - name: license
-            run: echo license
+            run: na license-checker-rseidelsohn --summary
           #SECTION - Misc
           - name: knip
             run: na knip --no-exit-code --no-config-hints

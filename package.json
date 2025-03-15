@@ -17,6 +17,7 @@
     "squash": "bun scripts/squash.ts && git commit --no-edit --no-verify"
   },
   "dependencies": {
+    "@es-proj/utils": "^1.6.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -28,18 +29,19 @@
     "@react-dev-inspector/vite-plugin": "^2.0.1",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^14.6.1",
-    "@types/node": "^22.13.9",
+    "@types/node": "^22.13.10",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react-swc": "^3.8.0",
     "@vitest/coverage-v8": "^3.0.8",
     "git-cz": "^4.9.0",
-    "happy-dom": "^17.3.0",
-    "knip": "^5.45.0",
+    "happy-dom": "^17.4.4",
+    "knip": "^5.46.0",
     "lefthook": "^1.11.3",
+    "license-checker-rseidelsohn": "^4.4.2",
     "react-dev-inspector": "^2.0.1",
     "typescript": "^5.8.2",
-    "vite": "^6.2.1",
+    "vite": "^6.2.2",
     "vitest": "^3.0.8"
   },
   "trustedDependencies": ["@biomejs/biome", "@swc/core", "esbuild", "lefthook"]
