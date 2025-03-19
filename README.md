@@ -15,7 +15,8 @@
       <a href="https://cn.vitejs.dev/"><img src='https://img.shields.io/badge/Vite-646CFF?logo=Vite&labelColor=grey'></a>
     </td>
     <td>
-      <a href="https://vite-pwa-org.netlify.app/"><img src='https://img.shields.io/badge/PWA-35849a?logo=pwa&labelColor=grey'></a>
+      <a href="https://vite-pwa-org.netlify.app/"><img src='https://img.shields.io/badge/PWA-35849a?logo=pwa&labelColor=grey'>
+      <a href="https://module-federation.io/zh.html"><img src='https://img.shields.io/badge/Module-Federation-9589ea?labelColor=grey'></a>
     </td>
   </tr>
   <tr>
@@ -23,7 +24,9 @@
     <td>
       <a href="https://biomejs.dev/zh-cn/guides/getting-started/"><img src='https://img.shields.io/badge/Biome-blue?logo=biome&labelColor=grey'></a>
     </td>
-    <td></td>
+    <td>
+      <a href="https://github.com/huacnlee/autocorrect"><img src='https://img.shields.io/badge/A-AutoCorrect-blue?labelColor=grey'></a>
+    </td>
   </tr>
   <tr>
     <td>Testing</td>
@@ -46,11 +49,18 @@
     </td>
   </tr>
   <tr>
+    <td>Debug</td>
+    <td>
+      <a href="https://inspector.fe-dev.cn/guide/start.html"><img src='https://img.shields.io/badge/Code-Inspector-006aff?labelColor=grey'></a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Performance</td>
+    <td></td>
     <td>
       <a href="https://react-scan.com/"><img src='https://img.shields.io/badge/Scan-7a68e7?logo=react&labelColor=grey'></a>
     </td>
-    <td></td>
   </tr>
 </table>
 
