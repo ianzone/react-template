@@ -1,7 +1,10 @@
 {
   "extends": "@es-proj/configs/tsconfig.node",
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "verbatimModuleSyntax": false
   },
   "include": ["vite.config.ts", "vitest.config.ts"]
 }
