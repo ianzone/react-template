@@ -116,6 +116,19 @@
     </td>
   </tr>
   <tr>
+    <th>Animation</th>
+    <td>
+      <ul>
+        <li><strong>2D:</strong>
+        <a href='https://gsap.com/docs/'><img src='https://img.shields.io/badge/2D-GSAP-1ede4e?labelColor=grey'></a>
+        <a href='https://examples.motion.dev/'><img src='https://img.shields.io/badge/2D-Motion-83e6f7?labelColor=grey'></a>
+        <li><strong>3D:</strong>
+        <a href='https://www.babylonjs.com/'><img src='https://img.shields.io/badge/Babylon-BB464B?labelColor=grey&logo=babylondotjs'></a>
+        <a href='https://r3f.docs.pmnd.rs/'><img src='https://img.shields.io/badge/Threejs-000000?labelColor=grey&logo=threedotjs'></a>
+      </ul>
+    </td>
+  </tr>
+  <tr>
     <th>Hooks</th>
     <td>
       <a href='https://ahooks.js.org/zh-CN/hooks/use-request/index'><img src='https://img.shields.io/badge/a-hooks-4569d4?labelColor=grey'></a>

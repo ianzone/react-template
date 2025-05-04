@@ -22,8 +22,9 @@ export function Home() {
         </p>
         <p>{JSON.stringify(import.meta.env)}</p>
       </div>
-      <p className={styles['read-the-docs']}>Click on the Vite and React logos to learn more</p>
-      <MyContainer />
+      <MyContainer>
+        <p className={styles['read-the-docs']}>Click on the Vite and React logos to learn more</p>
+      </MyContainer>
     </div>
   );
 }

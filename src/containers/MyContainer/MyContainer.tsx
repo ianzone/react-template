@@ -1,18 +1,15 @@
-import type { CSSProperties } from 'react';
+import type { CSSProperties, ReactNode } from 'react';
 
-export function MyContainer() {
-  return (
-    <div style={styles.ctn}>
-      <div style={styles.cmp}>My Container</div>
-    </div>
-  );
+interface MyContainerProps {
+  children?: ReactNode;
+}
+
+export function MyContainer(props: MyContainerProps) {
+  return <div style={styles.ctn}>{props.children}</div>;
 }
 
 const styles = {
   ctn: {
     backgroundColor: '#00D8FF',
-  },
-  cmp: {
-    color: 'green',
   },
 } satisfies Record<string, CSSProperties>;
