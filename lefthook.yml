@@ -30,7 +30,7 @@ pre-commit:
           - name: gitleaks
             run: gitleaks protect --staged --no-banner
           - name: audit
-            run: echo https://github.com/oven-sh/bun/issues/5359
+            run: na audit || true
           - name: license
             run: na license-checker-rseidelsohn --summary
           #SECTION - Misc
@@ -41,7 +41,7 @@ prepare-commit-msg:
   commands:
     commit:
       interactive: true
-      run: na git-cz --hook
+      run: na czg --hook
       env:
         LEFTHOOK: "0"
 
