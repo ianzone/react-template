@@ -1,5 +1,22 @@
-import { vitestConfig } from '@es-proj/react-vite';
+import { defineConfig } from 'vitest/config';
 
-// NOTE - vitest should only test functions; DOM test should use playwright.
 // https://cn.vitest.dev/guide/
-export default vitestConfig;
+export default defineConfig({
+  test: {
+    browser: {
+      enabled: true,
+      provider: 'playwright',
+      headless: true,
+      instances: [
+        {
+          browser: 'chromium',
+        },
+      ],
+    },
+    include: ['src/**/*.test.ts?(x)'],
+    coverage: {
+      provider: 'istanbul',
+      include: ['src/**/*.ts'],
+    },
+  },
+});
