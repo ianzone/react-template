@@ -125,6 +125,7 @@
         <li><strong>3D:</strong>
         <a href='https://www.babylonjs.com/'><img src='https://img.shields.io/badge/Babylon-BB464B?labelColor=grey&logo=babylondotjs'></a>
         <a href='https://r3f.docs.pmnd.rs/'><img src='https://img.shields.io/badge/Threejs-000000?labelColor=grey&logo=threedotjs'></a>
+        <a href='https://docs.swmansion.com/TypeGPU/'><img src='https://img.shields.io/badge/TypeGPU-005A9C?labelColor=grey&logo=webgpu'></a>
       </ul>
     </td>
   </tr>

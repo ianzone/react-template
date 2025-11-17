@@ -20,7 +20,7 @@ export function Home() {
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
-        <p>{JSON.stringify(import.meta.env)}</p>
+        <p>Current environment: {JSON.stringify(import.meta.env)}</p>
       </div>
       <MyContainer>
         <p className={styles['read-the-docs']}>Click on the Vite and React logos to learn more</p>
