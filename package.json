@@ -17,29 +17,31 @@
     "squash": "bun scripts/squash.ts && git commit --no-edit --no-verify"
   },
   "dependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.8",
-    "@es-proj/utils": "^1.6.8",
+    "@biomejs/biome": "^2.4.10",
+    "@es-proj/utils": "^1.6.10",
     "@faker-js/faker": "^10.4.0",
-    "@playwright/test": "^1.58.2",
+    "@playwright/cli": "^0.1.6",
+    "@playwright/mcp": "^0.0.70",
+    "@playwright/test": "^1.59.1",
     "@testing-library/react": "^16.3.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
-    "@vitest/browser-playwright": "^4.1.1",
-    "@vitest/coverage-v8": "4.1.1",
-    "code-inspector-plugin": "^1.4.5",
+    "@vitest/browser-playwright": "^4.1.3",
+    "@vitest/coverage-v8": "4.1.3",
+    "code-inspector-plugin": "^1.5.1",
     "czg": "^1.12.0",
-    "knip": "^6.0.4",
-    "lefthook": "^2.1.4",
+    "knip": "^6.3.1",
+    "lefthook": "^2.1.5",
     "license-checker-rseidelsohn": "^4.4.2",
     "typescript": "^6.0.2",
-    "vite": "^8.0.2",
-    "vite-plugin-mock-dev-server": "^2.1.0",
-    "vitest": "^4.1.1"
+    "vite": "^8.0.7",
+    "vite-plugin-mock-dev-server": "^2.1.1",
+    "vitest": "^4.1.3"
   },
   "trustedDependencies": [
     "@biomejs/biome",

@@ -4,29 +4,31 @@
   "workspaces": {
     "": {
       "dependencies": {
-        "react": "^19.2.4",
-        "react-dom": "^19.2.4",
+        "react": "latest",
+        "react-dom": "latest",
       },
       "devDependencies": {
-        "@biomejs/biome": "^2.4.8",
-        "@es-proj/utils": "^1.6.7",
-        "@faker-js/faker": "^10.4.0",
-        "@playwright/test": "^1.58.2",
-        "@testing-library/react": "^16.3.2",
-        "@types/react": "^19.2.14",
-        "@types/react-dom": "^19.2.3",
-        "@vitejs/plugin-react": "^6.0.1",
-        "@vitest/browser-playwright": "^4.1.1",
-        "@vitest/coverage-v8": "4.1.1",
-        "code-inspector-plugin": "^1.4.5",
-        "czg": "^1.12.0",
-        "knip": "^6.0.4",
-        "lefthook": "^2.1.4",
-        "license-checker-rseidelsohn": "^4.4.2",
-        "typescript": "^6.0.2",
-        "vite": "^8.0.2",
-        "vite-plugin-mock-dev-server": "^2.1.0",
-        "vitest": "^4.1.1",
+        "@biomejs/biome": "latest",
+        "@es-proj/utils": "latest",
+        "@faker-js/faker": "latest",
+        "@playwright/cli": "latest",
+        "@playwright/mcp": "latest",
+        "@playwright/test": "latest",
+        "@testing-library/react": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "@vitejs/plugin-react": "latest",
+        "@vitest/browser-playwright": "latest",
+        "@vitest/coverage-v8": "latest",
+        "code-inspector-plugin": "latest",
+        "czg": "latest",
+        "knip": "latest",
+        "lefthook": "latest",
+        "license-checker-rseidelsohn": "latest",
+        "typescript": "latest",
+        "vite": "latest",
+        "vite-plugin-mock-dev-server": "latest",
+        "vitest": "latest",
       },
     },
   },
@@ -49,57 +51,53 @@
 
     "@bcoe/v8-coverage": ["@bcoe/v8-coverage@1.0.2", "https://repo.huaweicloud.com/repository/npm/@bcoe/v8-coverage/-/v8-coverage-1.0.2.tgz", {}, "sha512-6zABk/ECA/QYSCQ1NGiVwwbQerUCZ+TQbp64Q3AgmfNvurHH0j8TtXa1qbShXA6qqkpAj4V5W8pP6mLe1mcMqA=="],
 
-    "@biomejs/biome": ["@biomejs/biome@2.4.8", "https://mirrors.tencent.com/npm/@biomejs/biome/-/biome-2.4.8.tgz", { "optionalDependencies": { "@biomejs/cli-darwin-arm64": "2.4.8", "@biomejs/cli-darwin-x64": "2.4.8", "@biomejs/cli-linux-arm64": "2.4.8", "@biomejs/cli-linux-arm64-musl": "2.4.8", "@biomejs/cli-linux-x64": "2.4.8", "@biomejs/cli-linux-x64-musl": "2.4.8", "@biomejs/cli-win32-arm64": "2.4.8", "@biomejs/cli-win32-x64": "2.4.8" }, "bin": { "biome": "bin/biome" } }, "sha512-ponn0oKOky1oRXBV+rlSaUlixUxf1aZvWC19Z41zBfUOUesthrQqL3OtiAlSB1EjFjyWpn98Q64DHelhA6jNlA=="],
+    "@biomejs/biome": ["@biomejs/biome@2.4.10", "https://registry.npmmirror.com/@biomejs/biome/-/biome-2.4.10.tgz", { "optionalDependencies": { "@biomejs/cli-darwin-arm64": "2.4.10", "@biomejs/cli-darwin-x64": "2.4.10", "@biomejs/cli-linux-arm64": "2.4.10", "@biomejs/cli-linux-arm64-musl": "2.4.10", "@biomejs/cli-linux-x64": "2.4.10", "@biomejs/cli-linux-x64-musl": "2.4.10", "@biomejs/cli-win32-arm64": "2.4.10", "@biomejs/cli-win32-x64": "2.4.10" }, "bin": { "biome": "bin/biome" } }, "sha512-xxA3AphFQ1geij4JTHXv4EeSTda1IFn22ye9LdyVPoJU19fNVl0uzfEuhsfQ4Yue/0FaLs2/ccVi4UDiE7R30w=="],
 
-    "@biomejs/cli-darwin-arm64": ["@biomejs/cli-darwin-arm64@2.4.8", "https://mirrors.tencent.com/npm/@biomejs/cli-darwin-arm64/-/cli-darwin-arm64-2.4.8.tgz", { "os": "darwin", "cpu": "arm64" }, "sha512-ARx0tECE8I7S2C2yjnWYLNbBdDoPdq3oyNLhMglmuctThwUsuzFWRKrHmIGwIRWKz0Mat9DuzLEDp52hGnrxGQ=="],
+    "@biomejs/cli-darwin-arm64": ["@biomejs/cli-darwin-arm64@2.4.10", "https://registry.npmmirror.com/@biomejs/cli-darwin-arm64/-/cli-darwin-arm64-2.4.10.tgz", { "os": "darwin", "cpu": "arm64" }, "sha512-vuzzI1cWqDVzOMIkYyHbKqp+AkQq4K7k+UCXWpkYcY/HDn1UxdsbsfgtVpa40shem8Kax4TLDLlx8kMAecgqiw=="],
 
-    "@biomejs/cli-darwin-x64": ["@biomejs/cli-darwin-x64@2.4.8", "https://mirrors.tencent.com/npm/@biomejs/cli-darwin-x64/-/cli-darwin-x64-2.4.8.tgz", { "os": "darwin", "cpu": "x64" }, "sha512-Jg9/PsB9vDCJlANE8uhG7qDhb5w0Ix69D7XIIc8IfZPUoiPrbLm33k2Ig3NOJ/7nb3UbesFz3D1aDKm9DvzjhQ=="],
+    "@biomejs/cli-darwin-x64": ["@biomejs/cli-darwin-x64@2.4.10", "https://registry.npmmirror.com/@biomejs/cli-darwin-x64/-/cli-darwin-x64-2.4.10.tgz", { "os": "darwin", "cpu": "x64" }, "sha512-14fzASRo+BPotwp7nWULy2W5xeUyFnTaq1V13Etrrxkrih+ez/2QfgFm5Ehtf5vSjtgx/IJycMMpn5kPd5ZNaA=="],
 
-    "@biomejs/cli-linux-arm64": ["@biomejs/cli-linux-arm64@2.4.8", "https://mirrors.tencent.com/npm/@biomejs/cli-linux-arm64/-/cli-linux-arm64-2.4.8.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-5CdrsJct76XG2hpKFwXnEtlT1p+4g4yV+XvvwBpzKsTNLO9c6iLlAxwcae2BJ7ekPGWjNGw9j09T5KGPKKxQig=="],
+    "@biomejs/cli-linux-arm64": ["@biomejs/cli-linux-arm64@2.4.10", "https://registry.npmmirror.com/@biomejs/cli-linux-arm64/-/cli-linux-arm64-2.4.10.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-7MH1CMW5uuxQ/s7FLST63qF8B3Hgu2HRdZ7tA1X1+mk+St4JOuIrqdhIBnnyqeyWJNI+Bww7Es5QZ0wIc1Cmkw=="],
 
-    "@biomejs/cli-linux-arm64-musl": ["@biomejs/cli-linux-arm64-musl@2.4.8", "https://mirrors.tencent.com/npm/@biomejs/cli-linux-arm64-musl/-/cli-linux-arm64-musl-2.4.8.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-Zo9OhBQDJ3IBGPlqHiTISloo5H0+FBIpemqIJdW/0edJ+gEcLR+MZeZozcUyz3o1nXkVA7++DdRKQT0599j9jA=="],
+    "@biomejs/cli-linux-arm64-musl": ["@biomejs/cli-linux-arm64-musl@2.4.10", "https://registry.npmmirror.com/@biomejs/cli-linux-arm64-musl/-/cli-linux-arm64-musl-2.4.10.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-WrJY6UuiSD/Dh+nwK2qOTu8kdMDlLV3dLMmychIghHPAysWFq1/DGC1pVZx8POE3ZkzKR3PUUnVrtZfMfaJjyQ=="],
 
-    "@biomejs/cli-linux-x64": ["@biomejs/cli-linux-x64@2.4.8", "https://mirrors.tencent.com/npm/@biomejs/cli-linux-x64/-/cli-linux-x64-2.4.8.tgz", { "os": "linux", "cpu": "x64" }, "sha512-PdKXspVEaMCQLjtZCn6vfSck/li4KX9KGwSDbZdgIqlrizJ2MnMcE3TvHa2tVfXNmbjMikzcfJpuPWH695yJrw=="],
+    "@biomejs/cli-linux-x64": ["@biomejs/cli-linux-x64@2.4.10", "https://registry.npmmirror.com/@biomejs/cli-linux-x64/-/cli-linux-x64-2.4.10.tgz", { "os": "linux", "cpu": "x64" }, "sha512-tZLvEEi2u9Xu1zAqRjTcpIDGVtldigVvzug2fTuPG0ME/g8/mXpRPcNgLB22bGn6FvLJpHHnqLnwliOu8xjYrg=="],
 
-    "@biomejs/cli-linux-x64-musl": ["@biomejs/cli-linux-x64-musl@2.4.8", "https://mirrors.tencent.com/npm/@biomejs/cli-linux-x64-musl/-/cli-linux-x64-musl-2.4.8.tgz", { "os": "linux", "cpu": "x64" }, "sha512-Gi8quv8MEuDdKaPFtS2XjEnMqODPsRg6POT6KhoP+VrkNb+T2ywunVB+TvOU0LX1jAZzfBr+3V1mIbBhzAMKvw=="],
+    "@biomejs/cli-linux-x64-musl": ["@biomejs/cli-linux-x64-musl@2.4.10", "https://registry.npmmirror.com/@biomejs/cli-linux-x64-musl/-/cli-linux-x64-musl-2.4.10.tgz", { "os": "linux", "cpu": "x64" }, "sha512-kDTi3pI6PBN6CiczsWYOyP2zk0IJI08EWEQyDMQWW221rPaaEz6FvjLhnU07KMzLv8q3qSuoB93ua6inSQ55Tw=="],
 
-    "@biomejs/cli-win32-arm64": ["@biomejs/cli-win32-arm64@2.4.8", "https://mirrors.tencent.com/npm/@biomejs/cli-win32-arm64/-/cli-win32-arm64-2.4.8.tgz", { "os": "win32", "cpu": "arm64" }, "sha512-LoFatS0tnHv6KkCVpIy3qZCih+MxUMvdYiPWLHRri7mhi2vyOOs8OrbZBcLTUEWCS+ktO72nZMy4F96oMhkOHQ=="],
+    "@biomejs/cli-win32-arm64": ["@biomejs/cli-win32-arm64@2.4.10", "https://registry.npmmirror.com/@biomejs/cli-win32-arm64/-/cli-win32-arm64-2.4.10.tgz", { "os": "win32", "cpu": "arm64" }, "sha512-umwQU6qPzH+ISTf/eHyJ/QoQnJs3V9Vpjz2OjZXe9MVBZ7prgGafMy7yYeRGnlmDAn87AKTF3Q6weLoMGpeqdQ=="],
 
-    "@biomejs/cli-win32-x64": ["@biomejs/cli-win32-x64@2.4.8", "https://mirrors.tencent.com/npm/@biomejs/cli-win32-x64/-/cli-win32-x64-2.4.8.tgz", { "os": "win32", "cpu": "x64" }, "sha512-vAn7iXDoUbqFXqVocuq1sMYAd33p8+mmurqJkWl6CtIhobd/O6moe4rY5AJvzbunn/qZCdiDVcveqtkFh1e7Hg=="],
+    "@biomejs/cli-win32-x64": ["@biomejs/cli-win32-x64@2.4.10", "https://registry.npmmirror.com/@biomejs/cli-win32-x64/-/cli-win32-x64-2.4.10.tgz", { "os": "win32", "cpu": "x64" }, "sha512-aW/JU5GuyH4uxMrNYpoC2kjaHlyJGLgIa3XkhPEZI0uKhZhJZU8BuEyJmvgzSPQNGozBwWjC972RaNdcJ9KyJg=="],
 
     "@blazediff/core": ["@blazediff/core@1.9.1", "https://mirrors.tencent.com/npm/@blazediff/core/-/core-1.9.1.tgz", {}, "sha512-ehg3jIkYKulZh+8om/O25vkvSsXXwC+skXmyA87FFx6A/45eqOkZsBltMw/TVteb0mloiGT8oGRTcjRAz66zaA=="],
 
-    "@code-inspector/core": ["@code-inspector/core@1.4.5", "https://mirrors.tencent.com/npm/@code-inspector/core/-/core-1.4.5.tgz", { "dependencies": { "@vue/compiler-dom": "^3.5.13", "chalk": "^4.1.1", "dotenv": "^16.1.4", "launch-ide": "1.4.3", "portfinder": "^1.0.28" } }, "sha512-wskkSRX13TAqJG65d5sq0bRZ4kYktas/iE70xqXMOeqW/A6n2Zqhw5QRHANmEmlBvB9bP/bse+9iBkNN3Q2Skw=="],
+    "@code-inspector/core": ["@code-inspector/core@1.5.1", "https://registry.npmmirror.com/@code-inspector/core/-/core-1.5.1.tgz", { "dependencies": { "@vue/compiler-dom": "^3.5.13", "chalk": "^4.1.1", "dotenv": "^16.1.4", "launch-ide": "1.4.3", "portfinder": "^1.0.28" } }, "sha512-Y9JdgoxVh93xRMupTa1lT/v+UlcBEpM7Y1BTxQy924wSe6VVEXsJ1nPJ/Ob2HPMUAA6F568aHALi2KDUhA2kzg=="],
 
-    "@code-inspector/esbuild": ["@code-inspector/esbuild@1.4.5", "https://mirrors.tencent.com/npm/@code-inspector/esbuild/-/esbuild-1.4.5.tgz", { "dependencies": { "@code-inspector/core": "1.4.5" } }, "sha512-KBwq7waqZ3L1CW7N9ff7aS0HxzamrslR08i5ovkLQe1p6tH9Axe9zzCrBnvgmB0UZsT2r/5wKLOWyEpq5+VYKw=="],
+    "@code-inspector/esbuild": ["@code-inspector/esbuild@1.5.1", "https://registry.npmmirror.com/@code-inspector/esbuild/-/esbuild-1.5.1.tgz", { "dependencies": { "@code-inspector/core": "1.5.1" } }, "sha512-Z/WZVCG6WaB9HTcDC8l15RpgEsfFj/WKLLr6cKNX/JzAYBroadLPw1N0sbUJUIQnow5cCo7KYpHrC1T27WVMnw=="],
 
-    "@code-inspector/mako": ["@code-inspector/mako@1.4.5", "https://mirrors.tencent.com/npm/@code-inspector/mako/-/mako-1.4.5.tgz", { "dependencies": { "@code-inspector/core": "1.4.5" } }, "sha512-yrHgE5+b4ZL29Xt+y0H/9xrXSbRskq7dFhmE9GYFWCcgdWNCMD25hZd7xZVije94++H65Vw6Bu/abfqEx0peog=="],
+    "@code-inspector/mako": ["@code-inspector/mako@1.5.1", "https://registry.npmmirror.com/@code-inspector/mako/-/mako-1.5.1.tgz", { "dependencies": { "@code-inspector/core": "1.5.1" } }, "sha512-EQmqQnnyW8tf3EBRlYyRYv1n3W1PUcfaYuuXXAfBdfJIGMwJjj0PcrDsdiI5MNyFmIx3QdMREhWmPMx1LoAANg=="],
 
-    "@code-inspector/turbopack": ["@code-inspector/turbopack@1.4.5", "https://mirrors.tencent.com/npm/@code-inspector/turbopack/-/turbopack-1.4.5.tgz", { "dependencies": { "@code-inspector/core": "1.4.5", "@code-inspector/webpack": "1.4.5" } }, "sha512-IG39ikmQthdx/oAxhpV7zsIQZ3Jpycl88JzH+UXHq0ZpfHwa1KdNc/9erP3kFMY4+ANmkmerqBk57knmRTGMRQ=="],
+    "@code-inspector/turbopack": ["@code-inspector/turbopack@1.5.1", "https://registry.npmmirror.com/@code-inspector/turbopack/-/turbopack-1.5.1.tgz", { "dependencies": { "@code-inspector/core": "1.5.1", "@code-inspector/webpack": "1.5.1" } }, "sha512-PeLbcDtKDoSrKPsWnwQc+Yj9KgCa3xbHxEwXa/aGVykilvfvYP9AH1z5BRyZLDgB21diSV75BPNpF+o/FQRYug=="],
 
-    "@code-inspector/vite": ["@code-inspector/vite@1.4.5", "https://mirrors.tencent.com/npm/@code-inspector/vite/-/vite-1.4.5.tgz", { "dependencies": { "@code-inspector/core": "1.4.5", "chalk": "4.1.1" } }, "sha512-vBtH91afwYL7JV4zWcJJTFd65LJ4SZz5E9AwGgCF30/L1mdDx7U29D+M+JpaxSgsMB6monKSZh+ubbqYe0ixpQ=="],
+    "@code-inspector/vite": ["@code-inspector/vite@1.5.1", "https://registry.npmmirror.com/@code-inspector/vite/-/vite-1.5.1.tgz", { "dependencies": { "@code-inspector/core": "1.5.1", "chalk": "4.1.1" } }, "sha512-gkfmSmawYb1yDDuCft4DESXCAD3JxPt59dGiRoD78GhQzSYHk3tnLPZMH/GLBpdeFNbKHi1FtEMbAAECIJG9xg=="],
 
-    "@code-inspector/webpack": ["@code-inspector/webpack@1.4.5", "https://mirrors.tencent.com/npm/@code-inspector/webpack/-/webpack-1.4.5.tgz", { "dependencies": { "@code-inspector/core": "1.4.5" } }, "sha512-lwUv+X1FNSUWz+FKcUsE2dT2pg6VFRRXKt16hg/m+Lwtdet2adfi6BFLZmNz3OPIEGbRB5Kjx6bfaghZhbDCCg=="],
+    "@code-inspector/webpack": ["@code-inspector/webpack@1.5.1", "https://registry.npmmirror.com/@code-inspector/webpack/-/webpack-1.5.1.tgz", { "dependencies": { "@code-inspector/core": "1.5.1" } }, "sha512-8i3QI/bSirORDF/0P16T6NhNy1RxO7soip8sWeV/2btLbYCwyiaDnqT4Bw3JaM8MNz0N8NaA2qItUrrKE7TtCg=="],
 
-    "@emnapi/core": ["@emnapi/core@1.7.1", "https://mirrors.tencent.com/npm/@emnapi/core/-/core-1.7.1.tgz", { "dependencies": { "@emnapi/wasi-threads": "1.1.0", "tslib": "^2.4.0" } }, "sha512-o1uhUASyo921r2XtHYOHy7gdkGLge8ghBEQHMWmyJFoXlpU58kIrhhN3w26lpQb6dspetweapMn2CSNwQ8I4wg=="],
+    "@emnapi/core": ["@emnapi/core@1.9.1", "https://repo.huaweicloud.com/repository/npm/@emnapi/core/-/core-1.9.1.tgz", { "dependencies": { "@emnapi/wasi-threads": "1.2.0", "tslib": "^2.4.0" } }, "sha512-mukuNALVsoix/w1BJwFzwXBN/dHeejQtuVzcDsfOEsdpCumXb/E9j8w11h5S54tT1xhifGfbbSm/ICrObRb3KA=="],
 
-    "@emnapi/runtime": ["@emnapi/runtime@1.7.1", "https://mirrors.tencent.com/npm/@emnapi/runtime/-/runtime-1.7.1.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-PVtJr5CmLwYAU9PZDMITZoR5iAOShYREoR45EyyLrbntV50mdePTgUn4AmOw90Ifcj+x2kRjdzr1HP3RrNiHGA=="],
+    "@emnapi/runtime": ["@emnapi/runtime@1.9.1", "https://repo.huaweicloud.com/repository/npm/@emnapi/runtime/-/runtime-1.9.1.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-VYi5+ZVLhpgK4hQ0TAjiQiZ6ol0oe4mBx7mVv7IflsiEp0OWoVsp/+f9Vc1hOhE0TtkORVrI1GvzyreqpgWtkA=="],
 
-    "@emnapi/wasi-threads": ["@emnapi/wasi-threads@1.1.0", "https://registry.npmmirror.com/@emnapi/wasi-threads/-/wasi-threads-1.1.0.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-WI0DdZ8xFSbgMjR1sFsKABJ/C5OnRrjT06JXbZKexJGrDuPTzZdDYfFlsgcCXCyf+suG5QU2e/y1Wo2V/OapLQ=="],
+    "@emnapi/wasi-threads": ["@emnapi/wasi-threads@1.2.0", "https://repo.huaweicloud.com/repository/npm/@emnapi/wasi-threads/-/wasi-threads-1.2.0.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-N10dEJNSsUx41Z6pZsXU8FjPjpBEplgH24sfkmITrBED1/U2Esum9F3lfLrMjKHHjmi557zQn7kR9R+XWXu5Rg=="],
 
-    "@es-proj/configs": ["@es-proj/configs@1.0.12", "", { "peerDependencies": { "@biomejs/biome": "^2.0.5", "typescript": "^5.8.3" } }, "sha512-BeRQpkDqT414aHZPe1zdiqADYe+hsaQ+Wd8hC1VcleWZj5YXLZF/K2eSULR+GkDNyu3ohk7O4Mwa1shwK69TPQ=="],
+    "@es-proj/configs": ["@es-proj/configs@1.0.13", "https://registry.npmmirror.com/@es-proj/configs/-/configs-1.0.13.tgz", { "peerDependencies": { "@biomejs/biome": "^2.4.8", "typescript": "^6.0.2" } }, "sha512-epxSHwu0iLQE3EPIM5l15ALSXpoSBLlyGzHmgWmshaRzylMlcCHkbyL3H6ykM6h8Dyd8QcN3Bxa1LOZEwcmNWQ=="],
 
-    "@es-proj/utils": ["@es-proj/utils@1.6.8", "", { "dependencies": { "@es-proj/configs": "1.0.12", "glob": "^11.0.2", "type-fest": "^4.40.1" } }, "sha512-+Fnzc433hR8Y8ugDtD2fpP8ShAXa0PirchSOYFo6PzBG+snaYO4IlwOx0/mXueCVW8H9hVEW/phC/wDMaT372w=="],
+    "@es-proj/utils": ["@es-proj/utils@1.6.10", "https://registry.npmmirror.com/@es-proj/utils/-/utils-1.6.10.tgz", { "dependencies": { "@es-proj/configs": "^1.0.12", "glob": "^11.0.2", "type-fest": "^4.40.1" } }, "sha512-hAJMV7MSLZHu2hSKQYXmMGBH9eA+wKXkAKhQ48gpVvUijMayuAJIuhl9UlKHX9ZcPtOULS9tHc3lX1Ne8ldMUg=="],
 
     "@faker-js/faker": ["@faker-js/faker@10.4.0", "https://mirrors.tencent.com/npm/@faker-js/faker/-/faker-10.4.0.tgz", {}, "sha512-sDBWI3yLy8EcDzgobvJTWq1MJYzAkQdpjXuPukga9wXonhpMRvd1Izuo2Qgwey2OiEoRIBr35RMU9HJRoOHzpw=="],
 
     "@hapi/bourne": ["@hapi/bourne@3.0.0", "https://repo.huaweicloud.com/repository/npm/@hapi/bourne/-/bourne-3.0.0.tgz", {}, "sha512-Waj1cwPXJDucOib4a3bAISsKJVb15MKi9IvmTI/7ssVEm6sywXGjVJDhl6/umt1pK1ZS7PacXU3A1PmFKHEZ2w=="],
 
-    "@isaacs/balanced-match": ["@isaacs/balanced-match@4.0.1", "https://mirrors.tencent.com/npm/@isaacs/balanced-match/-/balanced-match-4.0.1.tgz", {}, "sha512-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6+TiGQDQ=="],
-
-    "@isaacs/brace-expansion": ["@isaacs/brace-expansion@5.0.0", "https://mirrors.tencent.com/npm/@isaacs/brace-expansion/-/brace-expansion-5.0.0.tgz", { "dependencies": { "@isaacs/balanced-match": "^4.0.1" } }, "sha512-ZT55BDLV0yv0RBm2czMiZ+SqCGO7AvmOM3G/w2xhVPH+te0aKgFjmBvGlL1dH+ql2tgGO3MVrbb3jCKyvpgnxA=="],
-
-    "@isaacs/cliui": ["@isaacs/cliui@8.0.2", "https://mirrors.tencent.com/npm/@isaacs/cliui/-/cliui-8.0.2.tgz", { "dependencies": { "string-width": "^5.1.2", "string-width-cjs": "npm:string-width@^4.2.0", "strip-ansi": "^7.0.1", "strip-ansi-cjs": "npm:strip-ansi@^6.0.1", "wrap-ansi": "^8.1.0", "wrap-ansi-cjs": "npm:wrap-ansi@^7.0.0" } }, "sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA=="],
+    "@isaacs/cliui": ["@isaacs/cliui@9.0.0", "https://registry.npmmirror.com/@isaacs/cliui/-/cliui-9.0.0.tgz", {}, "sha512-AokJm4tuBHillT+FpMtxQ60n8ObyXBatq7jD2/JA9dxbDDokKQm8KMht5ibGzLVU9IJDIKK4TPKgMHEYMn3lMg=="],
 
     "@jridgewell/resolve-uri": ["@jridgewell/resolve-uri@3.1.2", "https://mirrors.tencent.com/npm/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz", {}, "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw=="],
 
@@ -119,47 +117,47 @@
 
     "@npmcli/fs": ["@npmcli/fs@3.1.1", "https://mirrors.tencent.com/npm/@npmcli/fs/-/fs-3.1.1.tgz", { "dependencies": { "semver": "^7.3.5" } }, "sha512-q9CRWjpHCMIh5sVyefoD1cA7PkvILqCZsnSOEUUivORLjxCO/Irmue2DprETiNgEqktDBZaM1Bi+jrarx1XdCg=="],
 
-    "@oxc-parser/binding-android-arm-eabi": ["@oxc-parser/binding-android-arm-eabi@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-android-arm-eabi/-/binding-android-arm-eabi-0.120.0.tgz", { "os": "android", "cpu": "arm" }, "sha512-WU3qtINx802wOl8RxAF1v0VvmC2O4D9M8Sv486nLeQ7iPHVmncYZrtBhB4SYyX+XZxj2PNnCcN+PW21jHgiOxg=="],
+    "@oxc-parser/binding-android-arm-eabi": ["@oxc-parser/binding-android-arm-eabi@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-android-arm-eabi/-/binding-android-arm-eabi-0.121.0.tgz", { "os": "android", "cpu": "arm" }, "sha512-n07FQcySwOlzap424/PLMtOkbS7xOu8nsJduKL8P3COGHKgKoDYXwoAHCbChfgFpHnviehrLWIPX0lKGtbEk/A=="],
 
-    "@oxc-parser/binding-android-arm64": ["@oxc-parser/binding-android-arm64@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-android-arm64/-/binding-android-arm64-0.120.0.tgz", { "os": "android", "cpu": "arm64" }, "sha512-SEf80EHdhlbjZEgzeWm0ZA/br4GKMenDW3QB/gtyeTV1gStvvZeFi40ioHDZvds2m4Z9J1bUAUL8yn1/+A6iGg=="],
+    "@oxc-parser/binding-android-arm64": ["@oxc-parser/binding-android-arm64@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-android-arm64/-/binding-android-arm64-0.121.0.tgz", { "os": "android", "cpu": "arm64" }, "sha512-/Dd1xIXboYAicw+twT2utxPD7bL8qh7d3ej0qvaYIMj3/EgIrGR+tSnjCUkiCT6g6uTC0neSS4JY8LxhdSU/sA=="],
 
-    "@oxc-parser/binding-darwin-arm64": ["@oxc-parser/binding-darwin-arm64@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-darwin-arm64/-/binding-darwin-arm64-0.120.0.tgz", { "os": "darwin", "cpu": "arm64" }, "sha512-xVrrbCai8R8CUIBu3CjryutQnEYhZqs1maIqDvtUCFZb8vY33H7uh9mHpL3a0JBIKoBUKjPH8+rzyAeXnS2d6A=="],
+    "@oxc-parser/binding-darwin-arm64": ["@oxc-parser/binding-darwin-arm64@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-darwin-arm64/-/binding-darwin-arm64-0.121.0.tgz", { "os": "darwin", "cpu": "arm64" }, "sha512-A0jNEvv7QMtCO1yk205t3DWU9sWUjQ2KNF0hSVO5W9R9r/R1BIvzG01UQAfmtC0dQm7sCrs5puixurKSfr2bRQ=="],
 
-    "@oxc-parser/binding-darwin-x64": ["@oxc-parser/binding-darwin-x64@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-darwin-x64/-/binding-darwin-x64-0.120.0.tgz", { "os": "darwin", "cpu": "x64" }, "sha512-xyHBbnJ6mydnQUH7MAcafOkkrNzQC6T+LXgDH/3InEq2BWl/g424IMRiJVSpVqGjB+p2bd0h0WRR8iIwzjU7rw=="],
+    "@oxc-parser/binding-darwin-x64": ["@oxc-parser/binding-darwin-x64@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-darwin-x64/-/binding-darwin-x64-0.121.0.tgz", { "os": "darwin", "cpu": "x64" }, "sha512-SsHzipdxTKUs3I9EOAPmnIimEeJOemqRlRDOp9LIj+96wtxZejF51gNibmoGq8KoqbT1ssAI5po/E3J+vEtXGA=="],
 
-    "@oxc-parser/binding-freebsd-x64": ["@oxc-parser/binding-freebsd-x64@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-freebsd-x64/-/binding-freebsd-x64-0.120.0.tgz", { "os": "freebsd", "cpu": "x64" }, "sha512-UMnVRllquXUYTeNfFKmxTTEdZ/ix1nLl0ducDzMSREoWYGVIHnOOxoKMWlCOvRr9Wk/HZqo2rh1jeumbPGPV9A=="],
+    "@oxc-parser/binding-freebsd-x64": ["@oxc-parser/binding-freebsd-x64@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-freebsd-x64/-/binding-freebsd-x64-0.121.0.tgz", { "os": "freebsd", "cpu": "x64" }, "sha512-v1APOTkCp+RWOIDAHRoaeW/UoaHF15a60E8eUL6kUQXh+i4K7PBwq2Wi7jm8p0ymID5/m/oC1w3W31Z/+r7HQw=="],
 
-    "@oxc-parser/binding-linux-arm-gnueabihf": ["@oxc-parser/binding-linux-arm-gnueabihf@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-0.120.0.tgz", { "os": "linux", "cpu": "arm" }, "sha512-tkvn2CQ7QdcsMnpfiX3fd3wA3EFsWKYlcQzq9cFw/xc89Al7W6Y4O0FgLVkVQpo0Tnq/qtE1XfkJOnRRA9S/NA=="],
+    "@oxc-parser/binding-linux-arm-gnueabihf": ["@oxc-parser/binding-linux-arm-gnueabihf@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-0.121.0.tgz", { "os": "linux", "cpu": "arm" }, "sha512-PmqPQuqHZyFVWA4ycr0eu4VnTMmq9laOHZd+8R359w6kzuNZPvmmunmNJ8ybkm769A0nCoVp3TJ6dUz7B3FYIQ=="],
 
-    "@oxc-parser/binding-linux-arm-musleabihf": ["@oxc-parser/binding-linux-arm-musleabihf@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-linux-arm-musleabihf/-/binding-linux-arm-musleabihf-0.120.0.tgz", { "os": "linux", "cpu": "arm" }, "sha512-WN5y135Ic42gQDk9grbwY9++fDhqf8knN6fnP+0WALlAUh4odY/BDK1nfTJRSfpJD9P3r1BwU0m3pW2DU89whQ=="],
+    "@oxc-parser/binding-linux-arm-musleabihf": ["@oxc-parser/binding-linux-arm-musleabihf@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-linux-arm-musleabihf/-/binding-linux-arm-musleabihf-0.121.0.tgz", { "os": "linux", "cpu": "arm" }, "sha512-vF24htj+MOH+Q7y9A8NuC6pUZu8t/C2Fr/kDOi2OcNf28oogr2xadBPXAbml802E8wRAVfbta6YLDQTearz+jw=="],
 
-    "@oxc-parser/binding-linux-arm64-gnu": ["@oxc-parser/binding-linux-arm64-gnu@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-0.120.0.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-1GgQBCcXvFMw99EPdMy+4NZ3aYyXsxjf9kbUUg8HuAy3ZBXzOry5KfFEzT9nqmgZI1cuetvApkiJBZLAPo8uaw=="],
+    "@oxc-parser/binding-linux-arm64-gnu": ["@oxc-parser/binding-linux-arm64-gnu@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-0.121.0.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-wjH8cIG2Lu/3d64iZpbYr73hREMgKAfu7fqpXjgM2S16y2zhTfDIp8EQjxO8vlDtKP5Rc7waZW72lh8nZtWrpA=="],
 
-    "@oxc-parser/binding-linux-arm64-musl": ["@oxc-parser/binding-linux-arm64-musl@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-linux-arm64-musl/-/binding-linux-arm64-musl-0.120.0.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-gmMQ70gsPdDBgpcErvJEoWNBr7bJooSLlvOBVBSGfOzlP5NvJ3bFvnUeZZ9d+dPrqSngtonf7nyzWUTUj/U+lw=="],
+    "@oxc-parser/binding-linux-arm64-musl": ["@oxc-parser/binding-linux-arm64-musl@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-linux-arm64-musl/-/binding-linux-arm64-musl-0.121.0.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-qT663J/W8yQFw3dtscbEi9LKJevr20V7uWs2MPGTnvNZ3rm8anhhE16gXGpxDOHeg9raySaSHKhd4IGa3YZvuw=="],
 
-    "@oxc-parser/binding-linux-ppc64-gnu": ["@oxc-parser/binding-linux-ppc64-gnu@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-linux-ppc64-gnu/-/binding-linux-ppc64-gnu-0.120.0.tgz", { "os": "linux", "cpu": "ppc64" }, "sha512-T/kZuU0ajop0xhzVMwH5r3srC9Nqup5HaIo+3uFjIN5uPxa0LvSxC1ZqP4aQGJVW5G0z8/nCkjIfSMS91P/wzw=="],
+    "@oxc-parser/binding-linux-ppc64-gnu": ["@oxc-parser/binding-linux-ppc64-gnu@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-linux-ppc64-gnu/-/binding-linux-ppc64-gnu-0.121.0.tgz", { "os": "linux", "cpu": "ppc64" }, "sha512-mYNe4NhVvDBbPkAP8JaVS8lC1dsoJZWH5WCjpw5E+sjhk1R08wt3NnXYUzum7tIiWPfgQxbCMcoxgeemFASbRw=="],
 
-    "@oxc-parser/binding-linux-riscv64-gnu": ["@oxc-parser/binding-linux-riscv64-gnu@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-linux-riscv64-gnu/-/binding-linux-riscv64-gnu-0.120.0.tgz", { "os": "linux", "cpu": "none" }, "sha512-vn21KXLAXzaI3N5CZWlBr1iWeXLl9QFIMor7S1hUjUGTeUuWCoE6JZB040/ZNDwf+JXPX8Ao9KbmJq9FMC2iGw=="],
+    "@oxc-parser/binding-linux-riscv64-gnu": ["@oxc-parser/binding-linux-riscv64-gnu@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-linux-riscv64-gnu/-/binding-linux-riscv64-gnu-0.121.0.tgz", { "os": "linux", "cpu": "none" }, "sha512-+QiFoGxhAbaI/amqX567784cDyyuZIpinBrJNxUzb+/L2aBRX67mN6Jv40pqduHf15yYByI+K5gUEygCuv0z9w=="],
 
-    "@oxc-parser/binding-linux-riscv64-musl": ["@oxc-parser/binding-linux-riscv64-musl@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-linux-riscv64-musl/-/binding-linux-riscv64-musl-0.120.0.tgz", { "os": "linux", "cpu": "none" }, "sha512-SUbUxlar007LTGmSLGIC5x/WJvwhdX+PwNzFJ9f/nOzZOrCFbOT4ikt7pJIRg1tXVsEfzk5mWpGO1NFiSs4PIw=="],
+    "@oxc-parser/binding-linux-riscv64-musl": ["@oxc-parser/binding-linux-riscv64-musl@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-linux-riscv64-musl/-/binding-linux-riscv64-musl-0.121.0.tgz", { "os": "linux", "cpu": "none" }, "sha512-9ykEgyTa5JD/Uhv2sttbKnCfl2PieUfOjyxJC/oDL2UO0qtXOtjPLl7H8Kaj5G7p3hIvFgu3YWvAxvE0sqY+hQ=="],
 
-    "@oxc-parser/binding-linux-s390x-gnu": ["@oxc-parser/binding-linux-s390x-gnu@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-linux-s390x-gnu/-/binding-linux-s390x-gnu-0.120.0.tgz", { "os": "linux", "cpu": "s390x" }, "sha512-hYiPJTxyfJY2+lMBFk3p2bo0R9GN+TtpPFlRqVchL1qvLG+pznstramHNvJlw9AjaoRUHwp9IKR7UZQnRPGjgQ=="],
+    "@oxc-parser/binding-linux-s390x-gnu": ["@oxc-parser/binding-linux-s390x-gnu@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-linux-s390x-gnu/-/binding-linux-s390x-gnu-0.121.0.tgz", { "os": "linux", "cpu": "s390x" }, "sha512-DB1EW5VHZdc1lIRjOI3bW/wV6R6y0xlfvdVrqj6kKi7Ayu2U3UqUBdq9KviVkcUGd5Oq+dROqvUEEFRXGAM7EQ=="],
 
-    "@oxc-parser/binding-linux-x64-gnu": ["@oxc-parser/binding-linux-x64-gnu@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.120.0.tgz", { "os": "linux", "cpu": "x64" }, "sha512-q+5jSVZkprJCIy3dzJpApat0InJaoxQLsJuD6DkX8hrUS61z2lHQ1Fe9L2+TYbKHXCLWbL0zXe7ovkIdopBGMQ=="],
+    "@oxc-parser/binding-linux-x64-gnu": ["@oxc-parser/binding-linux-x64-gnu@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.121.0.tgz", { "os": "linux", "cpu": "x64" }, "sha512-s4lfobX9p4kPTclvMiH3gcQUd88VlnkMTF6n2MTMDAyX5FPNRhhRSFZK05Ykhf8Zy5NibV4PbGR6DnK7FGNN6A=="],
 
-    "@oxc-parser/binding-linux-x64-musl": ["@oxc-parser/binding-linux-x64-musl@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-linux-x64-musl/-/binding-linux-x64-musl-0.120.0.tgz", { "os": "linux", "cpu": "x64" }, "sha512-D9QDDZNnH24e7X4ftSa6ar/2hCavETfW3uk0zgcMIrZNy459O5deTbWrjGzZiVrSWigGtlQwzs2McBP0QsfV1w=="],
+    "@oxc-parser/binding-linux-x64-musl": ["@oxc-parser/binding-linux-x64-musl@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-linux-x64-musl/-/binding-linux-x64-musl-0.121.0.tgz", { "os": "linux", "cpu": "x64" }, "sha512-P9KlyTpuBuMi3NRGpJO8MicuGZfOoqZVRP1WjOecwx8yk4L/+mrCRNc5egSi0byhuReblBF2oVoDSMgV9Bj4Hw=="],
 
-    "@oxc-parser/binding-openharmony-arm64": ["@oxc-parser/binding-openharmony-arm64@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-openharmony-arm64/-/binding-openharmony-arm64-0.120.0.tgz", { "os": "none", "cpu": "arm64" }, "sha512-TBU8ZwOUWAOUWVfmI16CYWbvh4uQb9zHnGBHsw5Cp2JUVG044OIY1CSHODLifqzQIMTXvDvLzcL89GGdUIqNrA=="],
+    "@oxc-parser/binding-openharmony-arm64": ["@oxc-parser/binding-openharmony-arm64@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-openharmony-arm64/-/binding-openharmony-arm64-0.121.0.tgz", { "os": "none", "cpu": "arm64" }, "sha512-R+4jrWOfF2OAPPhj3Eb3U5CaKNAH9/btMveMULIrcNW/hjfysFQlF8wE0GaVBr81dWz8JLgQlsxwctoL78JwXw=="],
 
-    "@oxc-parser/binding-wasm32-wasi": ["@oxc-parser/binding-wasm32-wasi@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-wasm32-wasi/-/binding-wasm32-wasi-0.120.0.tgz", { "dependencies": { "@napi-rs/wasm-runtime": "^1.1.1" }, "cpu": "none" }, "sha512-WG/FOZgDJCpJnuF3ToG/K28rcOmSY7FmFmfBKYb2fmLyhDzPpUldFGV7/Fz4ru0Iz/v4KPmf8xVgO8N3lO4KHA=="],
+    "@oxc-parser/binding-wasm32-wasi": ["@oxc-parser/binding-wasm32-wasi@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-wasm32-wasi/-/binding-wasm32-wasi-0.121.0.tgz", { "dependencies": { "@napi-rs/wasm-runtime": "^1.1.1" }, "cpu": "none" }, "sha512-5TFISkPTymKvsmIlKasPVTPuWxzCcrT8pM+p77+mtQbIZDd1UC8zww4CJcRI46kolmgrEX6QpKO8AvWMVZ+ifw=="],
 
-    "@oxc-parser/binding-win32-arm64-msvc": ["@oxc-parser/binding-win32-arm64-msvc@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-0.120.0.tgz", { "os": "win32", "cpu": "arm64" }, "sha512-1T0HKGcsz/BKo77t7+89L8Qvu4f9DoleKWHp3C5sJEcbCjDOLx3m9m722bWZTY+hANlUEs+yjlK+lBFsA+vrVQ=="],
+    "@oxc-parser/binding-win32-arm64-msvc": ["@oxc-parser/binding-win32-arm64-msvc@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-0.121.0.tgz", { "os": "win32", "cpu": "arm64" }, "sha512-V0pxh4mql4XTt3aiEtRNUeBAUFOw5jzZNxPABLaOKAWrVzSr9+XUaB095lY7jqMf5t8vkfh8NManGB28zanYKw=="],
 
-    "@oxc-parser/binding-win32-ia32-msvc": ["@oxc-parser/binding-win32-ia32-msvc@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-0.120.0.tgz", { "os": "win32", "cpu": "ia32" }, "sha512-L7vfLzbOXsjBXV0rv/6Y3Jd9BRjPeCivINZAqrSyAOZN3moCopDN+Psq9ZrGNZtJzP8946MtlRFZ0Als0wBCOw=="],
+    "@oxc-parser/binding-win32-ia32-msvc": ["@oxc-parser/binding-win32-ia32-msvc@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-0.121.0.tgz", { "os": "win32", "cpu": "ia32" }, "sha512-4Ob1qvYMPnlF2N9rdmKdkQFdrq16QVcQwBsO8yiPZXof0fHKFF+LmQV501XFbi7lHyrKm8rlJRfQ/M8bZZPVLw=="],
 
-    "@oxc-parser/binding-win32-x64-msvc": ["@oxc-parser/binding-win32-x64-msvc@0.120.0", "https://mirrors.tencent.com/npm/@oxc-parser/binding-win32-x64-msvc/-/binding-win32-x64-msvc-0.120.0.tgz", { "os": "win32", "cpu": "x64" }, "sha512-ys+upfqNtSu58huAhJMBKl3XCkGzyVFBlMlGPzHeFKgpFF/OdgNs1MMf8oaJIbgMH8ZxgGF7qfue39eJohmKIg=="],
+    "@oxc-parser/binding-win32-x64-msvc": ["@oxc-parser/binding-win32-x64-msvc@0.121.0", "https://registry.npmmirror.com/@oxc-parser/binding-win32-x64-msvc/-/binding-win32-x64-msvc-0.121.0.tgz", { "os": "win32", "cpu": "x64" }, "sha512-BOp1KCzdboB1tPqoCPXgntgFs0jjeSyOXHzgxVFR7B/qfr3F8r4YDacHkTOUNXtDgM8YwKnkf3rE5gwALYX7NA=="],
 
-    "@oxc-project/types": ["@oxc-project/types@0.120.0", "https://mirrors.tencent.com/npm/@oxc-project/types/-/types-0.120.0.tgz", {}, "sha512-k1YNu55DuvAip/MGE1FTsIuU3FUCn6v/ujG9V7Nq5Df/kX2CWb13hhwD0lmJGMGqE+bE1MXvv9SZVnMzEXlWcg=="],
+    "@oxc-project/types": ["@oxc-project/types@0.121.0", "https://registry.npmmirror.com/@oxc-project/types/-/types-0.121.0.tgz", {}, "sha512-CGtOARQb9tyv7ECgdAlFxi0Fv7lmzvmlm2rpD/RdijOO9rfk/JvB1CjT8EnoD+tjna/IYgKKw3IV7objRb+aYw=="],
 
     "@oxc-resolver/binding-android-arm-eabi": ["@oxc-resolver/binding-android-arm-eabi@11.19.1", "https://mirrors.tencent.com/npm/@oxc-resolver/binding-android-arm-eabi/-/binding-android-arm-eabi-11.19.1.tgz", { "os": "android", "cpu": "arm" }, "sha512-aUs47y+xyXHUKlbhqHUjBABjvycq6YSD7bpxSW7vplUmdzAlJ93yXY6ZR0c1o1x5A/QKbENCvs3+NlY8IpIVzg=="],
 
@@ -207,39 +205,43 @@
 
     "@pkgjs/parseargs": ["@pkgjs/parseargs@0.11.0", "https://mirrors.tencent.com/npm/@pkgjs/parseargs/-/parseargs-0.11.0.tgz", {}, "sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg=="],
 
-    "@playwright/test": ["@playwright/test@1.58.2", "https://mirrors.tencent.com/npm/@playwright/test/-/test-1.58.2.tgz", { "dependencies": { "playwright": "1.58.2" }, "bin": { "playwright": "cli.js" } }, "sha512-akea+6bHYBBfA9uQqSYmlJXn61cTa+jbO87xVLCWbTqbWadRVmhxlXATaOjOgcBaWU4ePo0wB41KMFv3o35IXA=="],
+    "@playwright/cli": ["@playwright/cli@0.1.6", "https://repo.huaweicloud.com/repository/npm/@playwright/cli/-/cli-0.1.6.tgz", { "dependencies": { "minimist": "^1.2.5", "playwright": "1.60.0-alpha-1775584683000" }, "bin": { "playwright-cli": "playwright-cli.js" } }, "sha512-6iY+826o8lvUK/ZPSRvUFDwQo2nSUa5dl9vOqK80ifPwrts3P3qzzc9X134mpO5xaQjaAkQPKoKJBV+eIWL5QQ=="],
+
+    "@playwright/mcp": ["@playwright/mcp@0.0.70", "https://repo.huaweicloud.com/repository/npm/@playwright/mcp/-/mcp-0.0.70.tgz", { "dependencies": { "playwright": "1.60.0-alpha-1774999321000", "playwright-core": "1.60.0-alpha-1774999321000" }, "bin": { "playwright-mcp": "cli.js" } }, "sha512-Kl0a6l9VL8rvT1oBou3hS5yArjwWV9UlwAkq+0skfK1YVg8XfmmNaAmwZhMeNx/ZhGiWXfCllo6rD/jvZz+WuA=="],
+
+    "@playwright/test": ["@playwright/test@1.59.1", "https://registry.npmmirror.com/@playwright/test/-/test-1.59.1.tgz", { "dependencies": { "playwright": "1.59.1" }, "bin": { "playwright": "cli.js" } }, "sha512-PG6q63nQg5c9rIi4/Z5lR5IVF7yU5MqmKaPOe0HSc0O2cX1fPi96sUQu5j7eo4gKCkB2AnNGoWt7y4/Xx3Kcqg=="],
 
     "@polka/url": ["@polka/url@1.0.0-next.29", "https://repo.huaweicloud.com/repository/npm/@polka/url/-/url-1.0.0-next.29.tgz", {}, "sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww=="],
 
-    "@rolldown/binding-android-arm64": ["@rolldown/binding-android-arm64@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-android-arm64/-/binding-android-arm64-1.0.0-rc.11.tgz", { "os": "android", "cpu": "arm64" }, "sha512-SJ+/g+xNnOh6NqYxD0V3uVN4W3VfnrGsC9/hoglicgTNfABFG9JjISvkkU0dNY84MNHLWyOgxP9v9Y9pX4S7+A=="],
+    "@rolldown/binding-android-arm64": ["@rolldown/binding-android-arm64@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-android-arm64/-/binding-android-arm64-1.0.0-rc.13.tgz", { "os": "android", "cpu": "arm64" }, "sha512-5ZiiecKH2DXAVJTNN13gNMUcCDg4Jy8ZjbXEsPnqa248wgOVeYRX0iqXXD5Jz4bI9BFHgKsI2qmyJynstbmr+g=="],
 
-    "@rolldown/binding-darwin-arm64": ["@rolldown/binding-darwin-arm64@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.0.0-rc.11.tgz", { "os": "darwin", "cpu": "arm64" }, "sha512-7WQgR8SfOPwmDZGFkThUvsmd/nwAWv91oCO4I5LS7RKrssPZmOt7jONN0cW17ydGC1n/+puol1IpoieKqQidmg=="],
+    "@rolldown/binding-darwin-arm64": ["@rolldown/binding-darwin-arm64@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.0.0-rc.13.tgz", { "os": "darwin", "cpu": "arm64" }, "sha512-tz/v/8G77seu8zAB3A5sK3UFoOl06zcshEzhUO62sAEtrEuW/H1CcyoupOrD+NbQJytYgA4CppXPzlrmp4JZKA=="],
 
-    "@rolldown/binding-darwin-x64": ["@rolldown/binding-darwin-x64@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-darwin-x64/-/binding-darwin-x64-1.0.0-rc.11.tgz", { "os": "darwin", "cpu": "x64" }, "sha512-39Ks6UvIHq4rEogIfQBoBRusj0Q0nPVWIvqmwBLaT6aqQGIakHdESBVOPRRLacy4WwUPIx4ZKzfZ9PMW+IeyUQ=="],
+    "@rolldown/binding-darwin-x64": ["@rolldown/binding-darwin-x64@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-darwin-x64/-/binding-darwin-x64-1.0.0-rc.13.tgz", { "os": "darwin", "cpu": "x64" }, "sha512-8DakphqOz8JrMYWTJmWA+vDJxut6LijZ8Xcdc4flOlAhU7PNVwo2MaWBF9iXjJAPo5rC/IxEFZDhJ3GC7NHvug=="],
 
-    "@rolldown/binding-freebsd-x64": ["@rolldown/binding-freebsd-x64@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-freebsd-x64/-/binding-freebsd-x64-1.0.0-rc.11.tgz", { "os": "freebsd", "cpu": "x64" }, "sha512-jfsm0ZHfhiqrvWjJAmzsqiIFPz5e7mAoCOPBNTcNgkiid/LaFKiq92+0ojH+nmJmKYkre4t71BWXUZDNp7vsag=="],
+    "@rolldown/binding-freebsd-x64": ["@rolldown/binding-freebsd-x64@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-freebsd-x64/-/binding-freebsd-x64-1.0.0-rc.13.tgz", { "os": "freebsd", "cpu": "x64" }, "sha512-4wBQFfjDuXYN/SVI8inBF3Aa+isq40rc6VMFbk5jcpolUBTe5cYnMsHZ51nFWsx3PVyyNN3vgoESki0Hmr/4BA=="],
 
-    "@rolldown/binding-linux-arm-gnueabihf": ["@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-1.0.0-rc.11.tgz", { "os": "linux", "cpu": "arm" }, "sha512-zjQaUtSyq1nVe3nxmlSCuR96T1LPlpvmJ0SZy0WJFEsV4kFbXcq2u68L4E6O0XeFj4aex9bEauqjW8UQBeAvfQ=="],
+    "@rolldown/binding-linux-arm-gnueabihf": ["@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-1.0.0-rc.13.tgz", { "os": "linux", "cpu": "arm" }, "sha512-JW/e4yPIXLms+jmnbwwy5LA/LxVwZUWLN8xug+V200wzaVi5TEGIWQlh8o91gWYFxW609euI98OCCemmWGuPrw=="],
 
-    "@rolldown/binding-linux-arm64-gnu": ["@rolldown/binding-linux-arm64-gnu@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.0.0-rc.11.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-WMW1yE6IOnehTcFE9eipFkm3XN63zypWlrJQ2iF7NrQ9b2LDRjumFoOGJE8RJJTJCTBAdmLMnJ8uVitACUUo1Q=="],
+    "@rolldown/binding-linux-arm64-gnu": ["@rolldown/binding-linux-arm64-gnu@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.0.0-rc.13.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-ZfKWpXiUymDnavepCaM6KG/uGydJ4l2nBmMxg60Ci4CbeefpqjPWpfaZM7PThOhk2dssqBAcwLc6rAyr0uTdXg=="],
 
-    "@rolldown/binding-linux-arm64-musl": ["@rolldown/binding-linux-arm64-musl@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.0.0-rc.11.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-jfndI9tsfm4APzjNt6QdBkYwre5lRPUgHeDHoI7ydKUuJvz3lZeCfMsI56BZj+7BYqiKsJm7cfd/6KYV7ubrBg=="],
+    "@rolldown/binding-linux-arm64-musl": ["@rolldown/binding-linux-arm64-musl@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.0.0-rc.13.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-bmRg3O6Z0gq9yodKKWCIpnlH051sEfdVwt+6m5UDffAQMUUqU0xjnQqqAUm+Gu7ofAAly9DqiQDtKu2nPDEABA=="],
 
-    "@rolldown/binding-linux-ppc64-gnu": ["@rolldown/binding-linux-ppc64-gnu@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-linux-ppc64-gnu/-/binding-linux-ppc64-gnu-1.0.0-rc.11.tgz", { "os": "linux", "cpu": "ppc64" }, "sha512-ZlFgw46NOAGMgcdvdYwAGu2Q+SLFA9LzbJLW+iyMOJyhj5wk6P3KEE9Gct4xWwSzFoPI7JCdYmYMzVtlgQ+zfw=="],
+    "@rolldown/binding-linux-ppc64-gnu": ["@rolldown/binding-linux-ppc64-gnu@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-linux-ppc64-gnu/-/binding-linux-ppc64-gnu-1.0.0-rc.13.tgz", { "os": "linux", "cpu": "ppc64" }, "sha512-8Wtnbw4k7pMYN9B/mOEAsQ8HOiq7AZ31Ig4M9BKn2So4xRaFEhtCSa4ZJaOutOWq50zpgR4N5+L/opnlaCx8wQ=="],
 
-    "@rolldown/binding-linux-s390x-gnu": ["@rolldown/binding-linux-s390x-gnu@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-linux-s390x-gnu/-/binding-linux-s390x-gnu-1.0.0-rc.11.tgz", { "os": "linux", "cpu": "s390x" }, "sha512-hIOYmuT6ofM4K04XAZd3OzMySEO4K0/nc9+jmNcxNAxRi6c5UWpqfw3KMFV4MVFWL+jQsSh+bGw2VqmaPMTLyw=="],
+    "@rolldown/binding-linux-s390x-gnu": ["@rolldown/binding-linux-s390x-gnu@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-linux-s390x-gnu/-/binding-linux-s390x-gnu-1.0.0-rc.13.tgz", { "os": "linux", "cpu": "s390x" }, "sha512-D/0Nlo8mQuxSMohNJUF2lDXWRsFDsHldfRRgD9bRgktj+EndGPj4DOV37LqDKPYS+osdyhZEH7fTakTAEcW7qg=="],
 
-    "@rolldown/binding-linux-x64-gnu": ["@rolldown/binding-linux-x64-gnu@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.0.0-rc.11.tgz", { "os": "linux", "cpu": "x64" }, "sha512-qXBQQO9OvkjjQPLdUVr7Nr2t3QTZI7s4KZtfw7HzBgjbmAPSFwSv4rmET9lLSgq3rH/ndA3ngv3Qb8l2njoPNA=="],
+    "@rolldown/binding-linux-x64-gnu": ["@rolldown/binding-linux-x64-gnu@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.0.0-rc.13.tgz", { "os": "linux", "cpu": "x64" }, "sha512-eRrPvat2YaVQcwwKi/JzOP6MKf1WRnOCr+VaI3cTWz3ZoLcP/654z90lVCJ4dAuMEpPdke0n+qyAqXDZdIC4rA=="],
 
-    "@rolldown/binding-linux-x64-musl": ["@rolldown/binding-linux-x64-musl@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.0.0-rc.11.tgz", { "os": "linux", "cpu": "x64" }, "sha512-/tpFfoSTzUkH9LPY+cYbqZBDyyX62w5fICq9qzsHLL8uTI6BHip3Q9Uzft0wylk/i8OOwKik8OxW+QAhDmzwmg=="],
+    "@rolldown/binding-linux-x64-musl": ["@rolldown/binding-linux-x64-musl@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.0.0-rc.13.tgz", { "os": "linux", "cpu": "x64" }, "sha512-PsdONiFRp8hR8KgVjTWjZ9s7uA3uueWL0t74/cKHfM4dR5zXYv4AjB8BvA+QDToqxAFg4ZkcVEqeu5F7inoz5w=="],
 
-    "@rolldown/binding-openharmony-arm64": ["@rolldown/binding-openharmony-arm64@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-openharmony-arm64/-/binding-openharmony-arm64-1.0.0-rc.11.tgz", { "os": "none", "cpu": "arm64" }, "sha512-mcp3Rio2w72IvdZG0oQ4bM2c2oumtwHfUfKncUM6zGgz0KgPz4YmDPQfnXEiY5t3+KD/i8HG2rOB/LxdmieK2g=="],
+    "@rolldown/binding-openharmony-arm64": ["@rolldown/binding-openharmony-arm64@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-openharmony-arm64/-/binding-openharmony-arm64-1.0.0-rc.13.tgz", { "os": "none", "cpu": "arm64" }, "sha512-hCNXgC5dI3TVOLrPT++PKFNZ+1EtS0mLQwfXXXSUD/+rGlB65gZDwN/IDuxLpQP4x8RYYHqGomlUXzpO8aVI2w=="],
 
-    "@rolldown/binding-wasm32-wasi": ["@rolldown/binding-wasm32-wasi@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-wasm32-wasi/-/binding-wasm32-wasi-1.0.0-rc.11.tgz", { "dependencies": { "@napi-rs/wasm-runtime": "^1.1.1" }, "cpu": "none" }, "sha512-LXk5Hii1Ph9asuGRjBuz8TUxdc1lWzB7nyfdoRgI0WGPZKmCxvlKk8KfYysqtr4MfGElu/f/pEQRh8fcEgkrWw=="],
+    "@rolldown/binding-wasm32-wasi": ["@rolldown/binding-wasm32-wasi@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-wasm32-wasi/-/binding-wasm32-wasi-1.0.0-rc.13.tgz", { "dependencies": { "@emnapi/core": "1.9.1", "@emnapi/runtime": "1.9.1", "@napi-rs/wasm-runtime": "^1.1.2" }, "cpu": "none" }, "sha512-viLS5C5et8NFtLWw9Sw3M/w4vvnVkbWkO7wSNh3C+7G1+uCkGpr6PcjNDSFcNtmXY/4trjPBqUfcOL+P3sWy/g=="],
 
-    "@rolldown/binding-win32-arm64-msvc": ["@rolldown/binding-win32-arm64-msvc@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.0.0-rc.11.tgz", { "os": "win32", "cpu": "arm64" }, "sha512-dDwf5otnx0XgRY1yqxOC4ITizcdzS/8cQ3goOWv3jFAo4F+xQYni+hnMuO6+LssHHdJW7+OCVL3CoU4ycnh35Q=="],
+    "@rolldown/binding-win32-arm64-msvc": ["@rolldown/binding-win32-arm64-msvc@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.0.0-rc.13.tgz", { "os": "win32", "cpu": "arm64" }, "sha512-Fqa3Tlt1xL4wzmAYxGNFV36Hb+VfPc9PYU+E25DAnswXv3ODDu/yyWjQDbXMo5AGWkQVjLgQExuVu8I/UaZhPQ=="],
 
-    "@rolldown/binding-win32-x64-msvc": ["@rolldown/binding-win32-x64-msvc@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.0-rc.11.tgz", { "os": "win32", "cpu": "x64" }, "sha512-LN4/skhSggybX71ews7dAj6r2geaMJfm3kMbK2KhFMg9B10AZXnKoLCVVgzhMHL0S+aKtr4p8QbAW8k+w95bAA=="],
+    "@rolldown/binding-win32-x64-msvc": ["@rolldown/binding-win32-x64-msvc@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.0-rc.13.tgz", { "os": "win32", "cpu": "x64" }, "sha512-/pLI5kPkGEi44TDlnbio3St/5gUFeN51YWNAk/Gnv6mEQBOahRBh52qVFVBpmrnU01n2yysvBML9Ynu7K4kGAQ=="],
 
     "@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.0-rc.7", "https://mirrors.tencent.com/npm/@rolldown/pluginutils/-/pluginutils-1.0.0-rc.7.tgz", {}, "sha512-qujRfC8sFVInYSPPMLQByRh7zhwkGFS4+tyMQ83srV1qrxL4g8E2tyxVVyxd0+8QeBM1mIk9KbWxkegRr76XzA=="],
 
@@ -265,25 +267,25 @@
 
     "@vitejs/plugin-react": ["@vitejs/plugin-react@6.0.1", "https://mirrors.tencent.com/npm/@vitejs/plugin-react/-/plugin-react-6.0.1.tgz", { "dependencies": { "@rolldown/pluginutils": "1.0.0-rc.7" }, "peerDependencies": { "@rolldown/plugin-babel": "^0.1.7 || ^0.2.0", "babel-plugin-react-compiler": "^1.0.0", "vite": "^8.0.0" }, "optionalPeers": ["@rolldown/plugin-babel", "babel-plugin-react-compiler"] }, "sha512-l9X/E3cDb+xY3SWzlG1MOGt2usfEHGMNIaegaUGFsLkb3RCn/k8/TOXBcab+OndDI4TBtktT8/9BwwW8Vi9KUQ=="],
 
-    "@vitest/browser": ["@vitest/browser@4.1.1", "https://mirrors.tencent.com/npm/@vitest/browser/-/browser-4.1.1.tgz", { "dependencies": { "@blazediff/core": "1.9.1", "@vitest/mocker": "4.1.1", "@vitest/utils": "4.1.1", "magic-string": "^0.30.21", "pngjs": "^7.0.0", "sirv": "^3.0.2", "tinyrainbow": "^3.0.3", "ws": "^8.19.0" }, "peerDependencies": { "vitest": "4.1.1" } }, "sha512-gjjrFC4+kPVK/fN9URDJWrssU5Gqh8Az8pKG/NSfQ2V+ky8b/y1BgBg0Ug13+hOGp5pzInonmGRPn7vOgSLgzA=="],
+    "@vitest/browser": ["@vitest/browser@4.1.3", "https://repo.huaweicloud.com/repository/npm/@vitest/browser/-/browser-4.1.3.tgz", { "dependencies": { "@blazediff/core": "1.9.1", "@vitest/mocker": "4.1.3", "@vitest/utils": "4.1.3", "magic-string": "^0.30.21", "pngjs": "^7.0.0", "sirv": "^3.0.2", "tinyrainbow": "^3.1.0", "ws": "^8.19.0" }, "peerDependencies": { "vitest": "4.1.3" } }, "sha512-CS9KjO2vijuBlbwz0JIgC0YuoI1BuqWI5ziD3Nll6jkpNYtWdjPMVgGynQ9vZovjsECeUqEeNjWrypP414d0CQ=="],
 
-    "@vitest/browser-playwright": ["@vitest/browser-playwright@4.1.1", "https://mirrors.tencent.com/npm/@vitest/browser-playwright/-/browser-playwright-4.1.1.tgz", { "dependencies": { "@vitest/browser": "4.1.1", "@vitest/mocker": "4.1.1", "tinyrainbow": "^3.0.3" }, "peerDependencies": { "playwright": "*", "vitest": "4.1.1" } }, "sha512-dtVSBZZha2k/7P7EAXXrEAoxuIKl8Yv9f2Dk4GN/DGfmhf4DQvkvu+57okR2wq/gan1xppKjL/aBxK/kbYrbGw=="],
+    "@vitest/browser-playwright": ["@vitest/browser-playwright@4.1.3", "https://repo.huaweicloud.com/repository/npm/@vitest/browser-playwright/-/browser-playwright-4.1.3.tgz", { "dependencies": { "@vitest/browser": "4.1.3", "@vitest/mocker": "4.1.3", "tinyrainbow": "^3.1.0" }, "peerDependencies": { "playwright": "*", "vitest": "4.1.3" } }, "sha512-D3Q+YozvSpiFaLPgd6/OMbyqEIZeucSe6AHJJ7VnNJKQhIyBE60TlBZlxzwM8bvjzQE9ZnYWQCPeCw5pnhbiNg=="],
 
-    "@vitest/coverage-v8": ["@vitest/coverage-v8@4.1.1", "https://mirrors.tencent.com/npm/@vitest/coverage-v8/-/coverage-v8-4.1.1.tgz", { "dependencies": { "@bcoe/v8-coverage": "^1.0.2", "@vitest/utils": "4.1.1", "ast-v8-to-istanbul": "^1.0.0", "istanbul-lib-coverage": "^3.2.2", "istanbul-lib-report": "^3.0.1", "istanbul-reports": "^3.2.0", "magicast": "^0.5.2", "obug": "^2.1.1", "std-env": "^4.0.0-rc.1", "tinyrainbow": "^3.0.3" }, "peerDependencies": { "@vitest/browser": "4.1.1", "vitest": "4.1.1" }, "optionalPeers": ["@vitest/browser"] }, "sha512-nZ4RWwGCoGOQRMmU/Q9wlUY540RVRxJZ9lxFsFfy0QV7Zmo5VVBhB6Sl9Xa0KIp2iIs3zWfPlo9LcY1iqbpzCw=="],
+    "@vitest/coverage-v8": ["@vitest/coverage-v8@4.1.3", "https://repo.huaweicloud.com/repository/npm/@vitest/coverage-v8/-/coverage-v8-4.1.3.tgz", { "dependencies": { "@bcoe/v8-coverage": "^1.0.2", "@vitest/utils": "4.1.3", "ast-v8-to-istanbul": "^1.0.0", "istanbul-lib-coverage": "^3.2.2", "istanbul-lib-report": "^3.0.1", "istanbul-reports": "^3.2.0", "magicast": "^0.5.2", "obug": "^2.1.1", "std-env": "^4.0.0-rc.1", "tinyrainbow": "^3.1.0" }, "peerDependencies": { "@vitest/browser": "4.1.3", "vitest": "4.1.3" }, "optionalPeers": ["@vitest/browser"] }, "sha512-/MBdrkA8t6hbdCWFKs09dPik774xvs4Z6L4bycdCxYNLHM8oZuRyosumQMG19LUlBsB6GeVpL1q4kFFazvyKGA=="],
 
-    "@vitest/expect": ["@vitest/expect@4.1.1", "https://mirrors.tencent.com/npm/@vitest/expect/-/expect-4.1.1.tgz", { "dependencies": { "@standard-schema/spec": "^1.1.0", "@types/chai": "^5.2.2", "@vitest/spy": "4.1.1", "@vitest/utils": "4.1.1", "chai": "^6.2.2", "tinyrainbow": "^3.0.3" } }, "sha512-xAV0fqBTk44Rn6SjJReEQkHP3RrqbJo6JQ4zZ7/uVOiJZRarBtblzrOfFIZeYUrukp2YD6snZG6IBqhOoHTm+A=="],
+    "@vitest/expect": ["@vitest/expect@4.1.3", "https://repo.huaweicloud.com/repository/npm/@vitest/expect/-/expect-4.1.3.tgz", { "dependencies": { "@standard-schema/spec": "^1.1.0", "@types/chai": "^5.2.2", "@vitest/spy": "4.1.3", "@vitest/utils": "4.1.3", "chai": "^6.2.2", "tinyrainbow": "^3.1.0" } }, "sha512-CW8Q9KMtXDGHj0vCsqui0M5KqRsu0zm0GNDW7Gd3U7nZ2RFpPKSCpeCXoT+/+5zr1TNlsoQRDEz+LzZUyq6gnQ=="],
 
-    "@vitest/mocker": ["@vitest/mocker@4.1.1", "https://mirrors.tencent.com/npm/@vitest/mocker/-/mocker-4.1.1.tgz", { "dependencies": { "@vitest/spy": "4.1.1", "estree-walker": "^3.0.3", "magic-string": "^0.30.21" }, "peerDependencies": { "msw": "^2.4.9", "vite": "^6.0.0 || ^7.0.0 || ^8.0.0" }, "optionalPeers": ["msw", "vite"] }, "sha512-h3BOylsfsCLPeceuCPAAJ+BvNwSENgJa4hXoXu4im0bs9Lyp4URc4JYK4pWLZ4pG/UQn7AT92K6IByi6rE6g3A=="],
+    "@vitest/mocker": ["@vitest/mocker@4.1.3", "https://repo.huaweicloud.com/repository/npm/@vitest/mocker/-/mocker-4.1.3.tgz", { "dependencies": { "@vitest/spy": "4.1.3", "estree-walker": "^3.0.3", "magic-string": "^0.30.21" }, "peerDependencies": { "msw": "^2.4.9", "vite": "^6.0.0 || ^7.0.0 || ^8.0.0" }, "optionalPeers": ["msw", "vite"] }, "sha512-XN3TrycitDQSzGRnec/YWgoofkYRhouyVQj4YNsJ5r/STCUFqMrP4+oxEv3e7ZbLi4og5kIHrZwekDJgw6hcjw=="],
 
-    "@vitest/pretty-format": ["@vitest/pretty-format@4.1.1", "https://mirrors.tencent.com/npm/@vitest/pretty-format/-/pretty-format-4.1.1.tgz", { "dependencies": { "tinyrainbow": "^3.0.3" } }, "sha512-GM+TEQN5WhOygr1lp7skeVjdLPqqWMHsfzXrcHAqZJi/lIVh63H0kaRCY8MDhNWikx19zBUK8ceaLB7X5AH9NQ=="],
+    "@vitest/pretty-format": ["@vitest/pretty-format@4.1.3", "https://repo.huaweicloud.com/repository/npm/@vitest/pretty-format/-/pretty-format-4.1.3.tgz", { "dependencies": { "tinyrainbow": "^3.1.0" } }, "sha512-hYqqwuMbpkkBodpRh4k4cQSOELxXky1NfMmQvOfKvV8zQHz8x8Dla+2wzElkMkBvSAJX5TRGHJAQvK0TcOafwg=="],
 
-    "@vitest/runner": ["@vitest/runner@4.1.1", "https://mirrors.tencent.com/npm/@vitest/runner/-/runner-4.1.1.tgz", { "dependencies": { "@vitest/utils": "4.1.1", "pathe": "^2.0.3" } }, "sha512-f7+FPy75vN91QGWsITueq0gedwUZy1fLtHOCMeQpjs8jTekAHeKP80zfDEnhrleviLHzVSDXIWuCIOFn3D3f8A=="],
+    "@vitest/runner": ["@vitest/runner@4.1.3", "https://repo.huaweicloud.com/repository/npm/@vitest/runner/-/runner-4.1.3.tgz", { "dependencies": { "@vitest/utils": "4.1.3", "pathe": "^2.0.3" } }, "sha512-VwgOz5MmT0KhlUj40h02LWDpUBVpflZ/b7xZFA25F29AJzIrE+SMuwzFf0b7t4EXdwRNX61C3B6auIXQTR3ttA=="],
 
-    "@vitest/snapshot": ["@vitest/snapshot@4.1.1", "https://mirrors.tencent.com/npm/@vitest/snapshot/-/snapshot-4.1.1.tgz", { "dependencies": { "@vitest/pretty-format": "4.1.1", "@vitest/utils": "4.1.1", "magic-string": "^0.30.21", "pathe": "^2.0.3" } }, "sha512-kMVSgcegWV2FibXEx9p9WIKgje58lcTbXgnJixfcg15iK8nzCXhmalL0ZLtTWLW9PH1+1NEDShiFFedB3tEgWg=="],
+    "@vitest/snapshot": ["@vitest/snapshot@4.1.3", "https://repo.huaweicloud.com/repository/npm/@vitest/snapshot/-/snapshot-4.1.3.tgz", { "dependencies": { "@vitest/pretty-format": "4.1.3", "@vitest/utils": "4.1.3", "magic-string": "^0.30.21", "pathe": "^2.0.3" } }, "sha512-9l+k/J9KG5wPJDX9BcFFzhhwNjwkRb8RsnYhaT1vPY7OufxmQFc9sZzScRCPTiETzl37mrIWVY9zxzmdVeJwDQ=="],
 
-    "@vitest/spy": ["@vitest/spy@4.1.1", "https://mirrors.tencent.com/npm/@vitest/spy/-/spy-4.1.1.tgz", {}, "sha512-6Ti/KT5OVaiupdIZEuZN7l3CZcR0cxnxt70Z0//3CtwgObwA6jZhmVBA3yrXSVN3gmwjgd7oDNLlsXz526gpRA=="],
+    "@vitest/spy": ["@vitest/spy@4.1.3", "https://repo.huaweicloud.com/repository/npm/@vitest/spy/-/spy-4.1.3.tgz", {}, "sha512-ujj5Uwxagg4XUIfAUyRQxAg631BP6e9joRiN99mr48Bg9fRs+5mdUElhOoZ6rP5mBr8Bs3lmrREnkrQWkrsTCw=="],
 
-    "@vitest/utils": ["@vitest/utils@4.1.1", "https://mirrors.tencent.com/npm/@vitest/utils/-/utils-4.1.1.tgz", { "dependencies": { "@vitest/pretty-format": "4.1.1", "convert-source-map": "^2.0.0", "tinyrainbow": "^3.0.3" } }, "sha512-cNxAlaB3sHoCdL6pj6yyUXv9Gry1NHNg0kFTXdvSIZXLHsqKH7chiWOkwJ5s5+d/oMwcoG9T0bKU38JZWKusrQ=="],
+    "@vitest/utils": ["@vitest/utils@4.1.3", "https://repo.huaweicloud.com/repository/npm/@vitest/utils/-/utils-4.1.3.tgz", { "dependencies": { "@vitest/pretty-format": "4.1.3", "convert-source-map": "^2.0.0", "tinyrainbow": "^3.1.0" } }, "sha512-Pc/Oexse/khOWsGB+w3q4yzA4te7W4gpZZAvk+fr8qXfTURZUMj5i7kuxsNK5mP/dEB6ao3jfr0rs17fHhbHdw=="],
 
     "@vue/compiler-core": ["@vue/compiler-core@3.5.13", "https://mirrors.tencent.com/npm/@vue/compiler-core/-/compiler-core-3.5.13.tgz", { "dependencies": { "@babel/parser": "^7.25.3", "@vue/shared": "3.5.13", "entities": "^4.5.0", "estree-walker": "^2.0.2", "source-map-js": "^1.2.0" } }, "sha512-oOdAkwqUfW1WqpwSYJce06wvt6HljgY3fGeM9NcVA1HaYOij3mZG9Rkysn0OHuyUAGMbEbARIpsG+LPVlBJ5/Q=="],
 
@@ -311,9 +313,9 @@
 
     "async": ["async@3.2.6", "https://mirrors.tencent.com/npm/async/-/async-3.2.6.tgz", {}, "sha512-htCUDlxyyCLMgaM3xXg0C0LW2xqfuQ6p05pCEIsXuyQ+a1koYKTuBMzRNwmybfLgvJDMd0r1LTn4+E0Ti6C2AA=="],
 
-    "balanced-match": ["balanced-match@1.0.2", "https://mirrors.tencent.com/npm/balanced-match/-/balanced-match-1.0.2.tgz", {}, "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="],
+    "balanced-match": ["balanced-match@4.0.4", "https://registry.npmmirror.com/balanced-match/-/balanced-match-4.0.4.tgz", {}, "sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA=="],
 
-    "brace-expansion": ["brace-expansion@2.0.1", "https://mirrors.tencent.com/npm/brace-expansion/-/brace-expansion-2.0.1.tgz", { "dependencies": { "balanced-match": "^1.0.0" } }, "sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA=="],
+    "brace-expansion": ["brace-expansion@5.0.5", "https://registry.npmmirror.com/brace-expansion/-/brace-expansion-5.0.5.tgz", { "dependencies": { "balanced-match": "^4.0.2" } }, "sha512-VZznLgtwhn+Mact9tfiwx64fA9erHH/MCXEUfB/0bX/6Fz6ny5EGTXYltMocqg4xFAQZtnO3DHWWXi8RiuN7cQ=="],
 
     "braces": ["braces@3.0.3", "https://mirrors.tencent.com/npm/braces/-/braces-3.0.3.tgz", { "dependencies": { "fill-range": "^7.1.1" } }, "sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA=="],
 
@@ -331,7 +333,7 @@
 
     "co-body": ["co-body@6.2.0", "https://repo.huaweicloud.com/repository/npm/co-body/-/co-body-6.2.0.tgz", { "dependencies": { "@hapi/bourne": "^3.0.0", "inflation": "^2.0.0", "qs": "^6.5.2", "raw-body": "^2.3.3", "type-is": "^1.6.16" } }, "sha512-Kbpv2Yd1NdL1V/V4cwLVxraHDV6K8ayohr2rmH0J87Er8+zJjcTa6dAn9QMPC9CRgU8+aNajKbSf1TzDB1yKPA=="],
 
-    "code-inspector-plugin": ["code-inspector-plugin@1.4.5", "https://mirrors.tencent.com/npm/code-inspector-plugin/-/code-inspector-plugin-1.4.5.tgz", { "dependencies": { "@code-inspector/core": "1.4.5", "@code-inspector/esbuild": "1.4.5", "@code-inspector/mako": "1.4.5", "@code-inspector/turbopack": "1.4.5", "@code-inspector/vite": "1.4.5", "@code-inspector/webpack": "1.4.5", "chalk": "4.1.1" } }, "sha512-yp3zHd5AZhtVoBNOzKQuJVo1wZe7AIO2vAiVhF8WIAK02IwM9+gY+Pr9deajx+XyJLbzMW+3CgdfLIh+xxW2Hg=="],
+    "code-inspector-plugin": ["code-inspector-plugin@1.5.1", "https://registry.npmmirror.com/code-inspector-plugin/-/code-inspector-plugin-1.5.1.tgz", { "dependencies": { "@code-inspector/core": "1.5.1", "@code-inspector/esbuild": "1.5.1", "@code-inspector/mako": "1.5.1", "@code-inspector/turbopack": "1.5.1", "@code-inspector/vite": "1.5.1", "@code-inspector/webpack": "1.5.1", "chalk": "4.1.1" } }, "sha512-7gOqqBurKCucnls1ZHw0KWb7Z5u7gg3Q2pFSY9rrttFmwRaFJfJiscKEbm7X9IKmeEvkFRtNvNrHbSVQ67L8pQ=="],
 
     "color-convert": ["color-convert@2.0.1", "https://mirrors.tencent.com/npm/color-convert/-/color-convert-2.0.1.tgz", { "dependencies": { "color-name": "~1.1.4" } }, "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ=="],
 
@@ -411,7 +413,7 @@
 
     "get-tsconfig": ["get-tsconfig@4.13.7", "https://mirrors.tencent.com/npm/get-tsconfig/-/get-tsconfig-4.13.7.tgz", { "dependencies": { "resolve-pkg-maps": "^1.0.0" } }, "sha512-7tN6rFgBlMgpBML5j8typ92BKFi2sFQvIdpAqLA2beia5avZDrMs0FLZiM5etShWq5irVyGcGMEA1jcDaK7A/Q=="],
 
-    "glob": ["glob@11.0.3", "https://mirrors.tencent.com/npm/glob/-/glob-11.0.3.tgz", { "dependencies": { "foreground-child": "^3.3.1", "jackspeak": "^4.1.1", "minimatch": "^10.0.3", "minipass": "^7.1.2", "package-json-from-dist": "^1.0.0", "path-scurry": "^2.0.0" }, "bin": { "glob": "dist/esm/bin.mjs" } }, "sha512-2Nim7dha1KVkaiF4q6Dj+ngPPMdfvLJEOpZk/jKiUAkqKebpGAWQXAq9z1xu9HKu5lWfqw/FASuccEjyznjPaA=="],
+    "glob": ["glob@11.1.0", "https://registry.npmmirror.com/glob/-/glob-11.1.0.tgz", { "dependencies": { "foreground-child": "^3.3.1", "jackspeak": "^4.1.1", "minimatch": "^10.1.1", "minipass": "^7.1.2", "package-json-from-dist": "^1.0.0", "path-scurry": "^2.0.0" }, "bin": { "glob": "dist/esm/bin.mjs" } }, "sha512-vuNwKSaKiqm7g0THUBu2x7ckSs3XJLXE+2ssL7/MfTGPLLcrJQ/4Uq1CjPTtO5cCIiRxqvN6Twy1qOwhL0Xjcw=="],
 
     "glob-parent": ["glob-parent@5.1.2", "https://mirrors.tencent.com/npm/glob-parent/-/glob-parent-5.1.2.tgz", { "dependencies": { "is-glob": "^4.0.1" } }, "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow=="],
 
@@ -457,7 +459,7 @@
 
     "istanbul-reports": ["istanbul-reports@3.2.0", "https://repo.huaweicloud.com/repository/npm/istanbul-reports/-/istanbul-reports-3.2.0.tgz", { "dependencies": { "html-escaper": "^2.0.0", "istanbul-lib-report": "^3.0.0" } }, "sha512-HGYWWS/ehqTV3xN10i23tkPkpH46MLCIMFNCaaKNavAXTF1RkqxawEPtnjnGZ6XKSInBKkiOA5BKS+aZiY3AvA=="],
 
-    "jackspeak": ["jackspeak@4.1.1", "https://mirrors.tencent.com/npm/jackspeak/-/jackspeak-4.1.1.tgz", { "dependencies": { "@isaacs/cliui": "^8.0.2" } }, "sha512-zptv57P3GpL+O0I7VdMJNBZCu+BPHVQUk55Ft8/QCJjTVxrnJHuVuX/0Bl2A6/+2oyR/ZMEuFKwmzqqZ/U5nPQ=="],
+    "jackspeak": ["jackspeak@4.2.3", "https://registry.npmmirror.com/jackspeak/-/jackspeak-4.2.3.tgz", { "dependencies": { "@isaacs/cliui": "^9.0.0" } }, "sha512-ykkVRwrYvFm1nb2AJfKKYPr0emF6IiXDYUaFx4Zn9ZuIH7MrzEZ3sD5RlqGXNRpHtvUHJyOnCEFxOlNDtGo7wg=="],
 
     "jiti": ["jiti@2.6.0", "https://repo.huaweicloud.com/repository/npm/jiti/-/jiti-2.6.0.tgz", { "bin": { "jiti": "lib/jiti-cli.mjs" } }, "sha512-VXe6RjJkBPj0ohtqaO8vSWP3ZhAKo66fKrFNCll4BTcwljPLz03pCbaNKfzGP5MbrCYcbJ7v0nOYYwUzTEIdXQ=="],
 
@@ -467,31 +469,31 @@
 
     "json5": ["json5@2.2.3", "https://mirrors.tencent.com/npm/json5/-/json5-2.2.3.tgz", { "bin": { "json5": "lib/cli.js" } }, "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg=="],
 
-    "knip": ["knip@6.0.4", "https://mirrors.tencent.com/npm/knip/-/knip-6.0.4.tgz", { "dependencies": { "@nodelib/fs.walk": "^1.2.3", "fast-glob": "^3.3.3", "formatly": "^0.3.0", "get-tsconfig": "4.13.7", "jiti": "^2.6.0", "minimist": "^1.2.8", "oxc-parser": "^0.120.0", "oxc-resolver": "^11.19.1", "picocolors": "^1.1.1", "picomatch": "^4.0.1", "smol-toml": "^1.5.2", "strip-json-comments": "5.0.3", "unbash": "^2.2.0", "yaml": "^2.8.2", "zod": "^4.1.11" }, "bin": { "knip": "bin/knip.js", "knip-bun": "bin/knip-bun.js" } }, "sha512-r/9F7wcxiFM71WgDFQiToE2hQHwZ/UkGmr74o8eiNFPIg80f7rlQHVrZiRX46Tj2yE3s96wUVNGMnsDMylgInw=="],
+    "knip": ["knip@6.3.1", "https://repo.huaweicloud.com/repository/npm/knip/-/knip-6.3.1.tgz", { "dependencies": { "@nodelib/fs.walk": "^1.2.3", "fast-glob": "^3.3.3", "formatly": "^0.3.0", "get-tsconfig": "4.13.7", "jiti": "^2.6.0", "minimist": "^1.2.8", "oxc-parser": "^0.121.0", "oxc-resolver": "^11.19.1", "picocolors": "^1.1.1", "picomatch": "^4.0.1", "smol-toml": "^1.6.1", "strip-json-comments": "5.0.3", "unbash": "^2.2.0", "yaml": "^2.8.2", "zod": "^4.1.11" }, "bin": { "knip": "bin/knip.js", "knip-bun": "bin/knip-bun.js" } }, "sha512-22kLJloVcOVOAudCxlFOC0ICAMme7dKsS7pVTEnrmyKGpswb8ieznvAiSKUeFVDJhb01ect6dkDc1Ha1g1sPpg=="],
 
     "launch-ide": ["launch-ide@1.4.3", "https://mirrors.tencent.com/npm/launch-ide/-/launch-ide-1.4.3.tgz", { "dependencies": { "chalk": "^4.1.1", "dotenv": "^16.1.4" } }, "sha512-v2xMAarJOFy51kuesYEIIx5r4WHvsV+VLMU49K24bdiRZGUpo1ZulO1DRrLozM5BMbXUfRfrUTM2PbBfYCeA4Q=="],
 
-    "lefthook": ["lefthook@2.1.4", "https://mirrors.tencent.com/npm/lefthook/-/lefthook-2.1.4.tgz", { "optionalDependencies": { "lefthook-darwin-arm64": "2.1.4", "lefthook-darwin-x64": "2.1.4", "lefthook-freebsd-arm64": "2.1.4", "lefthook-freebsd-x64": "2.1.4", "lefthook-linux-arm64": "2.1.4", "lefthook-linux-x64": "2.1.4", "lefthook-openbsd-arm64": "2.1.4", "lefthook-openbsd-x64": "2.1.4", "lefthook-windows-arm64": "2.1.4", "lefthook-windows-x64": "2.1.4" }, "bin": { "lefthook": "bin/index.js" } }, "sha512-JNfJ5gAn0KADvJ1I6/xMcx70+/6TL6U9gqGkKvPw5RNMfatC7jIg0Evl97HN846xmfz959BV70l8r3QsBJk30w=="],
+    "lefthook": ["lefthook@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook/-/lefthook-2.1.5.tgz", { "optionalDependencies": { "lefthook-darwin-arm64": "2.1.5", "lefthook-darwin-x64": "2.1.5", "lefthook-freebsd-arm64": "2.1.5", "lefthook-freebsd-x64": "2.1.5", "lefthook-linux-arm64": "2.1.5", "lefthook-linux-x64": "2.1.5", "lefthook-openbsd-arm64": "2.1.5", "lefthook-openbsd-x64": "2.1.5", "lefthook-windows-arm64": "2.1.5", "lefthook-windows-x64": "2.1.5" }, "bin": { "lefthook": "bin/index.js" } }, "sha512-yB9IFWurFllusbPZqvG0EavTmpNXPya2MuO7Li7YT78xAj3uCQ3AgmW9TVUbTTsSMhsegbiAMRpwfEk2TP1P0A=="],
 
-    "lefthook-darwin-arm64": ["lefthook-darwin-arm64@2.1.4", "https://mirrors.tencent.com/npm/lefthook-darwin-arm64/-/lefthook-darwin-arm64-2.1.4.tgz", { "os": "darwin", "cpu": "arm64" }, "sha512-BUAAE9+rUrjr39a+wH/1zHmGrDdwUQ2Yq/z6BQbM/yUb9qtXBRcQ5eOXxApqWW177VhGBpX31aqIlfAZ5Q7wzw=="],
+    "lefthook-darwin-arm64": ["lefthook-darwin-arm64@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook-darwin-arm64/-/lefthook-darwin-arm64-2.1.5.tgz", { "os": "darwin", "cpu": "arm64" }, "sha512-VITTaw8PxxyE26gkZ8UcwIa5ZrWnKNRGLeeSrqri40cQdXvLTEoMq2tjjw7eiL9UcB0waRReDdzydevy9GOPUQ=="],
 
-    "lefthook-darwin-x64": ["lefthook-darwin-x64@2.1.4", "https://mirrors.tencent.com/npm/lefthook-darwin-x64/-/lefthook-darwin-x64-2.1.4.tgz", { "os": "darwin", "cpu": "x64" }, "sha512-K1ncIMEe84fe+ss1hQNO7rIvqiKy2TJvTFpkypvqFodT7mJXZn7GLKYTIXdIuyPAYthRa9DwFnx5uMoHwD2F1Q=="],
+    "lefthook-darwin-x64": ["lefthook-darwin-x64@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook-darwin-x64/-/lefthook-darwin-x64-2.1.5.tgz", { "os": "darwin", "cpu": "x64" }, "sha512-AvtjYiW0BSGHBGrdvL313seUymrW9FxI+6JJwJ+ZSaa2sH81etrTB0wAwlH1L9VfFwK9+gWvatZBvLfF3L4fPw=="],
 
-    "lefthook-freebsd-arm64": ["lefthook-freebsd-arm64@2.1.4", "https://mirrors.tencent.com/npm/lefthook-freebsd-arm64/-/lefthook-freebsd-arm64-2.1.4.tgz", { "os": "freebsd", "cpu": "arm64" }, "sha512-PVUhjOhVN71YaYsVdQyNbFZ4a2jFB2Tg5hKrrn9kaWpx64aLz/XivLjwr8sEuTaP1GRlEWBpW6Bhrcsyo39qFw=="],
+    "lefthook-freebsd-arm64": ["lefthook-freebsd-arm64@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook-freebsd-arm64/-/lefthook-freebsd-arm64-2.1.5.tgz", { "os": "freebsd", "cpu": "arm64" }, "sha512-mXjJwe8jKGWGiBYUxfQY1ab3Nn5NhafqT9q3KJz8m5joGGQj4JD0cbWxF1nVBLBWsDGbWZRZunTCMGcIScT2bQ=="],
 
-    "lefthook-freebsd-x64": ["lefthook-freebsd-x64@2.1.4", "https://mirrors.tencent.com/npm/lefthook-freebsd-x64/-/lefthook-freebsd-x64-2.1.4.tgz", { "os": "freebsd", "cpu": "x64" }, "sha512-ZWV9o/LeyWNEBoVO+BhLqxH3rGTba05nkm5NvMjEFSj7LbUNUDbQmupZwtHl1OMGJO66eZP0CalzRfUH6GhBxQ=="],
+    "lefthook-freebsd-x64": ["lefthook-freebsd-x64@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook-freebsd-x64/-/lefthook-freebsd-x64-2.1.5.tgz", { "os": "freebsd", "cpu": "x64" }, "sha512-exD69dCjc1K45BxatDPGoH4NmEvgLKPm4kJLOWn1fTeHRKZwWiFPwnjknEoG2OemlCDHmCU++5X40kMEG0WBlA=="],
 
-    "lefthook-linux-arm64": ["lefthook-linux-arm64@2.1.4", "https://mirrors.tencent.com/npm/lefthook-linux-arm64/-/lefthook-linux-arm64-2.1.4.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-iWN0pGnTjrIvNIcSI1vQBJXUbybTqJ5CLMniPA0olabMXQfPDrdMKVQe+mgdwHK+E3/Y0H0ZNL3lnOj6Sk6szA=="],
+    "lefthook-linux-arm64": ["lefthook-linux-arm64@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook-linux-arm64/-/lefthook-linux-arm64-2.1.5.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-57TDKC5ewWpsCLZQKIJMHumFEObYKVundmPpiWhX491hINRZYYOL/26yrnVnNcidThRzTiTC+HLcuplLcaXtbA=="],
 
-    "lefthook-linux-x64": ["lefthook-linux-x64@2.1.4", "https://mirrors.tencent.com/npm/lefthook-linux-x64/-/lefthook-linux-x64-2.1.4.tgz", { "os": "linux", "cpu": "x64" }, "sha512-96bTBE/JdYgqWYAJDh+/e/0MaxJ25XTOAk7iy/fKoZ1ugf6S0W9bEFbnCFNooXOcxNVTan5xWKfcjJmPIKtsJA=="],
+    "lefthook-linux-x64": ["lefthook-linux-x64@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook-linux-x64/-/lefthook-linux-x64-2.1.5.tgz", { "os": "linux", "cpu": "x64" }, "sha512-bqK3LrAB5l5YaCaoHk6qRWlITrGWzP4FbwRxA31elbxjd0wgNWZ2Sn3zEfSEcxz442g7/PPkEwqqsTx0kSFzpg=="],
 
-    "lefthook-openbsd-arm64": ["lefthook-openbsd-arm64@2.1.4", "https://mirrors.tencent.com/npm/lefthook-openbsd-arm64/-/lefthook-openbsd-arm64-2.1.4.tgz", { "os": "openbsd", "cpu": "arm64" }, "sha512-oYUoK6AIJNEr9lUSpIMj6g7sWzotvtc3ryw7yoOyQM6uqmEduw73URV/qGoUcm4nqqmR93ZalZwR2r3Gd61zvw=="],
+    "lefthook-openbsd-arm64": ["lefthook-openbsd-arm64@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook-openbsd-arm64/-/lefthook-openbsd-arm64-2.1.5.tgz", { "os": "openbsd", "cpu": "arm64" }, "sha512-5aSwK7vV3A6t0w9PnxCMiVjQlcvopBP50BtmnnLnNJyAYHnFbZ0Baq5M0WkE9IsUkWSux0fe6fd0jDkuG711MA=="],
 
-    "lefthook-openbsd-x64": ["lefthook-openbsd-x64@2.1.4", "https://mirrors.tencent.com/npm/lefthook-openbsd-x64/-/lefthook-openbsd-x64-2.1.4.tgz", { "os": "openbsd", "cpu": "x64" }, "sha512-i/Dv9Jcm68y9cggr1PhyUhOabBGP9+hzQPoiyOhKks7y9qrJl79A8XfG6LHekSuYc2VpiSu5wdnnrE1cj2nfTg=="],
+    "lefthook-openbsd-x64": ["lefthook-openbsd-x64@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook-openbsd-x64/-/lefthook-openbsd-x64-2.1.5.tgz", { "os": "openbsd", "cpu": "x64" }, "sha512-Y+pPdDuENJ8qWnUgL02xxhpjblc0WnwXvWGfqnl3WZrAgHzQpwx3G6469RID/wlNVdHYAlw3a8UkFSMYsTzXvA=="],
 
-    "lefthook-windows-arm64": ["lefthook-windows-arm64@2.1.4", "https://mirrors.tencent.com/npm/lefthook-windows-arm64/-/lefthook-windows-arm64-2.1.4.tgz", { "os": "win32", "cpu": "arm64" }, "sha512-hSww7z+QX4YMnw2lK7DMrs3+w7NtxksuMKOkCKGyxUAC/0m1LAICo0ZbtdDtZ7agxRQQQ/SEbzFRhU5ysNcbjA=="],
+    "lefthook-windows-arm64": ["lefthook-windows-arm64@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook-windows-arm64/-/lefthook-windows-arm64-2.1.5.tgz", { "os": "win32", "cpu": "arm64" }, "sha512-2PlcFBjTzJaMufw0c28kfhB/0zmaRCU0TRPPsil/HU2YNOExod4upPGLk9qjgsOmb2YVWFz6zq6u7+D1yqmzTQ=="],
 
-    "lefthook-windows-x64": ["lefthook-windows-x64@2.1.4", "https://mirrors.tencent.com/npm/lefthook-windows-x64/-/lefthook-windows-x64-2.1.4.tgz", { "os": "win32", "cpu": "x64" }, "sha512-eE68LwnogxwcPgGsbVGPGxmghyMGmU9SdGwcc+uhGnUxPz1jL89oECMWJNc36zjVK24umNeDAzB5KA3lw1MuWw=="],
+    "lefthook-windows-x64": ["lefthook-windows-x64@2.1.5", "https://repo.huaweicloud.com/repository/npm/lefthook-windows-x64/-/lefthook-windows-x64-2.1.5.tgz", { "os": "win32", "cpu": "x64" }, "sha512-yiAh8qxml6uqy10jDxOdN9fOQpyLxBFY1fgCEAhn7sVJYmJKRhjqSBwZX6LG5MQjzr29KStrIdw7TR3lf3rT7Q=="],
 
     "license-checker-rseidelsohn": ["license-checker-rseidelsohn@4.4.2", "https://mirrors.tencent.com/npm/license-checker-rseidelsohn/-/license-checker-rseidelsohn-4.4.2.tgz", { "dependencies": { "chalk": "4.1.2", "debug": "^4.3.4", "lodash.clonedeep": "^4.5.0", "mkdirp": "^1.0.4", "nopt": "^7.2.0", "read-installed-packages": "^2.0.1", "semver": "^7.3.5", "spdx-correct": "^3.1.1", "spdx-expression-parse": "^3.0.1", "spdx-satisfies": "^5.0.1", "treeify": "^1.1.0" }, "bin": { "license-checker-rseidelsohn": "bin/license-checker-rseidelsohn.js" } }, "sha512-Sf8WaJhd2vELvCne+frS9AXqnY/vv591s2/nZcJDwTnoNgltG4mAmoenffVb8L2YPRYbxARLyrHJBC38AVfpuA=="],
 
@@ -523,7 +525,7 @@
 
     "lodash.clonedeep": ["lodash.clonedeep@4.5.0", "https://mirrors.tencent.com/npm/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz", {}, "sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ=="],
 
-    "lru-cache": ["lru-cache@11.1.0", "https://mirrors.tencent.com/npm/lru-cache/-/lru-cache-11.1.0.tgz", {}, "sha512-QIXZUBJUx+2zHUdQujWejBkcD9+cs94tLn0+YL8UrCh+D5sCXZ4c7LaEH48pNwRY3MLDgqUFyhlCyjJPf1WP0A=="],
+    "lru-cache": ["lru-cache@11.2.7", "https://registry.npmmirror.com/lru-cache/-/lru-cache-11.2.7.tgz", {}, "sha512-aY/R+aEsRelme17KGQa/1ZSIpLpNYYrhcrepKTZgE+W3WM16YMCaPwOHLHsmopZHELU0Ojin1lPVxKR0MihncA=="],
 
     "lz-string": ["lz-string@1.5.0", "https://mirrors.tencent.com/npm/lz-string/-/lz-string-1.5.0.tgz", { "bin": { "lz-string": "bin/bin.js" } }, "sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ=="],
 
@@ -545,7 +547,7 @@
 
     "mime-types": ["mime-types@3.0.2", "https://registry.npmmirror.com/mime-types/-/mime-types-3.0.2.tgz", { "dependencies": { "mime-db": "^1.54.0" } }, "sha512-Lbgzdk0h4juoQ9fCKXW4by0UJqj+nOOrI9MJ1sSj4nI8aI2eo1qmvQEie4VD1glsS250n15LsWsYtCugiStS5A=="],
 
-    "minimatch": ["minimatch@10.0.3", "https://mirrors.tencent.com/npm/minimatch/-/minimatch-10.0.3.tgz", { "dependencies": { "@isaacs/brace-expansion": "^5.0.0" } }, "sha512-IPZ167aShDZZUMdRk66cyQAW3qr0WzbHkPdMYa8bzZhlHhO3jALbKdxcaak7W9FfT2rZNpQuUu4Od7ILEpXSaw=="],
+    "minimatch": ["minimatch@10.2.5", "https://registry.npmmirror.com/minimatch/-/minimatch-10.2.5.tgz", { "dependencies": { "brace-expansion": "^5.0.5" } }, "sha512-MULkVLfKGYDFYejP07QOurDLLQpcjk7Fw+7jXS2R2czRQzR56yHRveU5NDJEOviH+hETZKSkIk5c+T23GjFUMg=="],
 
     "minimist": ["minimist@1.2.8", "https://mirrors.tencent.com/npm/minimist/-/minimist-1.2.8.tgz", {}, "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA=="],
 
@@ -575,7 +577,7 @@
 
     "once": ["once@1.4.0", "https://repo.huaweicloud.com/repository/npm/once/-/once-1.4.0.tgz", { "dependencies": { "wrappy": "1" } }, "sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w=="],
 
-    "oxc-parser": ["oxc-parser@0.120.0", "https://mirrors.tencent.com/npm/oxc-parser/-/oxc-parser-0.120.0.tgz", { "dependencies": { "@oxc-project/types": "^0.120.0" }, "optionalDependencies": { "@oxc-parser/binding-android-arm-eabi": "0.120.0", "@oxc-parser/binding-android-arm64": "0.120.0", "@oxc-parser/binding-darwin-arm64": "0.120.0", "@oxc-parser/binding-darwin-x64": "0.120.0", "@oxc-parser/binding-freebsd-x64": "0.120.0", "@oxc-parser/binding-linux-arm-gnueabihf": "0.120.0", "@oxc-parser/binding-linux-arm-musleabihf": "0.120.0", "@oxc-parser/binding-linux-arm64-gnu": "0.120.0", "@oxc-parser/binding-linux-arm64-musl": "0.120.0", "@oxc-parser/binding-linux-ppc64-gnu": "0.120.0", "@oxc-parser/binding-linux-riscv64-gnu": "0.120.0", "@oxc-parser/binding-linux-riscv64-musl": "0.120.0", "@oxc-parser/binding-linux-s390x-gnu": "0.120.0", "@oxc-parser/binding-linux-x64-gnu": "0.120.0", "@oxc-parser/binding-linux-x64-musl": "0.120.0", "@oxc-parser/binding-openharmony-arm64": "0.120.0", "@oxc-parser/binding-wasm32-wasi": "0.120.0", "@oxc-parser/binding-win32-arm64-msvc": "0.120.0", "@oxc-parser/binding-win32-ia32-msvc": "0.120.0", "@oxc-parser/binding-win32-x64-msvc": "0.120.0" } }, "sha512-WyPWZlcIm+Fkte63FGfgFB8mAAk33aH9h5N9lphXVOHSXEBFFsmYdOBedVKly363aWABjZdaj/m9lBfEY4wt+w=="],
+    "oxc-parser": ["oxc-parser@0.121.0", "https://registry.npmmirror.com/oxc-parser/-/oxc-parser-0.121.0.tgz", { "dependencies": { "@oxc-project/types": "^0.121.0" }, "optionalDependencies": { "@oxc-parser/binding-android-arm-eabi": "0.121.0", "@oxc-parser/binding-android-arm64": "0.121.0", "@oxc-parser/binding-darwin-arm64": "0.121.0", "@oxc-parser/binding-darwin-x64": "0.121.0", "@oxc-parser/binding-freebsd-x64": "0.121.0", "@oxc-parser/binding-linux-arm-gnueabihf": "0.121.0", "@oxc-parser/binding-linux-arm-musleabihf": "0.121.0", "@oxc-parser/binding-linux-arm64-gnu": "0.121.0", "@oxc-parser/binding-linux-arm64-musl": "0.121.0", "@oxc-parser/binding-linux-ppc64-gnu": "0.121.0", "@oxc-parser/binding-linux-riscv64-gnu": "0.121.0", "@oxc-parser/binding-linux-riscv64-musl": "0.121.0", "@oxc-parser/binding-linux-s390x-gnu": "0.121.0", "@oxc-parser/binding-linux-x64-gnu": "0.121.0", "@oxc-parser/binding-linux-x64-musl": "0.121.0", "@oxc-parser/binding-openharmony-arm64": "0.121.0", "@oxc-parser/binding-wasm32-wasi": "0.121.0", "@oxc-parser/binding-win32-arm64-msvc": "0.121.0", "@oxc-parser/binding-win32-ia32-msvc": "0.121.0", "@oxc-parser/binding-win32-x64-msvc": "0.121.0" } }, "sha512-ek9o58+SCv6AV7nchiAcUJy1DNE2CC5WRdBcO0mF+W4oRjNQfPO7b3pLjTHSFECpHkKGOZSQxx3hk8viIL5YCg=="],
 
     "oxc-resolver": ["oxc-resolver@11.19.1", "https://mirrors.tencent.com/npm/oxc-resolver/-/oxc-resolver-11.19.1.tgz", { "optionalDependencies": { "@oxc-resolver/binding-android-arm-eabi": "11.19.1", "@oxc-resolver/binding-android-arm64": "11.19.1", "@oxc-resolver/binding-darwin-arm64": "11.19.1", "@oxc-resolver/binding-darwin-x64": "11.19.1", "@oxc-resolver/binding-freebsd-x64": "11.19.1", "@oxc-resolver/binding-linux-arm-gnueabihf": "11.19.1", "@oxc-resolver/binding-linux-arm-musleabihf": "11.19.1", "@oxc-resolver/binding-linux-arm64-gnu": "11.19.1", "@oxc-resolver/binding-linux-arm64-musl": "11.19.1", "@oxc-resolver/binding-linux-ppc64-gnu": "11.19.1", "@oxc-resolver/binding-linux-riscv64-gnu": "11.19.1", "@oxc-resolver/binding-linux-riscv64-musl": "11.19.1", "@oxc-resolver/binding-linux-s390x-gnu": "11.19.1", "@oxc-resolver/binding-linux-x64-gnu": "11.19.1", "@oxc-resolver/binding-linux-x64-musl": "11.19.1", "@oxc-resolver/binding-openharmony-arm64": "11.19.1", "@oxc-resolver/binding-wasm32-wasi": "11.19.1", "@oxc-resolver/binding-win32-arm64-msvc": "11.19.1", "@oxc-resolver/binding-win32-ia32-msvc": "11.19.1", "@oxc-resolver/binding-win32-x64-msvc": "11.19.1" } }, "sha512-qE/CIg/spwrTBFt5aKmwe3ifeDdLfA2NESN30E42X/lII5ClF8V7Wt6WIJhcGZjp0/Q+nQ+9vgxGk//xZNX2hg=="],
 
@@ -583,7 +585,7 @@
 
     "path-key": ["path-key@3.1.1", "https://mirrors.tencent.com/npm/path-key/-/path-key-3.1.1.tgz", {}, "sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q=="],
 
-    "path-scurry": ["path-scurry@2.0.0", "https://mirrors.tencent.com/npm/path-scurry/-/path-scurry-2.0.0.tgz", { "dependencies": { "lru-cache": "^11.0.0", "minipass": "^7.1.2" } }, "sha512-ypGJsmGtdXUOeM5u93TyeIEfEhM6s+ljAhrk5vAvSx8uyY/02OvrZnA0YNGUrPXfpJMgI1ODd3nwz8Npx4O4cg=="],
+    "path-scurry": ["path-scurry@2.0.2", "https://registry.npmmirror.com/path-scurry/-/path-scurry-2.0.2.tgz", { "dependencies": { "lru-cache": "^11.0.0", "minipass": "^7.1.2" } }, "sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg=="],
 
     "path-to-regexp": ["path-to-regexp@8.3.0", "https://repo.huaweicloud.com/repository/npm/path-to-regexp/-/path-to-regexp-8.3.0.tgz", {}, "sha512-7jdwVIRtsP8MYpdXSwOS0YdD0Du+qOoF/AEPIt88PcCFrZCzx41oxku1jD88hZBwbNUIEfpqvuhjFaMAqMTWnA=="],
 
@@ -591,13 +593,13 @@
 
     "picocolors": ["picocolors@1.1.1", "https://mirrors.tencent.com/npm/picocolors/-/picocolors-1.1.1.tgz", {}, "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA=="],
 
-    "picomatch": ["picomatch@4.0.3", "https://r.cnpmjs.org/picomatch/-/picomatch-4.0.3.tgz", {}, "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q=="],
+    "picomatch": ["picomatch@4.0.4", "https://registry.npmmirror.com/picomatch/-/picomatch-4.0.4.tgz", {}, "sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A=="],
 
     "pkg-types": ["pkg-types@2.3.0", "https://repo.huaweicloud.com/repository/npm/pkg-types/-/pkg-types-2.3.0.tgz", { "dependencies": { "confbox": "^0.2.2", "exsolve": "^1.0.7", "pathe": "^2.0.3" } }, "sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig=="],
 
-    "playwright": ["playwright@1.58.2", "https://mirrors.tencent.com/npm/playwright/-/playwright-1.58.2.tgz", { "dependencies": { "playwright-core": "1.58.2" }, "optionalDependencies": { "fsevents": "2.3.2" }, "bin": { "playwright": "cli.js" } }, "sha512-vA30H8Nvkq/cPBnNw4Q8TWz1EJyqgpuinBcHET0YVJVFldr8JDNiU9LaWAE1KqSkRYazuaBhTpB5ZzShOezQ6A=="],
+    "playwright": ["playwright@1.60.0-alpha-1775584683000", "https://repo.huaweicloud.com/repository/npm/playwright/-/playwright-1.60.0-alpha-1775584683000.tgz", { "dependencies": { "playwright-core": "1.60.0-alpha-1775584683000" }, "optionalDependencies": { "fsevents": "2.3.2" }, "bin": { "playwright": "cli.js" } }, "sha512-LHCXlaF0ccE+Z/ergBQaW6NbX9Iq4vM8v4Bi8HjLhO7ThmiyALYZfc6yr3iDDQ5XOan5LtDMT7W6H+k3zVqt8A=="],
 
-    "playwright-core": ["playwright-core@1.58.2", "https://mirrors.tencent.com/npm/playwright-core/-/playwright-core-1.58.2.tgz", { "bin": { "playwright-core": "cli.js" } }, "sha512-yZkEtftgwS8CsfYo7nm0KE8jsvm6i/PTgVtB8DL726wNf6H2IMsDuxCpJj59KDaxCtSnrWan2AeDqM7JBaultg=="],
+    "playwright-core": ["playwright-core@1.60.0-alpha-1774999321000", "https://repo.huaweicloud.com/repository/npm/playwright-core/-/playwright-core-1.60.0-alpha-1774999321000.tgz", { "bin": { "playwright-core": "cli.js" } }, "sha512-ams3Zo4VXxeOg5ZTTh16GkE8g48Bmxo/9pg9gXl9SVKlVohCU7Jaog7XntY8yFuzENA6dJc1Fz7Z/NNTm9nGEw=="],
 
     "pngjs": ["pngjs@7.0.0", "https://repo.huaweicloud.com/repository/npm/pngjs/-/pngjs-7.0.0.tgz", {}, "sha512-LKWqWJRhstyYo9pGvgor/ivk2w94eSjE3RGVuzLGlr3NmD8bf7RcYGze1mNdEHRP6TRP6rMuDHk5t44hnTRyow=="],
 
@@ -615,9 +617,9 @@
 
     "raw-body": ["raw-body@2.5.2", "https://repo.huaweicloud.com/repository/npm/raw-body/-/raw-body-2.5.2.tgz", { "dependencies": { "bytes": "3.1.2", "http-errors": "2.0.0", "iconv-lite": "0.4.24", "unpipe": "1.0.0" } }, "sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA=="],
 
-    "react": ["react@19.2.4", "https://mirrors.tencent.com/npm/react/-/react-19.2.4.tgz", {}, "sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ=="],
+    "react": ["react@19.2.5", "https://repo.huaweicloud.com/repository/npm/react/-/react-19.2.5.tgz", {}, "sha512-llUJLzz1zTUBrskt2pwZgLq59AemifIftw4aB7JxOqf1HY2FDaGDxgwpAPVzHU1kdWabH7FauP4i1oEeer2WCA=="],
 
-    "react-dom": ["react-dom@19.2.4", "https://mirrors.tencent.com/npm/react-dom/-/react-dom-19.2.4.tgz", { "dependencies": { "scheduler": "^0.27.0" }, "peerDependencies": { "react": "^19.2.4" } }, "sha512-AXJdLo8kgMbimY95O2aKQqsz2iWi9jMgKJhRBAxECE4IFxfcazB2LmzloIoibJI3C12IlY20+KFaLv+71bUJeQ=="],
+    "react-dom": ["react-dom@19.2.5", "https://repo.huaweicloud.com/repository/npm/react-dom/-/react-dom-19.2.5.tgz", { "dependencies": { "scheduler": "^0.27.0" }, "peerDependencies": { "react": "^19.2.5" } }, "sha512-J5bAZz+DXMMwW/wV3xzKke59Af6CHY7G4uYLN1OvBcKEsWOs4pQExj86BBKamxl/Ik5bx9whOrvBlSDfWzgSag=="],
 
     "react-is": ["react-is@17.0.2", "https://mirrors.tencent.com/npm/react-is/-/react-is-17.0.2.tgz", {}, "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w=="],
 
@@ -633,7 +635,7 @@
 
     "reusify": ["reusify@1.1.0", "https://mirrors.tencent.com/npm/reusify/-/reusify-1.1.0.tgz", {}, "sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw=="],
 
-    "rolldown": ["rolldown@1.0.0-rc.11", "https://mirrors.tencent.com/npm/rolldown/-/rolldown-1.0.0-rc.11.tgz", { "dependencies": { "@oxc-project/types": "=0.122.0", "@rolldown/pluginutils": "1.0.0-rc.11" }, "optionalDependencies": { "@rolldown/binding-android-arm64": "1.0.0-rc.11", "@rolldown/binding-darwin-arm64": "1.0.0-rc.11", "@rolldown/binding-darwin-x64": "1.0.0-rc.11", "@rolldown/binding-freebsd-x64": "1.0.0-rc.11", "@rolldown/binding-linux-arm-gnueabihf": "1.0.0-rc.11", "@rolldown/binding-linux-arm64-gnu": "1.0.0-rc.11", "@rolldown/binding-linux-arm64-musl": "1.0.0-rc.11", "@rolldown/binding-linux-ppc64-gnu": "1.0.0-rc.11", "@rolldown/binding-linux-s390x-gnu": "1.0.0-rc.11", "@rolldown/binding-linux-x64-gnu": "1.0.0-rc.11", "@rolldown/binding-linux-x64-musl": "1.0.0-rc.11", "@rolldown/binding-openharmony-arm64": "1.0.0-rc.11", "@rolldown/binding-wasm32-wasi": "1.0.0-rc.11", "@rolldown/binding-win32-arm64-msvc": "1.0.0-rc.11", "@rolldown/binding-win32-x64-msvc": "1.0.0-rc.11" }, "bin": { "rolldown": "bin/cli.mjs" } }, "sha512-NRjoKMusSjfRbSYiH3VSumlkgFe7kYAa3pzVOsVYVFY3zb5d7nS+a3KGQ7hJKXuYWbzJKPVQ9Wxq2UvyK+ENpw=="],
+    "rolldown": ["rolldown@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/rolldown/-/rolldown-1.0.0-rc.13.tgz", { "dependencies": { "@oxc-project/types": "=0.123.0", "@rolldown/pluginutils": "1.0.0-rc.13" }, "optionalDependencies": { "@rolldown/binding-android-arm64": "1.0.0-rc.13", "@rolldown/binding-darwin-arm64": "1.0.0-rc.13", "@rolldown/binding-darwin-x64": "1.0.0-rc.13", "@rolldown/binding-freebsd-x64": "1.0.0-rc.13", "@rolldown/binding-linux-arm-gnueabihf": "1.0.0-rc.13", "@rolldown/binding-linux-arm64-gnu": "1.0.0-rc.13", "@rolldown/binding-linux-arm64-musl": "1.0.0-rc.13", "@rolldown/binding-linux-ppc64-gnu": "1.0.0-rc.13", "@rolldown/binding-linux-s390x-gnu": "1.0.0-rc.13", "@rolldown/binding-linux-x64-gnu": "1.0.0-rc.13", "@rolldown/binding-linux-x64-musl": "1.0.0-rc.13", "@rolldown/binding-openharmony-arm64": "1.0.0-rc.13", "@rolldown/binding-wasm32-wasi": "1.0.0-rc.13", "@rolldown/binding-win32-arm64-msvc": "1.0.0-rc.13", "@rolldown/binding-win32-x64-msvc": "1.0.0-rc.13" }, "bin": { "rolldown": "bin/cli.mjs" } }, "sha512-bvVj8YJmf0rq4pSFmH7laLa6pYrhghv3PRzrCdRAr23g66zOKVJ4wkvFtgohtPLWmthgg8/rkaqRHrpUEh0Zbw=="],
 
     "run-parallel": ["run-parallel@1.2.0", "https://mirrors.tencent.com/npm/run-parallel/-/run-parallel-1.2.0.tgz", { "dependencies": { "queue-microtask": "^1.2.2" } }, "sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA=="],
 
@@ -665,7 +667,7 @@
 
     "slide": ["slide@1.1.6", "https://mirrors.tencent.com/npm/slide/-/slide-1.1.6.tgz", {}, "sha512-NwrtjCg+lZoqhFU8fOwl4ay2ei8PaqCBOUV3/ektPY9trO1yQ1oXEfmHAhKArUVUr/hOHvy5f6AdP17dCM0zMw=="],
 
-    "smol-toml": ["smol-toml@1.5.2", "https://registry.npmmirror.com/smol-toml/-/smol-toml-1.5.2.tgz", {}, "sha512-QlaZEqcAH3/RtNyet1IPIYPsEWAaYyXXv1Krsi+1L/QHppjX4Ifm8MQsBISz9vE8cHicIq3clogsheili5vhaQ=="],
+    "smol-toml": ["smol-toml@1.6.1", "https://registry.npmmirror.com/smol-toml/-/smol-toml-1.6.1.tgz", {}, "sha512-dWUG8F5sIIARXih1DTaQAX4SsiTXhInKf1buxdY9DIg4ZYPZK5nGM1VRIYmEbDbsHt7USo99xSLFu5Q1IqTmsg=="],
 
     "source-map-js": ["source-map-js@1.2.1", "https://mirrors.tencent.com/npm/source-map-js/-/source-map-js-1.2.1.tgz", {}, "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA=="],
 
@@ -707,7 +709,7 @@
 
     "tinyglobby": ["tinyglobby@0.2.15", "https://r.cnpmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz", { "dependencies": { "fdir": "^6.5.0", "picomatch": "^4.0.3" } }, "sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ=="],
 
-    "tinyrainbow": ["tinyrainbow@3.0.3", "https://repo.huaweicloud.com/repository/npm/tinyrainbow/-/tinyrainbow-3.0.3.tgz", {}, "sha512-PSkbLUoxOFRzJYjjxHJt9xro7D+iilgMX/C9lawzVuYiIdcihh9DXmVibBe8lmcFrRi/VzlPjBxbN7rH24q8/Q=="],
+    "tinyrainbow": ["tinyrainbow@3.1.0", "https://registry.npmmirror.com/tinyrainbow/-/tinyrainbow-3.1.0.tgz", {}, "sha512-Bf+ILmBgretUrdJxzXM0SgXLZ3XfiaUuOj/IKQHuTXip+05Xn+uyEYdVg0kYDipTBcLrCVyUzAPz7QmArb0mmw=="],
 
     "to-regex-range": ["to-regex-range@5.0.1", "https://mirrors.tencent.com/npm/to-regex-range/-/to-regex-range-5.0.1.tgz", { "dependencies": { "is-number": "^7.0.0" } }, "sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ=="],
 
@@ -719,7 +721,7 @@
 
     "tslib": ["tslib@2.8.1", "https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz", {}, "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w=="],
 
-    "type-fest": ["type-fest@4.41.0", "https://mirrors.tencent.com/npm/type-fest/-/type-fest-4.41.0.tgz", {}, "sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA=="],
+    "type-fest": ["type-fest@4.41.0", "https://registry.npmmirror.com/type-fest/-/type-fest-4.41.0.tgz", {}, "sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA=="],
 
     "type-is": ["type-is@1.6.18", "https://repo.huaweicloud.com/repository/npm/type-is/-/type-is-1.6.18.tgz", { "dependencies": { "media-typer": "0.3.0", "mime-types": "~2.1.24" } }, "sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g=="],
 
@@ -735,11 +737,11 @@
 
     "vary": ["vary@1.1.2", "https://repo.huaweicloud.com/repository/npm/vary/-/vary-1.1.2.tgz", {}, "sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg=="],
 
-    "vite": ["vite@8.0.2", "https://mirrors.tencent.com/npm/vite/-/vite-8.0.2.tgz", { "dependencies": { "lightningcss": "^1.32.0", "picomatch": "^4.0.3", "postcss": "^8.5.8", "rolldown": "1.0.0-rc.11", "tinyglobby": "^0.2.15" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "@vitejs/devtools": "^0.1.0", "esbuild": "^0.27.0", "jiti": ">=1.21.0", "less": "^4.0.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "@vitejs/devtools", "esbuild", "jiti", "less", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-1gFhNi+bHhRE/qKZOJXACm6tX4bA3Isy9KuKF15AgSRuRazNBOJfdDemPBU16/mpMxApDPrWvZ08DcLPEoRnuA=="],
+    "vite": ["vite@8.0.7", "https://repo.huaweicloud.com/repository/npm/vite/-/vite-8.0.7.tgz", { "dependencies": { "lightningcss": "^1.32.0", "picomatch": "^4.0.4", "postcss": "^8.5.8", "rolldown": "1.0.0-rc.13", "tinyglobby": "^0.2.15" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "@vitejs/devtools": "^0.1.0", "esbuild": "^0.27.0 || ^0.28.0", "jiti": ">=1.21.0", "less": "^4.0.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "@vitejs/devtools", "esbuild", "jiti", "less", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-P1PbweD+2/udplnThz3btF4cf6AgPky7kk23RtHUkJIU5BIxwPprhRGmOAHs6FTI7UiGbTNrgNP6jSYD6JaRnw=="],
 
-    "vite-plugin-mock-dev-server": ["vite-plugin-mock-dev-server@2.1.0", "https://mirrors.tencent.com/npm/vite-plugin-mock-dev-server/-/vite-plugin-mock-dev-server-2.1.0.tgz", { "dependencies": { "@pengzhanbo/utils": "^3.3.1", "ansis": "^4.2.0", "chokidar": "^5.0.0", "co-body": "^6.2.0", "cors": "^2.8.6", "debug": "^4.4.3", "formidable": "3.5.4", "http-status": "^2.1.0", "is-core-module": "^2.16.1", "json5": "^2.2.3", "local-pkg": "^1.1.2", "mime-types": "^3.0.2", "path-to-regexp": "^8.3.0", "picomatch": "^4.0.3", "tinyglobby": "^0.2.15", "ws": "^8.19.0" }, "peerDependencies": { "esbuild": ">=0.21.0", "rolldown": ">=1.0.0-beta.1", "vite": ">=5.0.0", "zstd-codec": ">=0.1.5" }, "optionalPeers": ["esbuild", "rolldown", "zstd-codec"] }, "sha512-ZJqGHeYu1RO/qxev+GJyY7h/IGHvO09rdyZTpWypwISTR2NqzhJ5bNpqN/ZFXnsBp2xj/p8nX6ne2axrij6a6A=="],
+    "vite-plugin-mock-dev-server": ["vite-plugin-mock-dev-server@2.1.1", "https://registry.npmmirror.com/vite-plugin-mock-dev-server/-/vite-plugin-mock-dev-server-2.1.1.tgz", { "dependencies": { "@pengzhanbo/utils": "^3.3.1", "ansis": "^4.2.0", "chokidar": "^5.0.0", "co-body": "^6.2.0", "cors": "^2.8.6", "debug": "^4.4.3", "formidable": "3.5.4", "http-status": "^2.1.0", "is-core-module": "^2.16.1", "json5": "^2.2.3", "local-pkg": "^1.1.2", "mime-types": "^3.0.2", "path-to-regexp": "^8.3.0", "picomatch": "^4.0.4", "tinyglobby": "^0.2.15", "ws": "^8.20.0" }, "peerDependencies": { "esbuild": ">=0.21.0", "rolldown": ">=1.0.0-beta.1", "vite": ">=5.0.0", "zstd-codec": ">=0.1.5" }, "optionalPeers": ["esbuild", "rolldown", "zstd-codec"] }, "sha512-N49IFCZvy6PJY8VjJjYD8tuA7BJc5OgTLZmR83UrjFgRcQKPo0t4jPzVijalFtwA0P9v0apLXkVeNcZKytX6EQ=="],
 
-    "vitest": ["vitest@4.1.1", "https://mirrors.tencent.com/npm/vitest/-/vitest-4.1.1.tgz", { "dependencies": { "@vitest/expect": "4.1.1", "@vitest/mocker": "4.1.1", "@vitest/pretty-format": "4.1.1", "@vitest/runner": "4.1.1", "@vitest/snapshot": "4.1.1", "@vitest/spy": "4.1.1", "@vitest/utils": "4.1.1", "es-module-lexer": "^2.0.0", "expect-type": "^1.3.0", "magic-string": "^0.30.21", "obug": "^2.1.1", "pathe": "^2.0.3", "picomatch": "^4.0.3", "std-env": "^4.0.0-rc.1", "tinybench": "^2.9.0", "tinyexec": "^1.0.2", "tinyglobby": "^0.2.15", "tinyrainbow": "^3.0.3", "vite": "^6.0.0 || ^7.0.0 || ^8.0.0", "why-is-node-running": "^2.3.0" }, "peerDependencies": { "@edge-runtime/vm": "*", "@opentelemetry/api": "^1.9.0", "@types/node": "^20.0.0 || ^22.0.0 || >=24.0.0", "@vitest/browser-playwright": "4.1.1", "@vitest/browser-preview": "4.1.1", "@vitest/browser-webdriverio": "4.1.1", "@vitest/ui": "4.1.1", "happy-dom": "*", "jsdom": "*" }, "optionalPeers": ["@edge-runtime/vm", "@opentelemetry/api", "@types/node", "@vitest/browser-playwright", "@vitest/browser-preview", "@vitest/browser-webdriverio", "@vitest/ui", "happy-dom", "jsdom"], "bin": { "vitest": "vitest.mjs" } }, "sha512-yF+o4POL41rpAzj5KVILUxm1GCjKnELvaqmU9TLLUbMfDzuN0UpUR9uaDs+mCtjPe+uYPksXDRLQGGPvj1cTmA=="],
+    "vitest": ["vitest@4.1.3", "https://repo.huaweicloud.com/repository/npm/vitest/-/vitest-4.1.3.tgz", { "dependencies": { "@vitest/expect": "4.1.3", "@vitest/mocker": "4.1.3", "@vitest/pretty-format": "4.1.3", "@vitest/runner": "4.1.3", "@vitest/snapshot": "4.1.3", "@vitest/spy": "4.1.3", "@vitest/utils": "4.1.3", "es-module-lexer": "^2.0.0", "expect-type": "^1.3.0", "magic-string": "^0.30.21", "obug": "^2.1.1", "pathe": "^2.0.3", "picomatch": "^4.0.3", "std-env": "^4.0.0-rc.1", "tinybench": "^2.9.0", "tinyexec": "^1.0.2", "tinyglobby": "^0.2.15", "tinyrainbow": "^3.1.0", "vite": "^6.0.0 || ^7.0.0 || ^8.0.0", "why-is-node-running": "^2.3.0" }, "peerDependencies": { "@edge-runtime/vm": "*", "@opentelemetry/api": "^1.9.0", "@types/node": "^20.0.0 || ^22.0.0 || >=24.0.0", "@vitest/browser-playwright": "4.1.3", "@vitest/browser-preview": "4.1.3", "@vitest/browser-webdriverio": "4.1.3", "@vitest/coverage-istanbul": "4.1.3", "@vitest/coverage-v8": "4.1.3", "@vitest/ui": "4.1.3", "happy-dom": "*", "jsdom": "*" }, "optionalPeers": ["@edge-runtime/vm", "@opentelemetry/api", "@types/node", "@vitest/browser-playwright", "@vitest/browser-preview", "@vitest/browser-webdriverio", "@vitest/coverage-istanbul", "@vitest/coverage-v8", "@vitest/ui", "happy-dom", "jsdom"], "bin": { "vitest": "vitest.mjs" } }, "sha512-DBc4Tx0MPNsqb9isoyOq00lHftVx/KIU44QOm2q59npZyLUkENn8TMFsuzuO+4U2FUa9rgbbPt3udrP25GcjXw=="],
 
     "walk-up-path": ["walk-up-path@4.0.0", "https://mirrors.tencent.com/npm/walk-up-path/-/walk-up-path-4.0.0.tgz", {}, "sha512-3hu+tD8YzSLGuFYtPRb48vdhKMi0KQV5sn+uWr8+7dMEq/2G/dtLrdDinkLjqq5TIbIBjYJ4Ax/n3YiaW7QM8A=="],
 
@@ -753,7 +755,7 @@
 
     "wrappy": ["wrappy@1.0.2", "https://repo.huaweicloud.com/repository/npm/wrappy/-/wrappy-1.0.2.tgz", {}, "sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ=="],
 
-    "ws": ["ws@8.19.0", "https://mirrors.tencent.com/npm/ws/-/ws-8.19.0.tgz", { "peerDependencies": { "bufferutil": "^4.0.1", "utf-8-validate": ">=5.0.2" }, "optionalPeers": ["bufferutil", "utf-8-validate"] }, "sha512-blAT2mjOEIi0ZzruJfIhb3nps74PRWTCz1IjglWEEpQl5XS/UNama6u2/rjFkDDouqr4L67ry+1aGIALViWjDg=="],
+    "ws": ["ws@8.20.0", "https://registry.npmmirror.com/ws/-/ws-8.20.0.tgz", { "peerDependencies": { "bufferutil": "^4.0.1", "utf-8-validate": ">=5.0.2" }, "optionalPeers": ["bufferutil", "utf-8-validate"] }, "sha512-sAt8BhgNbzCtgGbt2OxmpuryO63ZoDk/sqaB/znQm94T4fCEsy/yV+7CdC1kJhOU9lboAEU7R3kquuycDoibVA=="],
 
     "yaml": ["yaml@2.8.2", "https://mirrors.tencent.com/npm/yaml/-/yaml-2.8.2.tgz", { "bin": { "yaml": "bin.mjs" } }, "sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A=="],
 
@@ -767,7 +769,19 @@
 
     "@jridgewell/trace-mapping/@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.0", "https://mirrors.tencent.com/npm/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.0.tgz", {}, "sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ=="],
 
+    "@napi-rs/wasm-runtime/@emnapi/core": ["@emnapi/core@1.7.1", "https://mirrors.tencent.com/npm/@emnapi/core/-/core-1.7.1.tgz", { "dependencies": { "@emnapi/wasi-threads": "1.1.0", "tslib": "^2.4.0" } }, "sha512-o1uhUASyo921r2XtHYOHy7gdkGLge8ghBEQHMWmyJFoXlpU58kIrhhN3w26lpQb6dspetweapMn2CSNwQ8I4wg=="],
+
+    "@napi-rs/wasm-runtime/@emnapi/runtime": ["@emnapi/runtime@1.7.1", "https://mirrors.tencent.com/npm/@emnapi/runtime/-/runtime-1.7.1.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-PVtJr5CmLwYAU9PZDMITZoR5iAOShYREoR45EyyLrbntV50mdePTgUn4AmOw90Ifcj+x2kRjdzr1HP3RrNiHGA=="],
+
+    "@playwright/mcp/playwright": ["playwright@1.60.0-alpha-1774999321000", "https://repo.huaweicloud.com/repository/npm/playwright/-/playwright-1.60.0-alpha-1774999321000.tgz", { "dependencies": { "playwright-core": "1.60.0-alpha-1774999321000" }, "optionalDependencies": { "fsevents": "2.3.2" }, "bin": { "playwright": "cli.js" } }, "sha512-Bd5DkzYKG+2g1jLO6NeTXmGLbBYSFffJIOsR4l4hUBkJvzvGGdLZ7jZb2tOtb0WIoWXQKdQj3Ap6WthV4DBS8w=="],
+
+    "@playwright/test/playwright": ["playwright@1.59.1", "https://registry.npmmirror.com/playwright/-/playwright-1.59.1.tgz", { "dependencies": { "playwright-core": "1.59.1" }, "optionalDependencies": { "fsevents": "2.3.2" }, "bin": { "playwright": "cli.js" } }, "sha512-C8oWjPR3F81yljW9o5OxcWzfh6avkVwDD2VYdwIGqTkl+OGFISgypqzfu7dOe4QNLL2aqcWBmI3PMtLIK233lw=="],
+
+    "@rolldown/binding-wasm32-wasi/@napi-rs/wasm-runtime": ["@napi-rs/wasm-runtime@1.1.3", "https://repo.huaweicloud.com/repository/npm/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.3.tgz", { "dependencies": { "@tybys/wasm-util": "^0.10.1" }, "peerDependencies": { "@emnapi/core": "^1.7.1", "@emnapi/runtime": "^1.7.1" } }, "sha512-xK9sGVbJWYb08+mTJt3/YV24WxvxpXcXtP6B172paPZ+Ts69Re9dAr7lKwJoeIx8OoeuimEiRZ7umkiUVClmmQ=="],
+
     "@testing-library/dom/chalk": ["chalk@4.1.2", "https://mirrors.tencent.com/npm/chalk/-/chalk-4.1.2.tgz", { "dependencies": { "ansi-styles": "^4.1.0", "supports-color": "^7.1.0" } }, "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="],
+
+    "@vitest/browser-playwright/playwright": ["playwright@1.59.1", "https://registry.npmmirror.com/playwright/-/playwright-1.59.1.tgz", { "dependencies": { "playwright-core": "1.59.1" }, "optionalDependencies": { "fsevents": "2.3.2" }, "bin": { "playwright": "cli.js" } }, "sha512-C8oWjPR3F81yljW9o5OxcWzfh6avkVwDD2VYdwIGqTkl+OGFISgypqzfu7dOe4QNLL2aqcWBmI3PMtLIK233lw=="],
 
     "@vue/compiler-core/@babel/parser": ["@babel/parser@7.27.0", "https://mirrors.tencent.com/npm/@babel/parser/-/parser-7.27.0.tgz", { "dependencies": { "@babel/types": "^7.27.0" }, "bin": "./bin/babel-parser.js" }, "sha512-iaepho73/2Pz7w2eMS0Q5f83+0RKI7i4xmiYeBmDzfRVbQtTOG7Ts0S4HzJVsTMGI9keU8rNfuZr8DKfSt7Yyg=="],
 
@@ -785,19 +799,23 @@
 
     "playwright/fsevents": ["fsevents@2.3.2", "https://mirrors.tencent.com/npm/fsevents/-/fsevents-2.3.2.tgz", { "os": "darwin" }, "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="],
 
+    "playwright/playwright-core": ["playwright-core@1.60.0-alpha-1775584683000", "https://repo.huaweicloud.com/repository/npm/playwright-core/-/playwright-core-1.60.0-alpha-1775584683000.tgz", { "bin": { "playwright-core": "cli.js" } }, "sha512-ufL1tdjK+2pyt5Jqft71MJmyixa0GMWd6dlHsQKxImD9XrJrFUvOC4jr4ISSYwgl66E37pBM89LxjGEgSaRcjw=="],
+
     "pretty-format/ansi-styles": ["ansi-styles@5.2.0", "https://mirrors.tencent.com/npm/ansi-styles/-/ansi-styles-5.2.0.tgz", {}, "sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA=="],
 
     "read-package-json/glob": ["glob@10.4.5", "https://mirrors.tencent.com/npm/glob/-/glob-10.4.5.tgz", { "dependencies": { "foreground-child": "^3.1.0", "jackspeak": "^3.1.2", "minimatch": "^9.0.4", "minipass": "^7.1.2", "package-json-from-dist": "^1.0.0", "path-scurry": "^1.11.1" }, "bin": { "glob": "dist/esm/bin.mjs" } }, "sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg=="],
 
-    "rolldown/@oxc-project/types": ["@oxc-project/types@0.122.0", "https://mirrors.tencent.com/npm/@oxc-project/types/-/types-0.122.0.tgz", {}, "sha512-oLAl5kBpV4w69UtFZ9xqcmTi+GENWOcPF7FCrczTiBbmC0ibXxCwyvZGbO39rCVEuLGAZM84DH0pUIyyv/YJzA=="],
+    "rolldown/@oxc-project/types": ["@oxc-project/types@0.123.0", "https://repo.huaweicloud.com/repository/npm/@oxc-project/types/-/types-0.123.0.tgz", {}, "sha512-YtECP/y8Mj1lSHiUWGSRzy/C6teUKlS87dEfuVKT09LgQbUsBW1rNg+MiJ4buGu3yuADV60gbIvo9/HplA56Ew=="],
 
-    "rolldown/@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.0-rc.11", "https://mirrors.tencent.com/npm/@rolldown/pluginutils/-/pluginutils-1.0.0-rc.11.tgz", {}, "sha512-xQO9vbwBecJRv9EUcQ/y0dzSTJgA7Q6UVN7xp6B81+tBGSLVAK03yJ9NkJaUA7JFD91kbjxRSC/mDnmvXzbHoQ=="],
+    "rolldown/@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.0-rc.13", "https://repo.huaweicloud.com/repository/npm/@rolldown/pluginutils/-/pluginutils-1.0.0-rc.13.tgz", {}, "sha512-3ngTAv6F/Py35BsYbeeLeecvhMKdsKm4AoOETVhAA+Qc8nrA2I0kF7oa93mE9qnIurngOSpMnQ0x2nQY2FPviA=="],
 
     "string-width-cjs/emoji-regex": ["emoji-regex@8.0.0", "https://mirrors.tencent.com/npm/emoji-regex/-/emoji-regex-8.0.0.tgz", {}, "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="],
 
     "string-width-cjs/strip-ansi": ["strip-ansi@6.0.1", "https://mirrors.tencent.com/npm/strip-ansi/-/strip-ansi-6.0.1.tgz", { "dependencies": { "ansi-regex": "^5.0.1" } }, "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A=="],
 
     "strip-ansi/ansi-regex": ["ansi-regex@6.1.0", "https://mirrors.tencent.com/npm/ansi-regex/-/ansi-regex-6.1.0.tgz", {}, "sha512-7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA=="],
+
+    "tinyglobby/picomatch": ["picomatch@4.0.3", "https://r.cnpmjs.org/picomatch/-/picomatch-4.0.3.tgz", {}, "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q=="],
 
     "type-is/mime-types": ["mime-types@2.1.35", "https://repo.huaweicloud.com/repository/npm/mime-types/-/mime-types-2.1.35.tgz", { "dependencies": { "mime-db": "1.52.0" } }, "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw=="],
 
@@ -808,6 +826,18 @@
     "wrap-ansi-cjs/string-width": ["string-width@4.2.3", "https://mirrors.tencent.com/npm/string-width/-/string-width-4.2.3.tgz", { "dependencies": { "emoji-regex": "^8.0.0", "is-fullwidth-code-point": "^3.0.0", "strip-ansi": "^6.0.1" } }, "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g=="],
 
     "wrap-ansi-cjs/strip-ansi": ["strip-ansi@6.0.1", "https://mirrors.tencent.com/npm/strip-ansi/-/strip-ansi-6.0.1.tgz", { "dependencies": { "ansi-regex": "^5.0.1" } }, "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A=="],
+
+    "@napi-rs/wasm-runtime/@emnapi/core/@emnapi/wasi-threads": ["@emnapi/wasi-threads@1.1.0", "https://registry.npmmirror.com/@emnapi/wasi-threads/-/wasi-threads-1.1.0.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-WI0DdZ8xFSbgMjR1sFsKABJ/C5OnRrjT06JXbZKexJGrDuPTzZdDYfFlsgcCXCyf+suG5QU2e/y1Wo2V/OapLQ=="],
+
+    "@playwright/mcp/playwright/fsevents": ["fsevents@2.3.2", "https://mirrors.tencent.com/npm/fsevents/-/fsevents-2.3.2.tgz", { "os": "darwin" }, "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="],
+
+    "@playwright/test/playwright/fsevents": ["fsevents@2.3.2", "https://mirrors.tencent.com/npm/fsevents/-/fsevents-2.3.2.tgz", { "os": "darwin" }, "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="],
+
+    "@playwright/test/playwright/playwright-core": ["playwright-core@1.59.1", "https://registry.npmmirror.com/playwright-core/-/playwright-core-1.59.1.tgz", { "bin": { "playwright-core": "cli.js" } }, "sha512-HBV/RJg81z5BiiZ9yPzIiClYV/QMsDCKUyogwH9p3MCP6IYjUFu/MActgYAvK0oWyV9NlwM3GLBjADyWgydVyg=="],
+
+    "@vitest/browser-playwright/playwright/fsevents": ["fsevents@2.3.2", "https://mirrors.tencent.com/npm/fsevents/-/fsevents-2.3.2.tgz", { "os": "darwin" }, "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="],
+
+    "@vitest/browser-playwright/playwright/playwright-core": ["playwright-core@1.59.1", "https://registry.npmmirror.com/playwright-core/-/playwright-core-1.59.1.tgz", { "bin": { "playwright-core": "cli.js" } }, "sha512-HBV/RJg81z5BiiZ9yPzIiClYV/QMsDCKUyogwH9p3MCP6IYjUFu/MActgYAvK0oWyV9NlwM3GLBjADyWgydVyg=="],
 
     "@vue/compiler-core/@babel/parser/@babel/types": ["@babel/types@7.27.0", "https://mirrors.tencent.com/npm/@babel/types/-/types-7.27.0.tgz", { "dependencies": { "@babel/helper-string-parser": "^7.25.9", "@babel/helper-validator-identifier": "^7.25.9" } }, "sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg=="],
 
@@ -825,6 +855,12 @@
 
     "@vue/compiler-core/@babel/parser/@babel/types/@babel/helper-string-parser": ["@babel/helper-string-parser@7.25.9", "https://mirrors.tencent.com/npm/@babel/helper-string-parser/-/helper-string-parser-7.25.9.tgz", {}, "sha512-4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA=="],
 
+    "read-package-json/glob/jackspeak/@isaacs/cliui": ["@isaacs/cliui@8.0.2", "https://mirrors.tencent.com/npm/@isaacs/cliui/-/cliui-8.0.2.tgz", { "dependencies": { "string-width": "^5.1.2", "string-width-cjs": "npm:string-width@^4.2.0", "strip-ansi": "^7.0.1", "strip-ansi-cjs": "npm:strip-ansi@^6.0.1", "wrap-ansi": "^8.1.0", "wrap-ansi-cjs": "npm:wrap-ansi@^7.0.0" } }, "sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA=="],
+
+    "read-package-json/glob/minimatch/brace-expansion": ["brace-expansion@2.0.1", "https://mirrors.tencent.com/npm/brace-expansion/-/brace-expansion-2.0.1.tgz", { "dependencies": { "balanced-match": "^1.0.0" } }, "sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA=="],
+
     "read-package-json/glob/path-scurry/lru-cache": ["lru-cache@10.4.3", "https://mirrors.tencent.com/npm/lru-cache/-/lru-cache-10.4.3.tgz", {}, "sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ=="],
+
+    "read-package-json/glob/minimatch/brace-expansion/balanced-match": ["balanced-match@1.0.2", "https://mirrors.tencent.com/npm/balanced-match/-/balanced-match-1.0.2.tgz", {}, "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="],
   }
 }

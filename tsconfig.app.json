@@ -1,7 +1,4 @@
 {
   "extends": "@es-proj/configs/tsconfig.react",
-  "compilerOptions": {
-    "baseUrl": "."
-  },
   "include": ["src"]
 }
