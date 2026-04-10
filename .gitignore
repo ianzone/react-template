@@ -132,4 +132,3 @@ dist
 test-results
 playwright-report
 e2e-out
-.claude/

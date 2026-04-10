@@ -1,4 +1,0 @@
-{
-  "extends": "@es-proj/configs/tsconfig.base",
-  "include": ["vite.config.ts", "vitest.config.ts", "playwright.config.ts"]
-}
