@@ -31,8 +31,8 @@
   <tr>
     <td>Testing</td>
     <td>
-      <a href="https://cn.vitest.dev/guide/"><img src='https://img.shields.io/badge/Vitest-729b1b?logo=Vitest&labelColor=grey'></a>      <a href="https://testing-library.com/docs/react-testing-library/intro/"><img src='https://img.shields.io/badge/Testing_Library-E33332?logo=testinglibrary&labelColor=grey'></a>
-      <a href="https://fakerjs.dev/api/"><img src='https://img.shields.io/badge/🪄-Faker-firebrick'></a>
+      <a href="https://cn.vitest.dev/guide/"><img src='https://img.shields.io/badge/Vitest-729b1b?logo=Vitest&labelColor=grey'></a>
+      <a href="https://fakerjs.dev/api/"><img src='https://img.shields.io/badge/Faker-779B2E?logo=faker&labelColor=grey'></a>
       <a href="https://playwright.dev/docs/intro"><img src='https://img.shields.io/badge/🎭-Playwright-2EAD33?labelColor=grey'></a>
     </td>
     <td>
@@ -64,6 +64,17 @@
   </tr>
 </table>
 
+# MCP / CLI / [SKILLS](https://skills.sh/)
+<table>
+  <td>
+    <a href="https://playwright.dev/docs/getting-started-cli"><img src='https://img.shields.io/badge/🎭-Playwright-2EAD33?labelColor=grey'></a>
+    <a href="https://ant.design/docs/react/cli-cn"><img src='https://img.shields.io/badge/AntDesign-blue?logo=antdesign&labelColor=grey'></a>
+    <a href="https://ant-design-x.antgroup.com/x-skills/introduce-cn"><img src='https://img.shields.io/badge/AntDesignX-blue?logo=antdesign&labelColor=grey'></a>
+    <a href="https://storybook.js.org/docs/ai/best-practices"><img src='https://img.shields.io/badge/Storybook-FF4785?logo=storybook&labelColor=grey'></a>
+    <a href="https://tanstack.com/cli/latest/docs/cli-reference"><img src='https://img.shields.io/badge/TanStack-000000?logo=tanstack&labelColor=grey'></a>
+  </td>
+</table>
+
 # Libraries
 
 <table>
@@ -80,7 +91,7 @@
     <ul>
       <li><strong>Design System:</strong>
       <a href="https://component.gallery/"><img src='https://img.shields.io/badge/</>-Gallery-black?labelColor=grey'></a>
-      <a href="https://ant-design.gitee.io/components/overview-cn/?theme=dark"><img src='https://img.shields.io/badge/AntDesign-blue?logo=antdesign&labelColor=grey'></a>
+      <a href="https://ant-design.antgroup.com/index-cn"><img src='https://img.shields.io/badge/AntDesign-blue?logo=antdesign&labelColor=grey'></a>
       <a href="https://tailwindcss.com/docs/guides/vite"><img src='https://img.shields.io/badge/tailwindcss-06B6D4?logo=tailwindcss&labelColor=grey'></a>
       <a href="https://ui.shadcn.com/"><img src='https://img.shields.io/badge/shadcnui-06B6D4?logo=shadcnui&labelColor=grey'></a></li>
       <li><strong>Data Visualization:</strong>
@@ -151,7 +162,7 @@
   <tr>
     <th>Routing</th>
     <td>
-      <a href="https://tanstack.com/router/latest/docs/framework/react/overview"><img src='https://img.shields.io/badge/TanstackRouter-FF4154?logo=reactquery&labelColor=grey'></a>
+      <a href="https://tanstack.com/router/latest/docs/framework/react/overview"><img src='https://img.shields.io/badge/TanStackRouter-000000?logo=tanstack&labelColor=grey'></a>
     </td>
   </tr>
   <tr>

@@ -12,7 +12,7 @@ export function Counter(props: CounterProps) {
   return (
     <div style={{ ...css, ...style }}>
       <h1>{count}</h1>
-      <button type='button' onClick={() => increment()}>
+      <button type='button' style={{ marginBottom: 10 }} onClick={() => increment()}>
         Increment
       </button>
     </div>
