@@ -10,6 +10,7 @@ export default defineConfig({
   plugins: [
     react(),
     nitro({
+      // https://nitro.zhcndoc.com/config
       serverDir: './server',
       output: {
         dir: 'dist',

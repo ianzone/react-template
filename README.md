@@ -60,6 +60,7 @@
     <td></td>
     <td>
       <a href="https://react-scan.com/"><img src='https://img.shields.io/badge/Scan-7a68e7?logo=react&labelColor=grey'></a>
+      <a href="https://github.com/millionco/react-doctor"><img src='https://img.shields.io/badge/Doctor-7a68e7?logo=react&labelColor=grey'></a>
     </td>
   </tr>
 </table>

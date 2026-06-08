@@ -16,11 +16,7 @@ export default defineConfig({
       enabled: true,
       headless: true,
       provider: playwright(),
-      instances: [
-        {
-          browser: 'chromium',
-        },
-      ],
+      instances: [{ browser: 'chromium' }],
     },
     include: ['src/**/*.test.ts?(x)'],
     coverage: {
