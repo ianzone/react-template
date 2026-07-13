@@ -1,4 +1,5 @@
 import { type CSSProperties, type ReactNode, useEffect, useState } from 'react';
+import { api } from 'src/services';
 
 interface MyContainerProps {
   children?: ReactNode;
@@ -9,8 +10,7 @@ export function MyContainer(props: MyContainerProps) {
 
   useEffect(() => {
     const controller = new AbortController();
-    fetch('/api/test', { signal: controller.signal })
-      .then((res) => res.json())
+    api(controller)
       .then((data) => {
         console.log('Mock API Response:', data);
         setRes(data);
