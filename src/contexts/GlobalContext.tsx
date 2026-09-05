@@ -1,13 +1,4 @@
-import {
-  createContext,
-  type Dispatch,
-  type ReactNode,
-  type SetStateAction,
-  useCallback,
-  useContext,
-  useMemo,
-  useState,
-} from 'react';
+import { createContext, type Dispatch, type ReactNode, type SetStateAction, useContext, useState } from 'react';
 
 interface GlobalContextInterface {
   accessToken: string;
@@ -23,21 +14,18 @@ export function GlobalContext({ children }: { children: ReactNode }) {
   const [accessToken, setAccessToken] = useState('');
   const [idToken, setIdToken] = useState('');
 
-  const reset = useCallback(() => {
+  const reset = () => {
     setAccessToken('');
     setIdToken('');
-  }, []);
+  };
 
-  const value = useMemo(
-    () => ({
-      accessToken,
-      setAccessToken,
-      idToken,
-      setIdToken,
-      reset,
-    }),
-    [accessToken, idToken, reset],
-  );
+  const value = {
+    accessToken,
+    setAccessToken,
+    idToken,
+    setIdToken,
+    reset,
+  };
 
   return <Context value={value}>{children}</Context>;
 }

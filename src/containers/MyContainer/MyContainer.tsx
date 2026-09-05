@@ -16,7 +16,14 @@ export function MyContainer(props: MyContainerProps) {
         setRes(data);
       })
       .catch((err) => {
-        console.error('Error fetching mock API:', err);
+        if (err.name === 'AbortError') {
+          console.log('Fetch aborted');
+        } else {
+          console.error('Error fetching mock API:', err);
+        }
+      })
+      .finally(() => {
+        console.log('Fetch completed');
       });
     return () => controller.abort();
   }, []);

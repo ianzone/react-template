@@ -9,7 +9,7 @@ export default defineConfig({
     codeInspectorPlugin({
       bundler: 'vite',
     }),
-    react(),
+    react({ compiler: true }),
     process.env.NODE_ENV === 'development' &&
       nitro({
         // https://nitro.zhcndoc.com/config
