@@ -5,7 +5,7 @@ pre-commit:
   piped: true
   jobs:
     - name: Linting & Formatting
-      glob: "*.{ts,tsx,js,jsx,json,jsonc,css}"
+      glob: '*.{ts,tsx,js,jsx,json,jsonc,css}'
       run: na biome check --fix {staged_files} --reporter summary
       stage_fixed: true
 
@@ -15,24 +15,22 @@ pre-commit:
         jobs:
           # SECTION - QA
           - name: typescript
-            glob: "*.{ts,tsx}"
+            glob: '*.{ts,tsx}'
             run: na tsc
           - name: vitest
-            glob: "*.ts"
+            glob: '*.ts'
             run: na vitest related --run {staged_files}
           - name: storybook
-            glob: "*.tsx"
+            glob: '*.tsx'
             run: echo 'use storybook'
           - name: playwright
-            glob: "*.{ts,tsx}"
+            glob: '*.{ts,tsx}'
             run: nr e2e
           # SECTION - Audit
           - name: gitleaks
             run: gitleaks protect --staged --no-banner
           - name: audit
             run: na audit || true
-          - name: license
-            run: na license-checker-rseidelsohn --summary
           #SECTION - Misc
           - name: knip
             run: na knip --no-exit-code --no-config-hints
@@ -43,7 +41,7 @@ prepare-commit-msg:
       interactive: true
       run: na czg --hook
       env:
-        LEFTHOOK: "0"
+        LEFTHOOK: '0'
 
 post-merge:
   commands:

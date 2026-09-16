@@ -14,14 +14,15 @@
     "e2e:report": "playwright show-report e2e-out/playwright-report",
     "prepare": "playwright install && lefthook install",
     "commit": "git add -A && git commit --no-edit",
-    "squash": "bun scripts/squash.ts && git commit --no-edit --no-verify"
+    "squash": "bun scripts/squash.ts && git commit --no-edit --no-verify",
+    "nmi": "bunx node-modules-inspector"
   },
   "dependencies": {
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.13",
+    "@biomejs/biome": "^2.5.14",
     "@es-proj/utils": "^2.0.1",
     "@faker-js/faker": "^10.6.0",
     "@playwright/test": "^1.63.0",
@@ -29,18 +30,17 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.1",
-    "@vitest/browser-playwright": "^5.0.0",
-    "@vitest/coverage-v8": "^5.0.0",
-    "code-inspector-plugin": "^2.0.8",
+    "@vitest/browser-playwright": "^5.0.1",
+    "@vitest/coverage-v8": "^5.0.1",
+    "code-inspector-plugin": "^2.0.9",
     "czg": "^1.14.0",
-    "knip": "^6.35.1",
-    "lefthook": "^2.1.12",
-    "license-checker-rseidelsohn": "^5.0.1",
+    "knip": "^6.36.0",
+    "lefthook": "^2.1.14",
     "nitro": "^3.0.260903-beta",
-    "oxc-transform-react": "^0.149.0",
+    "oxc-transform-react": "^0.150.0",
     "typescript": "^7.0.2",
     "vite": "^8.3.0",
-    "vitest": "^5.0.0",
+    "vitest": "^5.0.1",
     "vitest-browser-react": "^2.3.0"
   },
   "trustedDependencies": [
