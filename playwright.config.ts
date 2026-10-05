@@ -78,8 +78,8 @@ export default defineConfig({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: 'bunx vite --port 5173',
-    port: 5173,
+    command: 'bunx vite --port 3000',
+    port: 3000,
     reuseExistingServer: !process.env.CI,
   },
 });
